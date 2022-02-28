@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie - Homo Tradicus</title><link href="/" rel="alternate"></link><link href="/feeds/homo-tradicus.atom.xml" rel="self"></link><id>/</id><updated>2022-02-28T00:00:00+01:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>Le travail</title><link href="/le-travail.html" rel="alternate"></link><published>2022-02-28T00:00:00+01:00</published><updated>2022-02-28T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-28:/le-travail.html</id><summary type="html">&lt;p&gt;On dispose tous de deux stocks de départ&amp;nbsp;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="/le-temps.html"&gt;&lt;strong&gt;Le temps&lt;/strong&gt;&lt;/a&gt; : de capacité limitée et inconnue (estimée par l&amp;#8217;espérance de vie), ce stock diminue&amp;nbsp;continuellement&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;L&amp;#8217;énergie&lt;/strong&gt; : de capacité variable selon les individus, ce stock fonctionne comme une batterie ; on le recharge pendant &lt;span class="math"&gt;\(\frac{1}{3}\)&lt;/span&gt; de sa vie en …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;On dispose tous de deux stocks de départ&amp;nbsp;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="/le-temps.html"&gt;&lt;strong&gt;Le temps&lt;/strong&gt;&lt;/a&gt; : de capacité limitée et inconnue (estimée par l&amp;#8217;espérance de vie), ce stock diminue&amp;nbsp;continuellement&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;L&amp;#8217;énergie&lt;/strong&gt; : de capacité variable selon les individus, ce stock fonctionne comme une batterie ; on le recharge pendant &lt;span class="math"&gt;\(\frac{1}{3}\)&lt;/span&gt; de sa vie en dormant, mais son niveau de charge maximale décroît avec l&amp;#8217;âge (on a plus d&amp;#8217;énergie à 25 ans qu&amp;#8217;à&amp;nbsp;50)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Celui qui travaille pour de l&amp;#8217;argent, qu&amp;#8217;il soit salarié, indépendant ou patron, entre dans le système suivant&amp;nbsp;: &lt;/p&gt;
+&lt;p&gt;&lt;img alt="système" src="/images/individu-systemique2.png"&gt;&lt;/p&gt;
+&lt;p&gt;Le travail consiste à échanger une partie de ses stocks de &lt;a href="/le-temps.html"&gt;temps&lt;/a&gt; et énergie contre un revenu. Comme on est rarement payé à dormir, le travail occupe 31.25% du temps éveillé en France&amp;nbsp;:&lt;/p&gt;
+&lt;div class="math"&gt;$$ \frac{\text{35 heures}}{\text{16 heures} \times \text{7 jours}} = 31.25\%$$&lt;/div&gt;
+&lt;p&gt;Le revenu alimente un &lt;strong&gt;stock d&amp;#8217;argent : le patrimoine&lt;/strong&gt;, qui peut être&amp;nbsp;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;épargné&lt;/strong&gt; : l&amp;#8217;argent est stocké pour en différer la consommation ou l&amp;#8217;investissement dans le futur (projets quelconques, cotisations retraite,&amp;nbsp;prévoyance)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;consommé&lt;/strong&gt; : l&amp;#8217;argent est échangé contre un bien ou un service (un logement, un coca, des&amp;nbsp;gadgets&amp;#8230;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;investi&lt;/strong&gt; : l&amp;#8217;argent est échangé contre des actifs qui produisent de la valeur (actions d&amp;#8217;entreprises, immobilier&amp;#8230;) dans l&amp;#8217;attente qu&amp;#8217;ils génèrent des rendements (gain en capital, dividende, intérêt) et alimentent le patrimoine à leur tour créant ainsi une boucle de rétroaction&amp;nbsp;positive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ce système se répète jusqu&amp;#8217;à l&amp;#8217;épuisement de son stock de temps (décès), ou le quasi épuisement de son stock d&amp;#8217;énergie&amp;nbsp;(retraite).&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="mode-de-vie-101"></category><category term="mode-de-vie"></category><category term="travail"></category></entry><entry><title>Le temps</title><link href="/le-temps.html" rel="alternate"></link><published>2022-02-21T00:00:00+01:00</published><updated>2022-02-21T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-21:/le-temps.html</id><summary type="html">&lt;p&gt;Le stock de temps dont on dispose est fini et inconnu. On l&amp;#8217;estime en France aujourd&amp;#8217;hui à 80 ans pour les hommes et 85 ans pour les&amp;nbsp;femmes.&lt;/p&gt;
+&lt;p&gt;La valeur absolue du temps est constante : une année représente &lt;span class="math"&gt;\(\frac{1}{80} = 1.25\%\)&lt;/span&gt; du stock de temps d …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Le stock de temps dont on dispose est fini et inconnu. On l&amp;#8217;estime en France aujourd&amp;#8217;hui à 80 ans pour les hommes et 85 ans pour les&amp;nbsp;femmes.&lt;/p&gt;
+&lt;p&gt;La valeur absolue du temps est constante : une année représente &lt;span class="math"&gt;\(\frac{1}{80} = 1.25\%\)&lt;/span&gt; du stock de temps d&amp;#8217;un&amp;nbsp;homme.&lt;/p&gt;
+&lt;p&gt;La &lt;strong&gt;valeur relative du temps (&lt;span class="caps"&gt;VRT&lt;/span&gt;)&lt;/strong&gt; en revanche n&amp;#8217;est pas constante, elle se décline en deux mesures&amp;nbsp;:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;La &lt;strong&gt;&lt;span class="caps"&gt;VRT&lt;/span&gt; prospectif (&lt;span class="caps"&gt;VRTP&lt;/span&gt;)&lt;/strong&gt; : mesure le ratio d&amp;#8217;une année par rapport aux années qu&amp;#8217;il reste à&amp;nbsp;vivre&lt;/li&gt;
+&lt;li&gt;La &lt;strong&gt;&lt;span class="caps"&gt;VRT&lt;/span&gt; rétrospectif (&lt;span class="caps"&gt;VRTR&lt;/span&gt;)&lt;/strong&gt; : mesure le ratio d&amp;#8217;une année par rapport à&amp;nbsp;l&amp;#8217;âge&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Ces deux &lt;span class="caps"&gt;VRT&lt;/span&gt; progressent géométriquement avec le temps et se calculent ainsi&amp;nbsp;:&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\text{VRTP} = \frac{1}{\max(\text{espérance de vie} - \text{âge}, 1)}
+\end{equation*}
+&lt;/div&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\text{VRTR} = \frac{1}{\max(\text{âge}, 1)}
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Une année représente &lt;span class="math"&gt;\(10\%\)&lt;/span&gt; de sa vie à 10 ans, mais seulement &lt;span class="math"&gt;\(2.5\%\)&lt;/span&gt; à 40 ans. Qui en vieillissant ne trouve pas
+que le temps accélère, que les années défilent plus vite que jamais&amp;nbsp;?&lt;/p&gt;
+&lt;p&gt;Inversement à 10 ans, une année ne représente que &lt;span class="math"&gt;\(1.43\%\)&lt;/span&gt; du reste de sa vie alors que c&amp;#8217;est &lt;span class="math"&gt;\(2.5\%\)&lt;/span&gt; à 40 ans
+et &lt;span class="math"&gt;\(5\%\)&lt;/span&gt; à 60&amp;nbsp;ans.&lt;/p&gt;
+&lt;p&gt;Avec une espérance de vie statique de 80 ans, les &lt;span class="caps"&gt;VRT&lt;/span&gt; évoluent de la manière suivante (échelle logarithmique)&amp;nbsp;:&lt;/p&gt;
+
+
+
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  
+  &lt;head&gt;
+    
+      &lt;meta charset="utf-8"&gt;
+      &lt;title&gt;Bokeh Application&lt;/title&gt;
+      
+      
+        
+          
+        
+        
+          
+        &lt;script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"&gt;&lt;/script&gt;
+        &lt;script type="text/javascript"&gt;
+            Bokeh.set_log_level("info");
+        &lt;/script&gt;
+        
+      
+      
+    
+  &lt;/head&gt;
+  
+  
+  &lt;body&gt;
+    
+      
+        
+          
+          
+            
+              &lt;div class="bk-root" id="f2a0f975-13a4-43fb-96a9-d5428386bea2" data-root-id="11599"&gt;&lt;/div&gt;
+            
+          
+        
+      
+      
+        &lt;script type="application/json" id="11934"&gt;
+          {"ea4cd926-fac6-4f59-ad1d-1f40a3844d63":{"defs":[],"roots":{"references":[{"attributes":{},"id":"11600","type":"DataRange1d"},{"attributes":{},"id":"11683","type":"Selection"},{"attributes":{},"id":"11691","type":"Selection"},{"attributes":{"axis":{"id":"11612"},"coordinates":null,"dimension":1,"grid_line_alpha":0.5,"grid_line_dash":[6,4],"group":null,"ticker":null},"id":"11615","type":"Grid"},{"attributes":{"ticks":[0,10,20,30,40,50,60,70,80,90,100]},"id":"11652","type":"FixedTicker"},{"attributes":{"coordinates":null,"data_source":{"id":"11597"},"glyph":{"id":"11626"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"11628"},"nonselection_glyph":{"id":"11627"},"view":{"id":"11630"}},"id":"11629","type":"GlyphRenderer"},{"attributes":{},"id":"11602","type":"DataRange1d"},{"attributes":{"data":{},"selected":{"id":"11693"},"selection_policy":{"id":"11692"}},"id":"11681","type":"ColumnDataSource"},{"attributes":{},"id":"11604","type":"LinearScale"},{"attributes":{"line_color":"#d0d1e6","line_width":3,"x":{"field":"\u00e2ge"},"y":{"field":"VRTR"}},"id":"11632","type":"Line"},{"attributes":{},"id":"11686","type":"UnionRenderers"},{"attributes":{},"id":"11688","type":"UnionRenderers"},{"attributes":{"axis_label":"VRT","axis_label_text_alpha":0.75,"axis_label_text_color":"#343A40","axis_label_text_font":"monospace","axis_line_alpha":0.75,"axis_line_color":"#343A40","axis_line_width":3,"coordinates":null,"formatter":{"id":"11623"},"group":null,"major_label_policy":{"id":"11675"},"major_label_text_font_size":"12px","major_tick_in":0,"major_tick_out":0,"minor_tick_out":0,"ticker":{"id":"11650"}},"id":"11612","type":"LogAxis"},{"attributes":{"line_color":"#17A2B8","line_width":3,"x":{"field":"\u00e2ge"},"y":{"field":"VRTP"}},"id":"11626","type":"Line"},{"attributes":{"source":{"id":"11597"}},"id":"11636","type":"CDSView"},{"attributes":{"source":{"id":"11597"}},"id":"11630","type":"CDSView"},{"attributes":{},"id":"11685","type":"Selection"},{"attributes":{"data":{"VRTP":{"__ndarray__":"mpmZmZmZiT/ZMxCVjuyJPxqkQRqkQYo/vmNqYO+Yij8or6G8hvKKP08b6LSBTos/0LrBFPmsiz/gwIEDBw6MPxzHcRzHcYw/C5sDiVbYjD8d1EEd1EGNP9uBuXZgro0/Hh4eHh4ejj9nt/CrMZGOPwgffPDBB48/IPiBH/iBjz8AAAAAAACQPxAEQRAEQZA/hBBCCCGEkD872rxPccmQPxEREREREZE/DSd1Xx5bkT+WexphuaeRP3AfwX0E95E/kiRJkiRJkj+eEuQpQZ6SP2gvob2E9pI/wXgr+xxSkz8UO7ETO7GTPxQUFBQUFJQ/exSuR+F6lD85BS+n4OWUP1VVVVVVVZU/VxCTK4jJlT9kIQtZyEKWPxdswRZswZY/RhdddNFFlz/0BX1BX9CXPxiGYRiGYZg/+hicj8H5mD+amZmZmZmZPxqkQRqkQZo/KK+hvIbymj/QusEU+aybPxzHcRzHcZw/HdRBHdRBnT8eHh4eHh6ePwgffPDBB58/AAAAAAAAoD+EEEIIIYSgPxEREREREaE/lnsaYbmnoT+SJEmSJEmiP2gvob2E9qI/FDuxEzuxoz97FK5H4XqkP1VVVVVVVaU/ZCELWchCpj9GF1100UWnPxiGYRiGYag/mpmZmZmZqT8or6G8hvKqPxzHcRzHcaw/Hh4eHh4erj8AAAAAAACwPxEREREREbE/kiRJkiRJsj8UO7ETO7GzP1VVVVVVVbU/RhdddNFFtz+amZmZmZm5PxzHcRzHcbw/AAAAAAAAwD+SJEmSJEnCP1VVVVVVVcU/mpmZmZmZyT8AAAAAAADQP1VVVVVVVdU/AAAAAAAA4D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPwAAAAAAAPA/AAAAAAAA8D8AAAAAAADwPw==","dtype":"float64","order":"little","shape":[101]},"VRTR":{"__ndarray__":"AAAAAAAA8D8AAAAAAADwPwAAAAAAAOA/VVVVVVVV1T8AAAAAAADQP5qZmZmZmck/VVVVVVVVxT+SJEmSJEnCPwAAAAAAAMA/HMdxHMdxvD+amZmZmZm5P0YXXXTRRbc/VVVVVVVVtT8UO7ETO7GzP5IkSZIkSbI/ERERERERsT8AAAAAAACwPx4eHh4eHq4/HMdxHMdxrD8or6G8hvKqP5qZmZmZmak/GIZhGIZhqD9GF1100UWnP2QhC1nIQqY/VVVVVVVVpT97FK5H4XqkPxQ7sRM7saM/aC+hvYT2oj+SJEmSJEmiP5Z7GmG5p6E/ERERERERoT+EEEIIIYSgPwAAAAAAAKA/CB988MEHnz8eHh4eHh6ePx3UQR3UQZ0/HMdxHMdxnD/QusEU+aybPyivobyG8po/GqRBGqRBmj+amZmZmZmZP/oYnI/B+Zg/GIZhGIZhmD/0BX1BX9CXP0YXXXTRRZc/F2zBFmzBlj9kIQtZyEKWP1cQkyuIyZU/VVVVVVVVlT85BS+n4OWUP3sUrkfhepQ/FBQUFBQUlD8UO7ETO7GTP8F4K/scUpM/aC+hvYT2kj+eEuQpQZ6SP5IkSZIkSZI/cB/BfQT3kT+WexphuaeRPw0ndV8eW5E/ERERERERkT872rxPccmQP4QQQgghhJA/EARBEARBkD8AAAAAAACQPyD4gR/4gY8/CB988MEHjz9nt/CrMZGOPx4eHh4eHo4/24G5dmCujT8d1EEd1EGNPwubA4lW2Iw/HMdxHMdxjD/gwIEDBw6MP9C6wRT5rIs/TxvotIFOiz8or6G8hvKKP75jamDvmIo/GqRBGqRBij/ZMxCVjuyJP5qZmZmZmYk/4OnW/LBIiT/6GJyPwfmIP6rzaw+5rIg/GIZhGIZhiD8YGBgYGBiIP/QFfUFf0Ic/yKR4gUyKhz9GF1100UWHP3CBC1zgAoc/F2zBFmzBhj8XaIEWaIGGP2QhC1nIQoY/BhZYYIEFhj9XEJMriMmFP+1YgTDSjoU/VVVVVVVVhT8V+OLqBx2FPzkFL6fg5YQ/W79SoNavhD97FK5H4XqEPw==","dtype":"float64","order":"little","shape":[101]},"deces":{"__ndarray__":"AAAAAAAAAAB7FK5H4XqEP3sUrkfhepQ/uB6F61G4nj97FK5H4XqkP5qZmZmZmak/uB6F61G4rj/sUbgeheuxP3sUrkfherQ/CtejcD0Ktz+amZmZmZm5Pylcj8L1KLw/uB6F61G4vj+kcD0K16PAP+xRuB6F68E/MzMzMzMzwz97FK5H4XrEP8P1KFyPwsU/CtejcD0Kxz9SuB6F61HIP5qZmZmZmck/4XoUrkfhyj8pXI/C9SjMP3E9CtejcM0/uB6F61G4zj8AAAAAAADQP6RwPQrXo9A/SOF6FK5H0T/sUbgehevRP4/C9Shcj9I/MzMzMzMz0z/Xo3A9CtfTP3sUrkfhetQ/H4XrUbge1T/D9Shcj8LVP2ZmZmZmZtY/CtejcD0K1z+uR+F6FK7XP1K4HoXrUdg/9ihcj8L12D+amZmZmZnZPz0K16NwPdo/4XoUrkfh2j+F61G4HoXbPylcj8L1KNw/zczMzMzM3D9xPQrXo3DdPxSuR+F6FN4/uB6F61G43j9cj8L1KFzfPwAAAAAAAOA/UrgehetR4D+kcD0K16PgP/YoXI/C9eA/SOF6FK5H4T+amZmZmZnhP+xRuB6F6+E/PQrXo3A94j+PwvUoXI/iP+F6FK5H4eI/MzMzMzMz4z+F61G4HoXjP9ejcD0K1+M/KVyPwvUo5D97FK5H4XrkP83MzMzMzOQ/H4XrUbge5T9xPQrXo3DlP8P1KFyPwuU/FK5H4XoU5j9mZmZmZmbmP7gehetRuOY/CtejcD0K5z9cj8L1KFznP65H4XoUruc/AAAAAAAA6D9SuB6F61HoP6RwPQrXo+g/9ihcj8L16D9I4XoUrkfpP5qZmZmZmek/7FG4HoXr6T89CtejcD3qP4/C9Shcj+o/4XoUrkfh6j8zMzMzMzPrP4XrUbgehes/16NwPQrX6z8pXI/C9SjsP3sUrkfheuw/zczMzMzM7D8fhetRuB7tP3E9CtejcO0/w/UoXI/C7T8UrkfhehTuP2ZmZmZmZu4/uB6F61G47j8K16NwPQrvP1yPwvUoXO8/rkfhehSu7z8AAAAAAADwPw==","dtype":"float64","order":"little","shape":[101]},"esperance":[80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80],"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100],"\u00e2ge":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100]},"selected":{"id":"11683"},"selection_policy":{"id":"11682"}},"id":"11597","type":"ColumnDataSource"},{"attributes":{"line_alpha":0.1,"line_color":"#17A2B8","line_width":3,"x":{"field":"\u00e2ge"},"y":{"field":"VRTP"}},"id":"11627","type":"Line"},{"attributes":{},"id":"11687","type":"Selection"},{"attributes":{},"id":"11684","type":"UnionRenderers"},{"attributes":{"data":{},"selected":{"id":"11685"},"selection_policy":{"id":"11684"}},"id":"11677","type":"ColumnDataSource"},{"attributes":{"line_alpha":0.2,"line_color":"#17A2B8","line_width":3,"x":{"field":"\u00e2ge"},"y":{"field":"VRTP"}},"id":"11628","type":"Line"},{"attributes":{"ticks":[0.0125,0.02,0.03,0.04,0.05,0.1,0.2,0.5,0.75,1]},"id":"11650","type":"FixedTicker"},{"attributes":{"logo":null,"tools":[{"id":"11616"},{"id":"11619"}]},"id":"11617","type":"Toolbar"},{"attributes":{"line_color":"#FFA500","line_dash":[6],"line_width":3,"x":{"field":"esperance"},"y":{"field":"deces"}},"id":"11638","type":"Line"},{"attributes":{"coordinates":null,"data_source":{"id":"11597"},"glyph":{"id":"11632"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"11634"},"nonselection_glyph":{"id":"11633"},"view":{"id":"11636"}},"id":"11635","type":"GlyphRenderer"},{"attributes":{"callback":null,"tooltips":[["\u00e2ge","@{\u00e2ge}{0a}"],["VRTP","@{VRTP}{%0.2%}"],["VRTR","@{VRTR}{%0.2%}"]]},"id":"11619","type":"HoverTool"},{"attributes":{},"id":"11682","type":"UnionRenderers"},{"attributes":{"coordinates":null,"group":null,"text":"Valeurs relatives du temps (VRT) en fonction de l'\u00e2ge","text_alpha":0.75,"text_color":"#343A40","text_font":"monospace","text_font_size":"16px"},"id":"11647","type":"Title"},{"attributes":{"coordinates":null,"data_source":{"id":"11597"},"glyph":{"id":"11638"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"11640"},"nonselection_glyph":{"id":"11639"},"view":{"id":"11642"}},"id":"11641","type":"GlyphRenderer"},{"attributes":{"coordinates":null,"end":{"id":"11657"},"group":null,"source":{"id":"11678"},"start":null,"x_end":{"value":70},"x_start":{"value":60},"y_end":{"value":0.05},"y_start":{"value":0.05}},"id":"11658","type":"Arrow"},{"attributes":{},"id":"11689","type":"Selection"},{"attributes":{"coordinates":null,"end":{"id":"11654"},"group":null,"source":{"id":"11677"},"start":null,"x_end":{"value":70},"x_start":{"value":70},"y_end":{"value":0.1},"y_start":{"value":0.05}},"id":"11655","type":"Arrow"},{"attributes":{"coordinates":null,"end":{"id":"11665"},"group":null,"source":{"id":"11680"},"start":null,"x_end":{"value":30},"x_start":{"value":30},"y_end":{"value":0.02},"y_start":{"value":0.0167}},"id":"11666","type":"Arrow"},{"attributes":{"line_alpha":0.2,"line_color":"#d0d1e6","line_width":3,"x":{"field":"\u00e2ge"},"y":{"field":"VRTR"}},"id":"11634","type":"Line"},{"attributes":{"size":{"value":10}},"id":"11665","type":"VeeHead"},{"attributes":{"border_line_alpha":0,"coordinates":null,"group":null,"items":[{"id":"11644"},{"id":"11645"},{"id":"11646"}],"location":"center","orientation":"horizontal"},"id":"11643","type":"Legend"},{"attributes":{"size":{"value":10}},"id":"11654","type":"VeeHead"},{"attributes":{"coordinates":null,"end":{"id":"11662"},"group":null,"source":{"id":"11679"},"start":null,"x_end":{"value":30},"x_start":{"value":20},"y_end":{"value":0.0167},"y_start":{"value":0.0167}},"id":"11663","type":"Arrow"},{"attributes":{"format":"0a"},"id":"11621","type":"NumeralTickFormatter"},{"attributes":{},"id":"11616","type":"CrosshairTool"},{"attributes":{"label":{"value":"VRTP"},"renderers":[{"id":"11629"}]},"id":"11644","type":"LegendItem"},{"attributes":{"label":{"value":"VRTR"},"renderers":[{"id":"11635"}]},"id":"11645","type":"LegendItem"},{"attributes":{"below":[{"id":"11608"},{"id":"11643"}],"border_fill_color":"white","center":[{"id":"11611"},{"id":"11615"},{"id":"11655"},{"id":"11658"},{"id":"11660"},{"id":"11661"},{"id":"11663"},{"id":"11666"},{"id":"11668"},{"id":"11669"},{"id":"11670"},{"id":"11672"}],"height":300,"left":[{"id":"11612"}],"outline_line_color":"white","renderers":[{"id":"11629"},{"id":"11635"},{"id":"11641"}],"sizing_mode":"scale_both","title":{"id":"11647"},"toolbar":{"id":"11617"},"toolbar_location":null,"width":500,"x_range":{"id":"11600"},"x_scale":{"id":"11604"},"y_range":{"id":"11602"},"y_scale":{"id":"11606"}},"id":"11599","subtype":"Figure","type":"Plot"},{"attributes":{"size":{"value":10}},"id":"11662","type":"VeeHead"},{"attributes":{"data":{},"selected":{"id":"11689"},"selection_policy":{"id":"11688"}},"id":"11679","type":"ColumnDataSource"},{"attributes":{"line_alpha":0.1,"line_color":"#d0d1e6","line_width":3,"x":{"field":"\u00e2ge"},"y":{"field":"VRTR"}},"id":"11633","type":"Line"},{"attributes":{"data":{},"selected":{"id":"11691"},"selection_policy":{"id":"11690"}},"id":"11680","type":"ColumnDataSource"},{"attributes":{},"id":"11675","type":"AllLabels"},{"attributes":{"data":{},"selected":{"id":"11687"},"selection_policy":{"id":"11686"}},"id":"11678","type":"ColumnDataSource"},{"attributes":{"format":"0%"},"id":"11623","type":"NumeralTickFormatter"},{"attributes":{"size":{"value":10}},"id":"11671","type":"VeeHead"},{"attributes":{"line_alpha":0.2,"line_color":"#FFA500","line_dash":[6],"line_width":3,"x":{"field":"esperance"},"y":{"field":"deces"}},"id":"11640","type":"Line"},{"attributes":{"label":{"value":"Esp\u00e9rance de vie"},"renderers":[{"id":"11641"}]},"id":"11646","type":"LegendItem"},{"attributes":{"line_alpha":0.1,"line_color":"#FFA500","line_dash":[6],"line_width":3,"x":{"field":"esperance"},"y":{"field":"deces"}},"id":"11639","type":"Line"},{"attributes":{"axis_label":"\u00c2ge","axis_label_text_alpha":0.75,"axis_label_text_color":"#343A40","axis_label_text_font":"monospace","axis_label_text_font_size":"14px","axis_label_text_font_style":"normal","axis_line_alpha":0.75,"axis_line_color":"#343A40","axis_line_width":3,"coordinates":null,"formatter":{"id":"11621"},"group":null,"major_label_policy":{"id":"11676"},"major_label_text_font_size":"12px","major_tick_in":0,"major_tick_out":0,"minor_tick_out":0,"ticker":{"id":"11652"}},"id":"11608","type":"LinearAxis"},{"attributes":{"axis":{"id":"11608"},"coordinates":null,"grid_line_alpha":0.5,"grid_line_dash":[6,4],"group":null,"ticker":null},"id":"11611","type":"Grid"},{"attributes":{"coordinates":null,"group":null,"text":"+16.67%","text_font":"monospace","text_font_size":"12px","x":62.5,"y":0.04},"id":"11660","type":"Label"},{"attributes":{},"id":"11690","type":"UnionRenderers"},{"attributes":{},"id":"11606","type":"LogScale"},{"attributes":{"coordinates":null,"group":null,"text":"+20%","text_font":"monospace","text_font_size":"12px","x":31,"y":0.0175},"id":"11669","type":"Label"},{"attributes":{},"id":"11693","type":"Selection"},{"attributes":{},"id":"11676","type":"AllLabels"},{"attributes":{"size":{"value":10}},"id":"11657","type":"VeeHead"},{"attributes":{"coordinates":null,"group":null,"text":"+100%","text_font":"monospace","text_font_size":"12px","x":70.5,"y":0.064},"id":"11661","type":"Label"},{"attributes":{"coordinates":null,"group":null,"text":"Crise de la \nquarantaine ?","text_font":"monospace","text_font_size":"14px","text_font_style":"bold","x":35,"y":0.035},"id":"11670","type":"Label"},{"attributes":{"coordinates":null,"end":{"id":"11671"},"group":null,"source":{"id":"11681"},"start":null,"x_end":{"value":40},"x_start":{"value":40},"y_end":{"value":0.025},"y_start":{"value":0.034}},"id":"11672","type":"Arrow"},{"attributes":{"coordinates":null,"group":null,"text":"+50%","text_font":"monospace","text_font_size":"12px","x":23.5,"y":0.0135},"id":"11668","type":"Label"},{"attributes":{},"id":"11692","type":"UnionRenderers"},{"attributes":{"source":{"id":"11597"}},"id":"11642","type":"CDSView"}],"root_ids":["11599"]},"title":"Bokeh Application","version":"2.4.2"}}
+        &lt;/script&gt;
+        &lt;script type="text/javascript"&gt;
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('11934').textContent;
+                  const render_items = [{"docid":"ea4cd926-fac6-4f59-ad1d-1f40a3844d63","root_ids":["11599"],"roots":{"11599":"f2a0f975-13a4-43fb-96a9-d5428386bea2"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts &gt; 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        &lt;/script&gt;
+    
+  &lt;/body&gt;
+  
+&lt;/html&gt;&lt;p&gt;La progression géométrique est mise en avant par les flèches&amp;nbsp;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;en passant de 20 à 30 ans, soit en gagnant 50% d&amp;#8217;âge, la &lt;span class="caps"&gt;VRTP&lt;/span&gt; augmente de&amp;nbsp;20%&lt;/li&gt;
+&lt;li&gt;en passant de 60 à 70 ans, soit en gagnant 16.67% d&amp;#8217;âge, la &lt;span class="caps"&gt;VRTP&lt;/span&gt; augmente de&amp;nbsp;100%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La &lt;span class="caps"&gt;VRT&lt;/span&gt; est une explication à la sensation pressante qu&amp;#8217;avec l&amp;#8217;âge le temps accélère et notre stock de temps diminue de plus en plus&amp;nbsp;vite.&lt;/p&gt;
+&lt;p&gt;Ces concepts, abstraits j&amp;#8217;en conviens, sont essentiels pour comprendre les arbitrages inter-temporels que l&amp;#8217;on fait dans sa vie.
+Ils permettent de mieux comprendre pourquoi il est par exemple préférable au regard de la &lt;span class="caps"&gt;VRT&lt;/span&gt; de travailler plus à 25/30 ans
+qu&amp;#8217;à&amp;nbsp;45/50.&lt;/p&gt;
+&lt;script type='text/javascript'&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="mode-de-vie-101"></category><category term="mode-de-vie"></category><category term="temps"></category></entry></feed>
