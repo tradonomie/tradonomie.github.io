@@ -95,7 +95,7 @@ Ne pas en détenir un minimum est un pari risqué sur l&amp;#8217;avenir et diff
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="mode-de-vie-101"></category><category term="mode-de-vie"></category><category term="travail"></category></entry><entry><title>Le temps</title><link href="/le-temps.html" rel="alternate"></link><published>2022-02-21T00:00:00+01:00</published><updated>2022-02-21T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-21:/le-temps.html</id><summary type="html">&lt;p&gt;Le stock de temps dont on dispose est fini et inconnu. On l&amp;#8217;estime en France aujourd&amp;#8217;hui à 80 ans pour les hommes et 85 ans pour les&amp;nbsp;femmes.&lt;/p&gt;
+&lt;/script&gt;</content><category term="mode de vie"></category><category term="mode de vie"></category><category term="travail"></category></entry><entry><title>Le temps</title><link href="/le-temps.html" rel="alternate"></link><published>2022-02-21T00:00:00+01:00</published><updated>2022-02-21T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-21:/le-temps.html</id><summary type="html">&lt;p&gt;Le stock de temps dont on dispose est fini et inconnu. On l&amp;#8217;estime en France aujourd&amp;#8217;hui à 80 ans pour les hommes et 85 ans pour les&amp;nbsp;femmes.&lt;/p&gt;
 &lt;p&gt;La valeur absolue du temps est constante : une année représente &lt;span class="math"&gt;\(\frac{1}{80} = 1.25\%\)&lt;/span&gt; du stock de temps d …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Le stock de temps dont on dispose est fini et inconnu. On l&amp;#8217;estime en France aujourd&amp;#8217;hui à 80 ans pour les hommes et 85 ans pour les&amp;nbsp;femmes.&lt;/p&gt;
 &lt;p&gt;La valeur absolue du temps est constante : une année représente &lt;span class="math"&gt;\(\frac{1}{80} = 1.25\%\)&lt;/span&gt; du stock de temps d&amp;#8217;un&amp;nbsp;homme.&lt;/p&gt;
 &lt;p&gt;La &lt;strong&gt;valeur relative du temps (&lt;span class="caps"&gt;VRT&lt;/span&gt;)&lt;/strong&gt; en revanche n&amp;#8217;est pas constante, elle se décline en deux mesures&amp;nbsp;:&lt;/p&gt;
@@ -273,4 +273,4 @@ qu&amp;#8217;à&amp;nbsp;45/50.&lt;/p&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="mode-de-vie-101"></category><category term="mode-de-vie"></category><category term="temps"></category></entry></feed>
+&lt;/script&gt;</content><category term="mode de vie"></category><category term="mode de vie"></category><category term="temps"></category></entry></feed>
