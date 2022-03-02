@@ -1,5 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2022-03-01T00:00:00+01:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>La guerre russo-ukrainienne : un catalyste pro cryptos ?</title><link href="/la-guerre-russo-ukrainienne-un-catalyste-pro-cryptos.html" rel="alternate"></link><published>2022-03-01T00:00:00+01:00</published><updated>2022-03-01T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-01:/la-guerre-russo-ukrainienne-un-catalyste-pro-cryptos.html</id><summary type="html">&lt;p&gt;La guerre entre la Russie et l&amp;#8217;Ukraine met en lumière deux des avantages à détenir des actifs digitaux&amp;nbsp;: &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2022-03-02T00:00:00+01:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>La transaction</title><link href="/la-transaction.html" rel="alternate"></link><published>2022-03-02T00:00:00+01:00</published><updated>2022-03-02T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-02:/la-transaction.html</id><summary type="html">&lt;p&gt;Une transaction boursière est le résultat de la correspondance de deux ordres&amp;nbsp;: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;un ordre d&amp;#8217;achat émis par un acheteur&amp;nbsp;potentiel&lt;/li&gt;
+&lt;li&gt;un ordre de vente émis par un vendeur&amp;nbsp;potentiel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Autrement dit, elle se produit lorsqu&amp;#8217;un acheteur s&amp;#8217;accorde avec un vendeur sur le prix et la quantité d …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Une transaction boursière est le résultat de la correspondance de deux ordres&amp;nbsp;: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;un ordre d&amp;#8217;achat émis par un acheteur&amp;nbsp;potentiel&lt;/li&gt;
+&lt;li&gt;un ordre de vente émis par un vendeur&amp;nbsp;potentiel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Autrement dit, elle se produit lorsqu&amp;#8217;un acheteur s&amp;#8217;accorde avec un vendeur sur le prix et la quantité d&amp;#8217;un produit à&amp;nbsp;s&amp;#8217;échanger.&lt;/p&gt;
+&lt;p&gt;Elle est au minimum définie par 4 variables primaires&amp;nbsp;: &lt;/p&gt;
+&lt;div class="math"&gt;$$
+\text{transaction} =
+\begin{cases}
+\text{la référence du produit échangé} \\
+\text{la date à laquelle la transaction a été réalisée} \\
+\text{la quantité} \\
+\text{le prix}
+\end{cases}
+$$&lt;/div&gt;
+&lt;p&gt;Exemple d&amp;#8217;une transaction&amp;nbsp;:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\begin{cases}
+\text{action Microsoft (MSFT)} \\
+\text{02/03/2022 11:45:00} \\
+\text{10} \\
+\text{289.40}
+\end{cases}
+$$&lt;/div&gt;
+&lt;p&gt;L&amp;#8217;acheteur donne au vendeur &lt;span class="math"&gt;\(10 \times 289.40 = 2894\ \text{USD}\)&lt;/span&gt; contre 10 actions de&amp;nbsp;Microsoft.&lt;/p&gt;
+&lt;p&gt;Une transaction librement consentie crée de la &lt;strong&gt;valeur&lt;/strong&gt;&amp;nbsp;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;pour l&amp;#8217;acheteur, les actions ont plus de valeur à ses yeux que les dollars dont il&amp;nbsp;dispose&lt;/li&gt;
+&lt;li&gt;pour le vendeur, les dollars de l&amp;#8217;acheteur ont plus de valeur à ses yeux que les actions dont il&amp;nbsp;dispose&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ainsi après avoir réalisé cette transaction, les deux parties repartent avec plus de &lt;strong&gt;valeur&lt;/strong&gt; : l&amp;#8217;acheteur a obtenu ses actions
+et le vendeur son&amp;nbsp;argent.&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="trading 101"></category><category term="trading"></category></entry><entry><title>La guerre russo-ukrainienne : un catalyste pro cryptos ?</title><link href="/la-guerre-russo-ukrainienne-un-catalyste-pro-cryptos.html" rel="alternate"></link><published>2022-03-01T00:00:00+01:00</published><updated>2022-03-01T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-01:/la-guerre-russo-ukrainienne-un-catalyste-pro-cryptos.html</id><summary type="html">&lt;p&gt;La guerre entre la Russie et l&amp;#8217;Ukraine met en lumière deux des avantages à détenir des actifs digitaux&amp;nbsp;: &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;le découplage avec le système financier&amp;nbsp;traditionnel&lt;/li&gt;
 &lt;li&gt;la&amp;nbsp;décentralisation&lt;/li&gt;
@@ -95,7 +194,101 @@
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="mode de vie"></category><category term="mode de vie"></category><category term="travail"></category></entry><entry><title>Le temps</title><link href="/le-temps.html" rel="alternate"></link><published>2022-02-21T00:00:00+01:00</published><updated>2022-02-21T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-21:/le-temps.html</id><summary type="html">&lt;p&gt;Le stock de temps dont on dispose est fini et inconnu. On l&amp;#8217;estime en France aujourd&amp;#8217;hui à 80 ans pour les hommes et 85 ans pour les&amp;nbsp;femmes.&lt;/p&gt;
+&lt;/script&gt;</content><category term="mode de vie"></category><category term="mode de vie"></category><category term="travail"></category></entry><entry><title>Le trader</title><link href="/le-trader.html" rel="alternate"></link><published>2022-02-27T00:00:00+01:00</published><updated>2022-02-27T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-27:/le-trader.html</id><summary type="html">&lt;p&gt;Un trader produit une séquence de &lt;a class="ampl" href="/la-transaction.html"&gt;transactions&lt;/a&gt;&amp;nbsp;:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\text{Trader} \implies
+\begin{bmatrix}
+\text{transaction}_{1} &amp;amp; \text{transaction}_{2} &amp;amp; \text{...} &amp;amp; \text{transaction}_{N} \\[0.3em]
+\end{bmatrix}
+$$&lt;/div&gt;
+&lt;p&gt;dont on apparie généralement les achats et les ventes en trades&amp;nbsp;:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\text{trade} =
+\begin{cases}
+\text{transaction d'entrée (achat ou vente)} \\
+\text{transaction de …&lt;/div&gt;</summary><content type="html">&lt;p&gt;Un trader produit une séquence de &lt;a class="ampl" href="/la-transaction.html"&gt;transactions&lt;/a&gt;&amp;nbsp;:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\text{Trader} \implies
+\begin{bmatrix}
+\text{transaction}_{1} &amp;amp; \text{transaction}_{2} &amp;amp; \text{...} &amp;amp; \text{transaction}_{N} \\[0.3em]
+\end{bmatrix}
+$$&lt;/div&gt;
+&lt;p&gt;dont on apparie généralement les achats et les ventes en trades&amp;nbsp;:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\text{trade} =
+\begin{cases}
+\text{transaction d'entrée (achat ou vente)} \\
+\text{transaction de sortie (vente ou achat)}
+\end{cases}
+$$&lt;/div&gt;
+&lt;p&gt;C&amp;#8217;est sa seule&amp;nbsp;fonction.&lt;/p&gt;
+&lt;p&gt;La technologie, les stratégies, les données, les analyses, l&amp;#8217;expérience et la recherche d&amp;#8217;information et que sais-je encore sont seulement des supports à cette&amp;nbsp;fonction.&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="trading 101"></category><category term="trading"></category></entry><entry><title>Trading 101</title><link href="/trading-101.html" rel="alternate"></link><published>2022-02-25T00:00:00+01:00</published><updated>2022-02-25T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-25:/trading-101.html</id><content type="html">&lt;p&gt;Cette série d&amp;#8217;articles présente des concepts de base du trading&amp;nbsp;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="ampl" href="/le-trader.html"&gt;le&amp;nbsp;trader&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="ampl" href="/la-transaction.html"&gt;la&amp;nbsp;transaction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="trading 101"></category><category term="trading"></category></entry><entry><title>Le temps</title><link href="/le-temps.html" rel="alternate"></link><published>2022-02-21T00:00:00+01:00</published><updated>2022-02-21T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-21:/le-temps.html</id><summary type="html">&lt;p&gt;Le stock de temps dont on dispose est fini et inconnu. On l&amp;#8217;estime en France aujourd&amp;#8217;hui à 80 ans pour les hommes et 85 ans pour les&amp;nbsp;femmes.&lt;/p&gt;
 &lt;p&gt;La valeur absolue du temps est constante : une année représente &lt;span class="math"&gt;\(\frac{1}{80} = 1.25\%\)&lt;/span&gt; du stock de temps d …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Le stock de temps dont on dispose est fini et inconnu. On l&amp;#8217;estime en France aujourd&amp;#8217;hui à 80 ans pour les hommes et 85 ans pour les&amp;nbsp;femmes.&lt;/p&gt;
 &lt;p&gt;La valeur absolue du temps est constante : une année représente &lt;span class="math"&gt;\(\frac{1}{80} = 1.25\%\)&lt;/span&gt; du stock de temps d&amp;#8217;un&amp;nbsp;homme.&lt;/p&gt;
 &lt;p&gt;La &lt;strong&gt;valeur relative du temps (&lt;span class="caps"&gt;VRT&lt;/span&gt;)&lt;/strong&gt; en revanche n&amp;#8217;est pas constante, elle se décline en deux mesures&amp;nbsp;:&lt;/p&gt;

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Tradonomie - Homo Tradicus</title><link>/</link><description>Chroniques d'un trader autonomiste</description><lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0100</lastBuildDate><item><title>La guerre russo-ukrainienne : un catalyste pro cryptos ?</title><link>/la-guerre-russo-ukrainienne-un-catalyste-pro-cryptos.html</link><description>&lt;p&gt;La guerre entre la Russie et l&amp;#8217;Ukraine met en lumière deux des avantages à détenir des actifs digitaux&amp;nbsp;: &lt;/p&gt;
+<rss version="2.0"><channel><title>Tradonomie - Homo Tradicus</title><link>/</link><description>Chroniques d'un trader autonomiste</description><lastBuildDate>Wed, 02 Mar 2022 00:00:00 +0100</lastBuildDate><item><title>La transaction</title><link>/la-transaction.html</link><description>&lt;p&gt;Une transaction boursière est le résultat de la correspondance de deux ordres&amp;nbsp;: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;un ordre d&amp;#8217;achat émis par un acheteur&amp;nbsp;potentiel&lt;/li&gt;
+&lt;li&gt;un ordre de vente émis par un vendeur&amp;nbsp;potentiel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Autrement dit, elle se produit lorsqu&amp;#8217;un acheteur s&amp;#8217;accorde avec un vendeur sur le prix et la quantité d …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Homo Tradicus</dc:creator><pubDate>Wed, 02 Mar 2022 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2022-03-02:/la-transaction.html</guid><category>trading 101</category><category>trading</category></item><item><title>La guerre russo-ukrainienne : un catalyste pro cryptos ?</title><link>/la-guerre-russo-ukrainienne-un-catalyste-pro-cryptos.html</link><description>&lt;p&gt;La guerre entre la Russie et l&amp;#8217;Ukraine met en lumière deux des avantages à détenir des actifs digitaux&amp;nbsp;: &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;le découplage avec le système financier&amp;nbsp;traditionnel&lt;/li&gt;
 &lt;li&gt;la&amp;nbsp;décentralisation&lt;/li&gt;
@@ -7,5 +12,21 @@
 &lt;p&gt;Les États-Unis, l&amp;#8217;Europe et d&amp;#8217;autres états ont sanctionné la Russie en la privant d&amp;#8217;accès au système financier &lt;span class="caps"&gt;SWIFT&lt;/span&gt;. Le …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Homo Tradicus</dc:creator><pubDate>Tue, 01 Mar 2022 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2022-03-01:/la-guerre-russo-ukrainienne-un-catalyste-pro-cryptos.html</guid><category>actifs digitaux</category><category>actifs digitaux</category></item><item><title>Le travail</title><link>/le-travail.html</link><description>&lt;p&gt;On dispose tous de deux stocks de départ&amp;nbsp;:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href="/le-temps.html"&gt;&lt;strong&gt;Le temps&lt;/strong&gt;&lt;/a&gt; : de capacité limitée et inconnue (estimée par l&amp;#8217;espérance de vie), ce stock diminue&amp;nbsp;continuellement&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;L&amp;#8217;énergie&lt;/strong&gt; : de capacité variable selon les individus, ce stock fonctionne comme une batterie ; on le recharge pendant &lt;span class="math"&gt;\(\frac{1}{3}\)&lt;/span&gt; de sa vie en …&lt;/li&gt;&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Homo Tradicus</dc:creator><pubDate>Mon, 28 Feb 2022 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2022-02-28:/le-travail.html</guid><category>mode de vie</category><category>mode de vie</category><category>travail</category></item><item><title>Le temps</title><link>/le-temps.html</link><description>&lt;p&gt;Le stock de temps dont on dispose est fini et inconnu. On l&amp;#8217;estime en France aujourd&amp;#8217;hui à 80 ans pour les hommes et 85 ans pour les&amp;nbsp;femmes.&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;L&amp;#8217;énergie&lt;/strong&gt; : de capacité variable selon les individus, ce stock fonctionne comme une batterie ; on le recharge pendant &lt;span class="math"&gt;\(\frac{1}{3}\)&lt;/span&gt; de sa vie en …&lt;/li&gt;&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Homo Tradicus</dc:creator><pubDate>Mon, 28 Feb 2022 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2022-02-28:/le-travail.html</guid><category>mode de vie</category><category>mode de vie</category><category>travail</category></item><item><title>Le trader</title><link>/le-trader.html</link><description>&lt;p&gt;Un trader produit une séquence de &lt;a class="ampl" href="/la-transaction.html"&gt;transactions&lt;/a&gt;&amp;nbsp;:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\text{Trader} \implies
+\begin{bmatrix}
+\text{transaction}_{1} &amp;amp; \text{transaction}_{2} &amp;amp; \text{...} &amp;amp; \text{transaction}_{N} \\[0.3em]
+\end{bmatrix}
+$$&lt;/div&gt;
+&lt;p&gt;dont on apparie généralement les achats et les ventes en trades&amp;nbsp;:&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\text{trade} =
+\begin{cases}
+\text{transaction d'entrée (achat ou vente)} \\
+\text{transaction de …&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Homo Tradicus</dc:creator><pubDate>Sun, 27 Feb 2022 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2022-02-27:/le-trader.html</guid><category>trading 101</category><category>trading</category></item><item><title>Trading 101</title><link>/trading-101.html</link><description>&lt;p&gt;Cette série d&amp;#8217;articles présente des concepts de base du trading&amp;nbsp;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class="ampl" href="/le-trader.html"&gt;le&amp;nbsp;trader&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="ampl" href="/la-transaction.html"&gt;la&amp;nbsp;transaction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Homo Tradicus</dc:creator><pubDate>Fri, 25 Feb 2022 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2022-02-25:/trading-101.html</guid><category>trading 101</category><category>trading</category></item><item><title>Le temps</title><link>/le-temps.html</link><description>&lt;p&gt;Le stock de temps dont on dispose est fini et inconnu. On l&amp;#8217;estime en France aujourd&amp;#8217;hui à 80 ans pour les hommes et 85 ans pour les&amp;nbsp;femmes.&lt;/p&gt;
 &lt;p&gt;La valeur absolue du temps est constante : une année représente &lt;span class="math"&gt;\(\frac{1}{80} = 1.25\%\)&lt;/span&gt; du stock de temps d …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Homo Tradicus</dc:creator><pubDate>Mon, 21 Feb 2022 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2022-02-21:/le-temps.html</guid><category>mode de vie</category><category>mode de vie</category><category>temps</category></item></channel></rss>
