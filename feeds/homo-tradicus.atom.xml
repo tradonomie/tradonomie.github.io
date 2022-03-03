@@ -238,7 +238,7 @@ on cherche à maximiser le ratio&amp;nbsp;:&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Harry Markowitz a proposé dans les années 1950 sa théorie d&amp;#8217;optimisation de portefeuille qui a montré que
 ce ratio peut être maximisé en combinant des processus aléatoires qui ne sont pas parfaitement corrélés
-plutôt que d&amp;#8217;investir seulement le meilleur&amp;nbsp;processus.&lt;/p&gt;
+plutôt qu&amp;#8217;investir seulement dans le meilleur&amp;nbsp;processus.&lt;/p&gt;
 &lt;p&gt;En reprenant les deux trajectoires que l&amp;#8217;on a simulées à partir d&amp;#8217;une distribution normale de rendement
 et volatilité annualisés de 10%, on peut calculer ce ratio pour différentes allocations de ses ressources.
 Soit de 0% dans le &lt;span class="caps"&gt;PA&lt;/span&gt; à 100% dans le &lt;span class="caps"&gt;PA&lt;/span&gt; par étape de 1%&amp;nbsp;:&lt;/p&gt;
