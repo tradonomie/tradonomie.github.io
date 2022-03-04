@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2022-03-04T14:47:25-00:00</lastmod>
+<lastmod>2022-03-04T16:43:14-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -18,7 +18,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/inflation-le-pouvoir-dachat-et-l-impot.html</loc>
+<loc>/inflation-et-impot-qui-perd.html</loc>
+<lastmod>2022-03-04T00:00:00+01:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/inflation-le-pouvoir-dachat-et-limpot.html</loc>
 <lastmod>2022-03-04T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
