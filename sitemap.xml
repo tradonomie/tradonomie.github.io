@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2022-03-04T16:43:14-00:00</lastmod>
+<lastmod>2022-03-05T12:35:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -18,77 +18,84 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/inflation-et-impot-qui-perd.html</loc>
+<loc>/articles/independance-financiere/le-concept-dindependance-financiere.html</loc>
+<lastmod>2022-03-05T00:00:00+01:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/articles/fiscalite-101/inflation-le-pouvoir-dachat-et-limpot.html</loc>
 <lastmod>2022-03-04T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/inflation-le-pouvoir-dachat-et-limpot.html</loc>
+<loc>/articles/fiscalite-101/inflation-une-taxe-qui-ne-dit-pas-son-nom.html</loc>
 <lastmod>2022-03-04T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/autonomie-ou-capitalisme-plutot-les-deux.html</loc>
+<loc>/articles/mode-de-vie/autonomie-ou-capitalisme-plutot-les-deux.html</loc>
 <lastmod>2022-03-03T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/la-transaction.html</loc>
+<loc>/articles/trading-101/la-transaction.html</loc>
 <lastmod>2022-03-02T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/la-guerre-russo-ukrainienne-un-catalyste-pro-cryptos.html</loc>
+<loc>/articles/actifs-digitaux/la-guerre-russo-ukrainienne-un-catalyste-pro-cryptos.html</loc>
 <lastmod>2022-03-01T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/le-travail.html</loc>
+<loc>/articles/mode-de-vie/le-travail.html</loc>
 <lastmod>2022-02-28T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/le-trader.html</loc>
+<loc>/articles/trading-101/le-trader.html</loc>
 <lastmod>2022-02-27T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/fiscalite-101.html</loc>
+<loc>/articles/fiscalite-101/fiscalite-101.html</loc>
 <lastmod>2022-02-25T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/trading-101.html</loc>
+<loc>/articles/trading-101/trading-101.html</loc>
 <lastmod>2022-02-25T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/le-temps.html</loc>
+<loc>/articles/mode-de-vie/le-temps.html</loc>
 <lastmod>2022-02-21T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/lisser-ses-revenus.html</loc>
+<loc>/articles/fiscalite-101/lisser-ses-revenus.html</loc>
 <lastmod>2022-02-15T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>

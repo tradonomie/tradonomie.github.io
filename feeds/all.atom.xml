@@ -1,7 +1,200 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2022-03-04T00:00:00+01:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>L’inflation, une taxe qui ne dit pas son nom ?</title><link href="/inflation-et-impot-qui-perd.html" rel="alternate"></link><published>2022-03-04T00:00:00+01:00</published><updated>2022-03-04T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-04:/inflation-et-impot-qui-perd.html</id><summary type="html">&lt;p&gt;Dans l&amp;#8217;article &lt;a class="reference external" href="inflation-le-pouvoir-dachat-et-limpot"&gt;précédent&lt;/a&gt;, on a montré que lorsque les salaires bruts sont revalorisés au taux de l&amp;#8217;inflation,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2022-03-05T00:00:00+01:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>Le concept d’indépendance financière</title><link href="/articles/independance-financiere/le-concept-dindependance-financiere.html" rel="alternate"></link><published>2022-03-05T00:00:00+01:00</published><updated>2022-03-05T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-05:/articles/independance-financiere/le-concept-dindependance-financiere.html</id><summary type="html">&lt;p&gt;L&amp;#8217;indépendance financière (&lt;span class="caps"&gt;IF&lt;/span&gt;) est la situation dans laquelle les revenus de son patrimoine couvrent la totalité de ses dépenses,
+c&amp;#8217;est-à-dire qu&amp;#8217;il n&amp;#8217;est pas nécessaire de &lt;a class="ampl" href="../mode-de-vie/le-travail.html"&gt;travailler&lt;/a&gt; pour financer son mode de&amp;nbsp;vie.&lt;/p&gt;
+&lt;p&gt;Elle se résume à une équation simple&amp;nbsp;: &lt;/p&gt;
+&lt;div class="math"&gt;$$\text{si } \text{R} \times \text{C …&lt;/div&gt;</summary><content type="html">&lt;p&gt;L&amp;#8217;indépendance financière (&lt;span class="caps"&gt;IF&lt;/span&gt;) est la situation dans laquelle les revenus de son patrimoine couvrent la totalité de ses dépenses,
+c&amp;#8217;est-à-dire qu&amp;#8217;il n&amp;#8217;est pas nécessaire de &lt;a class="ampl" href="../mode-de-vie/le-travail.html"&gt;travailler&lt;/a&gt; pour financer son mode de&amp;nbsp;vie.&lt;/p&gt;
+&lt;p&gt;Elle se résume à une équation simple&amp;nbsp;: &lt;/p&gt;
+&lt;div class="math"&gt;$$\text{si } \text{R} \times \text{C} \geq \text{D} \longrightarrow \text{indépendance financière}$$&lt;/div&gt;
+&lt;p&gt;Avec&amp;nbsp;: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;R = rendement du patrimoine en&amp;nbsp;%&lt;/li&gt;
+&lt;li&gt;C = montant du capital en &lt;span class="caps"&gt;EUR&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;D = dépenses annuelles en &lt;span class="caps"&gt;EUR&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Par exemple, en supposant que le rendement annuel espéré de mon patrimoine soit de 4%, le montant de patrimoine pour être &lt;span class="caps"&gt;IF&lt;/span&gt; est de &lt;span class="math"&gt;\(\frac{1}{4\%} = 25 \times (\text{dépenses annuelles})\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Si je dépense 24 000 &lt;span class="caps"&gt;EUR&lt;/span&gt;/an, un patrimoine de 600 000 &lt;span class="caps"&gt;EUR&lt;/span&gt; rapportant 4% couvre 100% de mes&amp;nbsp;dépenses. &lt;/p&gt;
+&lt;p&gt;Comme cette équation a 3 variables, on peut atteindre l&amp;#8217;&lt;span class="caps"&gt;IF&lt;/span&gt; de 3 manières différentes&amp;nbsp;: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;en augmentant le rendement de son patrimoine (en évitant les erreurs, en cherchant des opportunités, en prenant plus de&amp;nbsp;risques&amp;#8230;)&lt;/li&gt;
+&lt;li&gt;en augmentant la valeur de son patrimoine (avec un meilleur salaire ou des revenus&amp;nbsp;supplémentaires&amp;#8230;)&lt;/li&gt;
+&lt;li&gt;en baissant ses dépenses (projet autonomiste, &lt;span class="caps"&gt;DIY&lt;/span&gt;, sobriété/frugalité,&amp;nbsp;mutualisation&amp;#8230;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;L&amp;#8217;approche la plus efficace est souvent de combiner ces facteurs en appliquant la méthode du 20/80 à chaque variable&amp;nbsp;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;apprendre comment fonctionne le monde des investissements (actions, obligations, immobilier, dette, gestion de portefeuille globale&amp;#8230;) en lisant quelques livres vous propulse loin devant 90% des&amp;nbsp;gens&lt;/li&gt;
+&lt;li&gt;chercher un meilleur job, acquérir des compétences mieux valorisées (savoir programmer est très utile dans la plupart des métiers hors &lt;span class="caps"&gt;IT&lt;/span&gt; et a à mon avis l&amp;#8217;un des meilleurs retour sur investissement avec les compétences de vente), développer une activité en&amp;nbsp;ligne&lt;/li&gt;
+&lt;li&gt;habiter un plus petit logement plus proche de son job -&amp;gt; moins de temps perdu dans les transports, élimine la voiture, potentiellement moins cher, privilégier les loisirs gratuits, manger moins de&amp;nbsp;viande&amp;#8230;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Viser l&amp;#8217;&lt;span class="caps"&gt;IF&lt;/span&gt; est une &lt;strong&gt;stratégie&lt;/strong&gt; qui permet d&amp;#8217;atteindre un mode de vie sain et équilibré, un mode de vie que l&amp;#8217;hyperconsommation et l&amp;#8217;hyperautonomie ne permettent généralement pas&amp;nbsp;: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;l&amp;#8217;hyperconsommation&lt;/strong&gt; nous enferme dans la roue d&amp;#8217;un hamster à courir toujours plus vite pour faire du&amp;nbsp;surplace&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;l&amp;#8217;hyperautonomie&lt;/strong&gt; nous enferme dans une vision dogmatique et incohérente du monde qui conduit à des projets ni viables ni enviables (je préciserai dans d&amp;#8217;autres&amp;nbsp;articles)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour réussir un tel projet, on met en place les &lt;strong&gt;tactiques&lt;/strong&gt; comme le 20/80 appliqué aux 3 variables que j&amp;#8217;ai évoquées. C&amp;#8217;est le point central du projet tradonomiste, celui qui lie entre eux tous les&amp;nbsp;autres.&lt;/p&gt;
+&lt;p&gt;Cet article a défini l&amp;#8217;&lt;span class="caps"&gt;IF&lt;/span&gt; d&amp;#8217;un point de vue conceptuel et statique en présentant l&amp;#8217;équation fondamentale de l&amp;#8217;&lt;span class="caps"&gt;IF&lt;/span&gt;, mais le monde réel est plus compliqué qu&amp;#8217;une simple équation.
+L&amp;#8217;incertitude est partout et il convient d&amp;#8217;appliquer une perspective probabiliste à l&amp;#8217;&lt;span class="caps"&gt;IF&lt;/span&gt;. Ce sera le sujet d&amp;#8217;un futur&amp;nbsp;article.&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="independance-financiere"></category><category term="indépendance financière"></category><category term="mode de vie"></category></entry><entry><title>L’inflation, le pouvoir d’achat et l’impôt</title><link href="/articles/fiscalite-101/inflation-le-pouvoir-dachat-et-limpot.html" rel="alternate"></link><published>2022-03-04T00:00:00+01:00</published><updated>2022-03-04T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-04:/articles/fiscalite-101/inflation-le-pouvoir-dachat-et-limpot.html</id><summary type="html">&lt;p&gt;Le taux d&amp;#8217;inflation mesure la hausse moyenne des prix des biens et services d&amp;#8217;une économie sur une période&amp;nbsp;donnée.&lt;/p&gt;
+&lt;p&gt;Lorsqu&amp;#8217;inflation il y a, les salaires bruts sont généralement réhaussés de sorte à maintenir le pouvoir d&amp;#8217;achat constant.
+C&amp;#8217;est ainsi que le &lt;span class="caps"&gt;SMIC&lt;/span&gt; brut a augmenté …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Le taux d&amp;#8217;inflation mesure la hausse moyenne des prix des biens et services d&amp;#8217;une économie sur une période&amp;nbsp;donnée.&lt;/p&gt;
+&lt;p&gt;Lorsqu&amp;#8217;inflation il y a, les salaires bruts sont généralement réhaussés de sorte à maintenir le pouvoir d&amp;#8217;achat constant.
+C&amp;#8217;est ainsi que le &lt;span class="caps"&gt;SMIC&lt;/span&gt; brut a augmenté entre 2014 et 2021 de 9.53 à 10.48&amp;nbsp;euros/heure.&lt;/p&gt;
+&lt;p&gt;En se basant sur la fiscalité allemande (qui partage le gène de l&amp;#8217;entubage avec sa cousine la fiscalité française),
+on peut calculer le revenu disponible (càd, net) avant et après ajustement à l&amp;#8217;inflation&amp;nbsp;:&lt;/p&gt;
+&lt;table border="1" class="docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="13%" /&gt;
+&lt;col width="15%" /&gt;
+&lt;col width="12%" /&gt;
+&lt;col width="12%" /&gt;
+&lt;col width="11%" /&gt;
+&lt;col width="11%" /&gt;
+&lt;col width="10%" /&gt;
+&lt;col width="16%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign="bottom"&gt;
+&lt;tr&gt;&lt;th class="head"&gt;Revenu initial&lt;/th&gt;
+&lt;th class="head"&gt;Taux d&amp;#8217;inflation&lt;/th&gt;
+&lt;th class="head"&gt;Revenu ajusté&lt;/th&gt;
+&lt;th class="head"&gt;Impôt initial&lt;/th&gt;
+&lt;th class="head"&gt;Impôt ajusté&lt;/th&gt;
+&lt;th class="head"&gt;Net initial&lt;/th&gt;
+&lt;th class="head"&gt;Net ajusté&lt;/th&gt;
+&lt;th class="head"&gt;Impact sur le net&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;50 000&lt;/td&gt;
+&lt;td&gt;5%&lt;/td&gt;
+&lt;td&gt;52 500&lt;/td&gt;
+&lt;td&gt;10 914&lt;/td&gt;
+&lt;td&gt;11 920&lt;/td&gt;
+&lt;td&gt;39 086&lt;/td&gt;
+&lt;td&gt;40 580&lt;/td&gt;
+&lt;td&gt;+1 494&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;100 000&lt;/td&gt;
+&lt;td&gt;5%&lt;/td&gt;
+&lt;td&gt;105 000&lt;/td&gt;
+&lt;td&gt;32 877&lt;/td&gt;
+&lt;td&gt;35 093&lt;/td&gt;
+&lt;td&gt;67 123&lt;/td&gt;
+&lt;td&gt;69 907&lt;/td&gt;
+&lt;td&gt;+2 784&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;À partir d&amp;#8217;un revenu initial de 50k, le revenu disponible augmente de 1 494 euros et de 2 784 euros pour&amp;nbsp;100k.&lt;/p&gt;
+&lt;p&gt;On peut penser que c&amp;#8217;est une bonne nouvelle, mais il faut aussi considérer que le prix de tout ce que le revenu initial
+permettait d&amp;#8217;acheter a augmenté avec l&amp;#8217;inflation&amp;nbsp;:&lt;/p&gt;
+&lt;table border="1" class="docutils"&gt;
+&lt;colgroup&gt;
+&lt;col width="10%" /&gt;
+&lt;col width="11%" /&gt;
+&lt;col width="13%" /&gt;
+&lt;col width="12%" /&gt;
+&lt;col width="16%" /&gt;
+&lt;col width="15%" /&gt;
+&lt;col width="23%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead valign="bottom"&gt;
+&lt;tr&gt;&lt;th class="head"&gt;Revenu initial&lt;/th&gt;
+&lt;th class="head"&gt;Taux d&amp;#8217;inflation&lt;/th&gt;
+&lt;th class="head"&gt;Revenu net initial&lt;/th&gt;
+&lt;th class="head"&gt;Revenu net ajusté&lt;/th&gt;
+&lt;th class="head"&gt;Pouvoir d&amp;#8217;achat initial&lt;/th&gt;
+&lt;th class="head"&gt;Pouvoir d&amp;#8217;achat ajusté&lt;/th&gt;
+&lt;th class="head"&gt;Impact sur le pouvoir d&amp;#8217;achat réel&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody valign="top"&gt;
+&lt;tr&gt;&lt;td&gt;50 000&lt;/td&gt;
+&lt;td&gt;5%&lt;/td&gt;
+&lt;td&gt;39 086&lt;/td&gt;
+&lt;td&gt;40 580&lt;/td&gt;
+&lt;td&gt;39 086&lt;/td&gt;
+&lt;td&gt;41 019&lt;/td&gt;
+&lt;td&gt;-439&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;100 000&lt;/td&gt;
+&lt;td&gt;5%&lt;/td&gt;
+&lt;td&gt;67 123&lt;/td&gt;
+&lt;td&gt;69 907&lt;/td&gt;
+&lt;td&gt;67 123&lt;/td&gt;
+&lt;td&gt;70 479&lt;/td&gt;
+&lt;td&gt;-572&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Le pouvoir d&amp;#8217;achat d&amp;#8217;un revenu initial brut de 50k est de 39 086 euros soit 41 019 euros ajusté à l&amp;#8217;inflation de 5%.
+Puisque le revenu net ajusté n&amp;#8217;est que de 40 580 euros, la perte de pouvoir d&amp;#8217;achat réel est de 439 euros soit environ&amp;nbsp;1%.&lt;/p&gt;
+&lt;p&gt;En conclusion, quand le revenu brut augmente au taux de l&amp;#8217;inflation, le pouvoir d&amp;#8217;achat réel baisse car le coût de la vie augmente
+plus vite que le revenu net à fiscalité équivalente. Pour maintenir le pouvoir d&amp;#8217;achat constant, c&amp;#8217;est le revenu net qui doit augmenter au taux de
+l&amp;#8217;inflation et pas le revenu&amp;nbsp;brut.&lt;/p&gt;
+</content><category term="fiscalite-101"></category><category term="fiscalité"></category><category term="pouvoir d'achat"></category><category term="inflation"></category></entry><entry><title>L’inflation, une taxe qui ne dit pas son nom ?</title><link href="/articles/fiscalite-101/inflation-une-taxe-qui-ne-dit-pas-son-nom.html" rel="alternate"></link><published>2022-03-04T00:00:00+01:00</published><updated>2022-03-04T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-04:/articles/fiscalite-101/inflation-une-taxe-qui-ne-dit-pas-son-nom.html</id><summary type="html">&lt;p&gt;Dans l&amp;#8217;article &lt;a class="reference external" href="inflation-le-pouvoir-dachat-et-limpot.html"&gt;précédent&lt;/a&gt;, on a montré que lorsque les salaires bruts sont revalorisés au taux de l&amp;#8217;inflation,
 le pouvoir d&amp;#8217;achat baisse car la progression du salaire net est inférieure à celle du coût de la vie après&amp;nbsp;impôt.&lt;/p&gt;
-&lt;p&gt;Dans cet article je cherche à comprendre la relation …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Dans l&amp;#8217;article &lt;a class="reference external" href="inflation-le-pouvoir-dachat-et-limpot"&gt;précédent&lt;/a&gt;, on a montré que lorsque les salaires bruts sont revalorisés au taux de l&amp;#8217;inflation,
+&lt;p&gt;Dans cet article je cherche à comprendre la relation …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Dans l&amp;#8217;article &lt;a class="reference external" href="inflation-le-pouvoir-dachat-et-limpot.html"&gt;précédent&lt;/a&gt;, on a montré que lorsque les salaires bruts sont revalorisés au taux de l&amp;#8217;inflation,
 le pouvoir d&amp;#8217;achat baisse car la progression du salaire net est inférieure à celle du coût de la vie après&amp;nbsp;impôt.&lt;/p&gt;
 &lt;p&gt;Dans cet article je cherche à comprendre la relation entre les niveaux d&amp;#8217;inflation et de revenu et la perte
 relative de pouvoir d&amp;#8217;achat. À partir d&amp;#8217;un modèle d&amp;#8217;imposition allemand, je calcule la perte relative de
@@ -103,7 +296,7 @@ et taux d&amp;#8217;inflations (de 0 à 15%)&amp;nbsp;:&lt;/p&gt;
   &lt;/body&gt;
   
 &lt;/html&gt;&lt;hr class="docutils" /&gt;
-&lt;p&gt;Le mieux est en vert, le pire en rouge. Dans &lt;a class="reference external" href="lisser-ses-revenus"&gt;lisser ses revenus&lt;/a&gt;, le premier graphique montre le taux marginal d&amp;#8217;imposition.
+&lt;p&gt;Le mieux est en vert, le pire en rouge. Dans &lt;a class="reference external" href="lisser-ses-revenus.html"&gt;lisser ses revenus&lt;/a&gt;, le premier graphique montre le taux marginal d&amp;#8217;imposition.
 On peut faire le lien entre l&amp;#8217;augmentation rapide du taux marginal jusqu&amp;#8217;à 58k de revenu annuel et la tranche des revenus
 qui pert le plus de pouvoir d&amp;#8217;achat relatif :&amp;nbsp;55k.&lt;/p&gt;
 &lt;p&gt;Autrement dit, la perte relative de pouvoir d&amp;#8217;achat augmente avec l&amp;#8217;inflation (plus d&amp;#8217;inflation = plus de perte de pouvoir d&amp;#8217;achat relatif
@@ -336,104 +529,7 @@ tout augmente dans des proportions dignes des années 1970 aux États-Unis, le m
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="fiscalité 101"></category><category term="fiscalité"></category><category term="pouvoir d'achat"></category><category term="inflation"></category></entry><entry><title>L’inflation, le pouvoir d’achat et l’impôt</title><link href="/inflation-le-pouvoir-dachat-et-limpot.html" rel="alternate"></link><published>2022-03-04T00:00:00+01:00</published><updated>2022-03-04T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-04:/inflation-le-pouvoir-dachat-et-limpot.html</id><summary type="html">&lt;p&gt;Le taux d&amp;#8217;inflation mesure la hausse moyenne des prix des biens et services d&amp;#8217;une économie sur une période&amp;nbsp;donnée.&lt;/p&gt;
-&lt;p&gt;Lorsqu&amp;#8217;inflation il y a, les salaires bruts sont généralement réhaussés de sorte à maintenir le pouvoir d&amp;#8217;achat constant.
-C&amp;#8217;est ainsi que le &lt;span class="caps"&gt;SMIC&lt;/span&gt; brut a augmenté …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Le taux d&amp;#8217;inflation mesure la hausse moyenne des prix des biens et services d&amp;#8217;une économie sur une période&amp;nbsp;donnée.&lt;/p&gt;
-&lt;p&gt;Lorsqu&amp;#8217;inflation il y a, les salaires bruts sont généralement réhaussés de sorte à maintenir le pouvoir d&amp;#8217;achat constant.
-C&amp;#8217;est ainsi que le &lt;span class="caps"&gt;SMIC&lt;/span&gt; brut a augmenté entre 2014 et 2021 de 9.53 à 10.48&amp;nbsp;euros/heure.&lt;/p&gt;
-&lt;p&gt;En se basant sur la fiscalité allemande (qui partage le gène de l&amp;#8217;entubage avec sa cousine la fiscalité française),
-on peut calculer le revenu disponible (càd, net) avant et après ajustement à l&amp;#8217;inflation&amp;nbsp;:&lt;/p&gt;
-&lt;table border="1" class="docutils"&gt;
-&lt;colgroup&gt;
-&lt;col width="13%" /&gt;
-&lt;col width="15%" /&gt;
-&lt;col width="12%" /&gt;
-&lt;col width="12%" /&gt;
-&lt;col width="11%" /&gt;
-&lt;col width="11%" /&gt;
-&lt;col width="10%" /&gt;
-&lt;col width="16%" /&gt;
-&lt;/colgroup&gt;
-&lt;thead valign="bottom"&gt;
-&lt;tr&gt;&lt;th class="head"&gt;Revenu initial&lt;/th&gt;
-&lt;th class="head"&gt;Taux d&amp;#8217;inflation&lt;/th&gt;
-&lt;th class="head"&gt;Revenu ajusté&lt;/th&gt;
-&lt;th class="head"&gt;Impôt initial&lt;/th&gt;
-&lt;th class="head"&gt;Impôt ajusté&lt;/th&gt;
-&lt;th class="head"&gt;Net initial&lt;/th&gt;
-&lt;th class="head"&gt;Net ajusté&lt;/th&gt;
-&lt;th class="head"&gt;Impact sur le net&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;50 000&lt;/td&gt;
-&lt;td&gt;5%&lt;/td&gt;
-&lt;td&gt;52 500&lt;/td&gt;
-&lt;td&gt;10 914&lt;/td&gt;
-&lt;td&gt;11 920&lt;/td&gt;
-&lt;td&gt;39 086&lt;/td&gt;
-&lt;td&gt;40 580&lt;/td&gt;
-&lt;td&gt;+1 494&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;100 000&lt;/td&gt;
-&lt;td&gt;5%&lt;/td&gt;
-&lt;td&gt;105 000&lt;/td&gt;
-&lt;td&gt;32 877&lt;/td&gt;
-&lt;td&gt;35 093&lt;/td&gt;
-&lt;td&gt;67 123&lt;/td&gt;
-&lt;td&gt;69 907&lt;/td&gt;
-&lt;td&gt;+2 784&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;À partir d&amp;#8217;un revenu initial de 50k, le revenu disponible augmente de 1 494 euros et de 2 784 euros pour&amp;nbsp;100k.&lt;/p&gt;
-&lt;p&gt;On peut penser que c&amp;#8217;est une bonne nouvelle, mais il faut aussi considérer que le prix de tout ce que le revenu initial
-permettait d&amp;#8217;acheter a augmenté avec l&amp;#8217;inflation&amp;nbsp;:&lt;/p&gt;
-&lt;table border="1" class="docutils"&gt;
-&lt;colgroup&gt;
-&lt;col width="10%" /&gt;
-&lt;col width="11%" /&gt;
-&lt;col width="13%" /&gt;
-&lt;col width="12%" /&gt;
-&lt;col width="16%" /&gt;
-&lt;col width="15%" /&gt;
-&lt;col width="23%" /&gt;
-&lt;/colgroup&gt;
-&lt;thead valign="bottom"&gt;
-&lt;tr&gt;&lt;th class="head"&gt;Revenu initial&lt;/th&gt;
-&lt;th class="head"&gt;Taux d&amp;#8217;inflation&lt;/th&gt;
-&lt;th class="head"&gt;Revenu net initial&lt;/th&gt;
-&lt;th class="head"&gt;Revenu net ajusté&lt;/th&gt;
-&lt;th class="head"&gt;Pouvoir d&amp;#8217;achat initial&lt;/th&gt;
-&lt;th class="head"&gt;Pouvoir d&amp;#8217;achat ajusté&lt;/th&gt;
-&lt;th class="head"&gt;Impact sur le pouvoir d&amp;#8217;achat réel&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody valign="top"&gt;
-&lt;tr&gt;&lt;td&gt;50 000&lt;/td&gt;
-&lt;td&gt;5%&lt;/td&gt;
-&lt;td&gt;39 086&lt;/td&gt;
-&lt;td&gt;40 580&lt;/td&gt;
-&lt;td&gt;39 086&lt;/td&gt;
-&lt;td&gt;41 019&lt;/td&gt;
-&lt;td&gt;-439&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;100 000&lt;/td&gt;
-&lt;td&gt;5%&lt;/td&gt;
-&lt;td&gt;67 123&lt;/td&gt;
-&lt;td&gt;69 907&lt;/td&gt;
-&lt;td&gt;67 123&lt;/td&gt;
-&lt;td&gt;70 479&lt;/td&gt;
-&lt;td&gt;-572&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Le pouvoir d&amp;#8217;achat d&amp;#8217;un revenu initial brut de 50k est de 39 086 euros soit 41 019 euros ajusté à l&amp;#8217;inflation de 5%.
-Puisque le revenu net ajusté n&amp;#8217;est que de 40 580 euros, la perte de pouvoir d&amp;#8217;achat réel est de 439 euros soit environ&amp;nbsp;1%.&lt;/p&gt;
-&lt;p&gt;En conclusion, quand le revenu brut augmente au taux de l&amp;#8217;inflation, le pouvoir d&amp;#8217;achat réel baisse car le coût de la vie augmente
-plus vite que le revenu net à fiscalité équivalente. Pour maintenir le pouvoir d&amp;#8217;achat constant, c&amp;#8217;est le revenu net qui doit augmenter au taux de
-l&amp;#8217;inflation et pas le revenu&amp;nbsp;brut.&lt;/p&gt;
-</content><category term="fiscalité 101"></category><category term="fiscalité"></category><category term="pouvoir d'achat"></category><category term="inflation"></category></entry><entry><title>Autonomie ou capitalisme ? Plutôt les deux !</title><link href="/autonomie-ou-capitalisme-plutot-les-deux.html" rel="alternate"></link><published>2022-03-03T00:00:00+01:00</published><updated>2022-03-03T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-03:/autonomie-ou-capitalisme-plutot-les-deux.html</id><summary type="html">&lt;div class="section" id="le-projet-d-autonomie-pa"&gt;
+&lt;/script&gt;</content><category term="fiscalite-101"></category><category term="fiscalité"></category><category term="pouvoir d'achat"></category><category term="inflation"></category></entry><entry><title>Autonomie ou capitalisme ? Plutôt les deux !</title><link href="/articles/mode-de-vie/autonomie-ou-capitalisme-plutot-les-deux.html" rel="alternate"></link><published>2022-03-03T00:00:00+01:00</published><updated>2022-03-03T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-03:/articles/mode-de-vie/autonomie-ou-capitalisme-plutot-les-deux.html</id><summary type="html">&lt;div class="section" id="le-projet-d-autonomie-pa"&gt;
 &lt;h2&gt;Le projet d&amp;#8217;autonomie (&lt;span class="caps"&gt;PA&lt;/span&gt;)&lt;/h2&gt;
 &lt;p&gt;Un &lt;span class="caps"&gt;PA&lt;/span&gt; permet de découpler une partie de son niveau de vie de ses dépenses.
 En étant capable de se loger, se nourrir et se chauffer sans recourir au système économique, on peut atteindre un niveau de vie
@@ -452,7 +548,7 @@ personne ne cherche à investir à perte, que ce soit son temps, son énergie, o
 &lt;li&gt;les erreurs coûtent du temps et/ou de&amp;nbsp;l&amp;#8217;argent&lt;/li&gt;
 &lt;li&gt;le matériel s&amp;#8217;abîme et lâche, on doit le&amp;nbsp;remplacer&lt;/li&gt;
 &lt;li&gt;les maladies déciment des élevages&amp;nbsp;entiers&lt;/li&gt;
-&lt;li&gt;on &lt;a class="reference external" href="le-temps"&gt;vieillit&lt;/a&gt;&amp;nbsp;?&lt;/li&gt;
+&lt;li&gt;on &lt;a class="reference external" href="le-temps.html"&gt;vieillit&lt;/a&gt;&amp;nbsp;?&lt;/li&gt;
 &lt;li&gt;&amp;#8230;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Pour affronter ces aléas de la vie, les hommes s&amp;#8217;organisent en travaillant à plusieurs (mutualisation des risques/économies d&amp;#8217;échelles),
@@ -551,7 +647,7 @@ clémente le fait monter rapidement,&amp;nbsp;etc.).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="le-projet-capitaliste-pc"&gt;
 &lt;h2&gt;Le projet capitaliste (&lt;span class="caps"&gt;PC&lt;/span&gt;)&lt;/h2&gt;
-&lt;p&gt;Un &lt;span class="caps"&gt;PC&lt;/span&gt; permet de découpler une partie de son niveau de vie de son &lt;a class="reference external" href="le-travail"&gt;travail&lt;/a&gt; : les rendements du capital remplacent partiellement ou totalement les revenus du travail.
+&lt;p&gt;Un &lt;span class="caps"&gt;PC&lt;/span&gt; permet de découpler une partie de son niveau de vie de son &lt;a class="reference external" href="le-travail.html"&gt;travail&lt;/a&gt; : les rendements du capital remplacent partiellement ou totalement les revenus du travail.
 Le &lt;span class="caps"&gt;PC&lt;/span&gt; est lui aussi soumis à une volatilité qui prend des formes différentes&amp;nbsp;:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;un crash des marchés&amp;nbsp;financiers&lt;/li&gt;
@@ -831,7 +927,7 @@ de réduire la volatilité (donc le risque d&amp;#8217;échec) d&amp;#8217;où q
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="mode de vie"></category><category term="autonomie"></category><category term="tradonomie"></category><category term="capitalisme"></category></entry><entry><title>La transaction</title><link href="/la-transaction.html" rel="alternate"></link><published>2022-03-02T00:00:00+01:00</published><updated>2022-03-02T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-02:/la-transaction.html</id><summary type="html">&lt;p&gt;Une transaction boursière est le résultat de la correspondance de deux ordres&amp;nbsp;: &lt;/p&gt;
+&lt;/script&gt;</content><category term="mode-de-vie"></category><category term="autonomie"></category><category term="tradonomie"></category><category term="capitalisme"></category></entry><entry><title>La transaction</title><link href="/articles/trading-101/la-transaction.html" rel="alternate"></link><published>2022-03-02T00:00:00+01:00</published><updated>2022-03-02T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-02:/articles/trading-101/la-transaction.html</id><summary type="html">&lt;p&gt;Une transaction boursière est le résultat de la correspondance de deux ordres&amp;nbsp;: &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;un ordre d&amp;#8217;achat émis par un acheteur&amp;nbsp;potentiel&lt;/li&gt;
 &lt;li&gt;un ordre de vente émis par un vendeur&amp;nbsp;potentiel&lt;/li&gt;
@@ -930,7 +1026,7 @@ et le vendeur son&amp;nbsp;argent.&lt;/p&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="trading 101"></category><category term="trading"></category></entry><entry><title>La guerre russo-ukrainienne : un catalyste pro cryptos ?</title><link href="/la-guerre-russo-ukrainienne-un-catalyste-pro-cryptos.html" rel="alternate"></link><published>2022-03-01T00:00:00+01:00</published><updated>2022-03-01T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-01:/la-guerre-russo-ukrainienne-un-catalyste-pro-cryptos.html</id><summary type="html">&lt;p&gt;La guerre entre la Russie et l&amp;#8217;Ukraine met en lumière deux des avantages à détenir des actifs digitaux&amp;nbsp;: &lt;/p&gt;
+&lt;/script&gt;</content><category term="trading-101"></category><category term="trading"></category></entry><entry><title>La guerre russo-ukrainienne : un catalyste pro cryptos ?</title><link href="/articles/actifs-digitaux/la-guerre-russo-ukrainienne-un-catalyste-pro-cryptos.html" rel="alternate"></link><published>2022-03-01T00:00:00+01:00</published><updated>2022-03-01T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-01:/articles/actifs-digitaux/la-guerre-russo-ukrainienne-un-catalyste-pro-cryptos.html</id><summary type="html">&lt;p&gt;La guerre entre la Russie et l&amp;#8217;Ukraine met en lumière deux des avantages à détenir des actifs digitaux&amp;nbsp;: &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;le découplage avec le système financier&amp;nbsp;traditionnel&lt;/li&gt;
 &lt;li&gt;la&amp;nbsp;décentralisation&lt;/li&gt;
@@ -946,17 +1042,17 @@ et le vendeur son&amp;nbsp;argent.&lt;/p&gt;
 &lt;p&gt;Détenir des actifs digitaux hors ligne permet de se protéger contre les tentacules gouvernementales. Muni d&amp;#8217;un simple accès à Internet, on peut effectuer des transactions digitales depuis et vers n&amp;#8217;importe où dans le monde. Des solutions techniques comme &lt;a href="https://www.ledger.com/"&gt;ledger&lt;/a&gt; permettent de sécuriser l&amp;#8217;accès à cet argent&amp;nbsp;digital.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Cryptos vs Système financier :&amp;nbsp;2-0&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Posséder des actifs digitaux hors ligne, c&amp;#8217;est choisir l&amp;#8217;autonomie monétaire. C&amp;#8217;est se couvrir contre le risque que le système financier traditionnel soit détourné de ses fonctions pour servir d&amp;#8217;arme de guerre et moyen de pression sur les&amp;nbsp;populations.&lt;/p&gt;
-&lt;p&gt;Ne pas en détenir un minimum est un pari risqué sur l&amp;#8217;avenir et difficile à justifier au regard de&amp;nbsp;l&amp;#8217;actualité.&lt;/p&gt;</content><category term="actifs digitaux"></category><category term="actifs digitaux"></category></entry><entry><title>Le travail</title><link href="/le-travail.html" rel="alternate"></link><published>2022-02-28T00:00:00+01:00</published><updated>2022-02-28T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-28:/le-travail.html</id><summary type="html">&lt;p&gt;On dispose tous de deux stocks de départ&amp;nbsp;:&lt;/p&gt;
+&lt;p&gt;Ne pas en détenir un minimum est un pari risqué sur l&amp;#8217;avenir et difficile à justifier au regard de&amp;nbsp;l&amp;#8217;actualité.&lt;/p&gt;</content><category term="actifs-digitaux"></category><category term="actifs digitaux"></category></entry><entry><title>Le travail</title><link href="/articles/mode-de-vie/le-travail.html" rel="alternate"></link><published>2022-02-28T00:00:00+01:00</published><updated>2022-02-28T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-28:/articles/mode-de-vie/le-travail.html</id><summary type="html">&lt;p&gt;On dispose tous de deux stocks de départ&amp;nbsp;:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="/le-temps.html"&gt;&lt;strong&gt;Le temps&lt;/strong&gt;&lt;/a&gt; : de capacité limitée et inconnue (estimée par l&amp;#8217;espérance de vie), ce stock diminue&amp;nbsp;continuellement&lt;/li&gt;
+&lt;li&gt;&lt;a href="/articles/mode-de-vie/le-temps.html"&gt;&lt;strong&gt;Le temps&lt;/strong&gt;&lt;/a&gt; : de capacité limitée et inconnue (estimée par l&amp;#8217;espérance de vie), ce stock diminue&amp;nbsp;continuellement&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;L&amp;#8217;énergie&lt;/strong&gt; : de capacité variable selon les individus, ce stock fonctionne comme une batterie ; on le recharge pendant &lt;span class="math"&gt;\(\frac{1}{3}\)&lt;/span&gt; de sa vie en …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;On dispose tous de deux stocks de départ&amp;nbsp;:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="/le-temps.html"&gt;&lt;strong&gt;Le temps&lt;/strong&gt;&lt;/a&gt; : de capacité limitée et inconnue (estimée par l&amp;#8217;espérance de vie), ce stock diminue&amp;nbsp;continuellement&lt;/li&gt;
+&lt;li&gt;&lt;a href="/articles/mode-de-vie/le-temps.html"&gt;&lt;strong&gt;Le temps&lt;/strong&gt;&lt;/a&gt; : de capacité limitée et inconnue (estimée par l&amp;#8217;espérance de vie), ce stock diminue&amp;nbsp;continuellement&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;L&amp;#8217;énergie&lt;/strong&gt; : de capacité variable selon les individus, ce stock fonctionne comme une batterie ; on le recharge pendant &lt;span class="math"&gt;\(\frac{1}{3}\)&lt;/span&gt; de sa vie en dormant, mais son niveau de charge maximale décroît avec l&amp;#8217;âge (on a plus d&amp;#8217;énergie à 25 ans qu&amp;#8217;à&amp;nbsp;50)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Celui qui travaille pour de l&amp;#8217;argent, qu&amp;#8217;il soit salarié, indépendant ou patron, entre dans le système suivant&amp;nbsp;: &lt;/p&gt;
-&lt;p&gt;&lt;img alt="système" src="/images/individu-systemique2.png"&gt;&lt;/p&gt;
-&lt;p&gt;Le travail consiste à échanger une partie de ses stocks de &lt;a href="/le-temps.html"&gt;temps&lt;/a&gt; et énergie contre un revenu. Comme on est rarement payé à dormir, le travail occupe 31.25% du temps éveillé en France&amp;nbsp;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="système" src="/articles/mode-de-vie/individu-systemique2.png"&gt;&lt;/p&gt;
+&lt;p&gt;Le travail consiste à échanger une partie de ses stocks de &lt;a href="/articles/mode-de-vie/le-temps.html"&gt;temps&lt;/a&gt; et énergie contre un revenu. Comme on est rarement payé à dormir, le travail occupe 31.25% du temps éveillé en France&amp;nbsp;:&lt;/p&gt;
 &lt;div class="math"&gt;$$ \frac{\text{35 heures}}{\text{16 heures} \times \text{7 jours}} = 31.25\%$$&lt;/div&gt;
 &lt;p&gt;Le revenu alimente un &lt;strong&gt;stock d&amp;#8217;argent : le patrimoine&lt;/strong&gt;, qui peut être&amp;nbsp;:&lt;/p&gt;
 &lt;ul&gt;
@@ -1026,7 +1122,7 @@ et le vendeur son&amp;nbsp;argent.&lt;/p&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="mode de vie"></category><category term="mode de vie"></category><category term="travail"></category></entry><entry><title>Le trader</title><link href="/le-trader.html" rel="alternate"></link><published>2022-02-27T00:00:00+01:00</published><updated>2022-02-27T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-27:/le-trader.html</id><summary type="html">&lt;p&gt;Un trader produit une séquence de &lt;a class="ampl" href="/la-transaction.html"&gt;transactions&lt;/a&gt;&amp;nbsp;:&lt;/p&gt;
+&lt;/script&gt;</content><category term="mode-de-vie"></category><category term="mode de vie"></category><category term="travail"></category></entry><entry><title>Le trader</title><link href="/articles/trading-101/le-trader.html" rel="alternate"></link><published>2022-02-27T00:00:00+01:00</published><updated>2022-02-27T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-27:/articles/trading-101/le-trader.html</id><summary type="html">&lt;p&gt;Un trader produit une séquence de &lt;a class="ampl" href="/articles/trading-101/la-transaction.html"&gt;transactions&lt;/a&gt;&amp;nbsp;:&lt;/p&gt;
 &lt;div class="math"&gt;$$
 \text{Trader} \implies
 \begin{bmatrix}
@@ -1038,7 +1134,7 @@ $$&lt;/div&gt;
 \text{trade} =
 \begin{cases}
 \text{transaction d'entrée (achat ou vente)} \\
-\text{transaction de …&lt;/div&gt;</summary><content type="html">&lt;p&gt;Un trader produit une séquence de &lt;a class="ampl" href="/la-transaction.html"&gt;transactions&lt;/a&gt;&amp;nbsp;:&lt;/p&gt;
+\text{transaction de …&lt;/div&gt;</summary><content type="html">&lt;p&gt;Un trader produit une séquence de &lt;a class="ampl" href="/articles/trading-101/la-transaction.html"&gt;transactions&lt;/a&gt;&amp;nbsp;:&lt;/p&gt;
 &lt;div class="math"&gt;$$
 \text{Trader} \implies
 \begin{bmatrix}
@@ -1116,15 +1212,15 @@ $$&lt;/div&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="trading 101"></category><category term="trading"></category></entry><entry><title>Fiscalité 101</title><link href="/fiscalite-101.html" rel="alternate"></link><published>2022-02-25T00:00:00+01:00</published><updated>2022-02-25T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-25:/fiscalite-101.html</id><content type="html">&lt;p&gt;Cette série d&amp;#8217;articles présente des concepts de base de la fiscalité&amp;nbsp;:&lt;/p&gt;
+&lt;/script&gt;</content><category term="trading-101"></category><category term="trading"></category></entry><entry><title>Fiscalité 101</title><link href="/articles/fiscalite-101/fiscalite-101.html" rel="alternate"></link><published>2022-02-25T00:00:00+01:00</published><updated>2022-02-25T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-25:/articles/fiscalite-101/fiscalite-101.html</id><content type="html">&lt;p&gt;Cette série d&amp;#8217;articles présente des concepts de base de la fiscalité&amp;nbsp;:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class="ampl" href="/lisser-ses-revenus.html"&gt;lisser ses&amp;nbsp;revenus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="ampl" href="/inflation-le-pouvoir-dachat-et-limpot.html"&gt;l&amp;#8217;inflation, le pouvoir dachat et&amp;nbsp;l&amp;#8217;impôt&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="fiscalité 101"></category><category term="fiscalité"></category></entry><entry><title>Trading 101</title><link href="/trading-101.html" rel="alternate"></link><published>2022-02-25T00:00:00+01:00</published><updated>2022-02-25T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-25:/trading-101.html</id><content type="html">&lt;p&gt;Cette série d&amp;#8217;articles présente des concepts de base du trading&amp;nbsp;:&lt;/p&gt;
+&lt;li&gt;&lt;a class="ampl" href="/articles/fiscalite-101/lisser-ses-revenus.html"&gt;lisser ses&amp;nbsp;revenus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="ampl" href="/articles/fiscalite-101/inflation-le-pouvoir-dachat-et-limpot.html"&gt;l&amp;#8217;inflation, le pouvoir dachat et&amp;nbsp;l&amp;#8217;impôt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="fiscalite-101"></category><category term="fiscalité"></category></entry><entry><title>Trading 101</title><link href="/articles/trading-101/trading-101.html" rel="alternate"></link><published>2022-02-25T00:00:00+01:00</published><updated>2022-02-25T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-25:/articles/trading-101/trading-101.html</id><content type="html">&lt;p&gt;Cette série d&amp;#8217;articles présente des concepts de base du trading&amp;nbsp;:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class="ampl" href="/le-trader.html"&gt;le&amp;nbsp;trader&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="ampl" href="/la-transaction.html"&gt;la&amp;nbsp;transaction&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="trading 101"></category><category term="trading"></category></entry><entry><title>Le temps</title><link href="/le-temps.html" rel="alternate"></link><published>2022-02-21T00:00:00+01:00</published><updated>2022-02-21T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-21:/le-temps.html</id><summary type="html">&lt;p&gt;Le stock de temps dont on dispose est fini et inconnu. On l&amp;#8217;estime en France aujourd&amp;#8217;hui à 80 ans pour les hommes et 85 ans pour les&amp;nbsp;femmes.&lt;/p&gt;
+&lt;li&gt;&lt;a class="ampl" href="/articles/trading-101/le-trader.html"&gt;le&amp;nbsp;trader&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="ampl" href="/articles/trading-101/la-transaction.html"&gt;la&amp;nbsp;transaction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="trading-101"></category><category term="trading"></category></entry><entry><title>Le temps</title><link href="/articles/mode-de-vie/le-temps.html" rel="alternate"></link><published>2022-02-21T00:00:00+01:00</published><updated>2022-02-21T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-21:/articles/mode-de-vie/le-temps.html</id><summary type="html">&lt;p&gt;Le stock de temps dont on dispose est fini et inconnu. On l&amp;#8217;estime en France aujourd&amp;#8217;hui à 80 ans pour les hommes et 85 ans pour les&amp;nbsp;femmes.&lt;/p&gt;
 &lt;p&gt;La valeur absolue du temps est constante : une année représente &lt;span class="math"&gt;\(\frac{1}{80} = 1.25\%\)&lt;/span&gt; du stock de temps d …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Le stock de temps dont on dispose est fini et inconnu. On l&amp;#8217;estime en France aujourd&amp;#8217;hui à 80 ans pour les hommes et 85 ans pour les&amp;nbsp;femmes.&lt;/p&gt;
 &lt;p&gt;La valeur absolue du temps est constante : une année représente &lt;span class="math"&gt;\(\frac{1}{80} = 1.25\%\)&lt;/span&gt; du stock de temps d&amp;#8217;un&amp;nbsp;homme.&lt;/p&gt;
 &lt;p&gt;La &lt;strong&gt;valeur relative du temps (&lt;span class="caps"&gt;VRT&lt;/span&gt;)&lt;/strong&gt; en revanche n&amp;#8217;est pas constante, elle se décline en deux mesures&amp;nbsp;:&lt;/p&gt;
@@ -1302,8 +1398,8 @@ qu&amp;#8217;à&amp;nbsp;45/50.&lt;/p&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="mode de vie"></category><category term="mode de vie"></category><category term="temps"></category></entry><entry><title>Lisser ses revenus</title><link href="/lisser-ses-revenus.html" rel="alternate"></link><published>2022-02-15T00:00:00+01:00</published><updated>2022-02-15T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-15:/lisser-ses-revenus.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;L&amp;#8217;impôt sur le revenu (&lt;span class="caps"&gt;IR&lt;/span&gt;)&lt;/strong&gt; progressif est calculé sur les revenus du
-&lt;a class="reference external" href="le-travail"&gt;travail&lt;/a&gt; générés chaque année.
+&lt;/script&gt;</content><category term="mode-de-vie"></category><category term="mode de vie"></category><category term="temps"></category></entry><entry><title>Lisser ses revenus</title><link href="/articles/fiscalite-101/lisser-ses-revenus.html" rel="alternate"></link><published>2022-02-15T00:00:00+01:00</published><updated>2022-02-15T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-15:/articles/fiscalite-101/lisser-ses-revenus.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;L&amp;#8217;impôt sur le revenu (&lt;span class="caps"&gt;IR&lt;/span&gt;)&lt;/strong&gt; progressif est calculé sur les revenus du
+&lt;a class="reference external" href="../mode-de-vie/le-travail.html"&gt;travail&lt;/a&gt; générés chaque année.
 Le montant total d&amp;#8217;impôt qu&amp;#8217;on paie au cours de sa vie dépend de deux variables&amp;nbsp;:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;la somme des&amp;nbsp;revenus&lt;/li&gt;
@@ -1311,7 +1407,7 @@ Le montant total d&amp;#8217;impôt qu&amp;#8217;on paie au cours de sa vie dép
 &lt;/ul&gt;
 &lt;div class="section" id="impact-des-revenus-sur-l-ir"&gt;
 &lt;h2&gt;1. Impact des revenus sur …&lt;/h2&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;L&amp;#8217;impôt sur le revenu (&lt;span class="caps"&gt;IR&lt;/span&gt;)&lt;/strong&gt; progressif est calculé sur les revenus du
-&lt;a class="reference external" href="le-travail"&gt;travail&lt;/a&gt; générés chaque année.
+&lt;a class="reference external" href="../mode-de-vie/le-travail.html"&gt;travail&lt;/a&gt; générés chaque année.
 Le montant total d&amp;#8217;impôt qu&amp;#8217;on paie au cours de sa vie dépend de deux variables&amp;nbsp;:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;la somme des&amp;nbsp;revenus&lt;/li&gt;
@@ -1574,4 +1670,4 @@ La distribution de ce revenu dans le temps a une influence considérable sur le 
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="fiscalité 101"></category><category term="fiscalité"></category></entry></feed>
+&lt;/script&gt;</content><category term="fiscalite-101"></category><category term="fiscalité"></category></entry></feed>

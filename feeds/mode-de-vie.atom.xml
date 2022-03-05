@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie - mode de vie</title><link href="/" rel="alternate"></link><link href="/feeds/mode-de-vie.atom.xml" rel="self"></link><id>/</id><updated>2022-03-03T00:00:00+01:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>Autonomie ou capitalisme ? Plutôt les deux !</title><link href="/autonomie-ou-capitalisme-plutot-les-deux.html" rel="alternate"></link><published>2022-03-03T00:00:00+01:00</published><updated>2022-03-03T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-03:/autonomie-ou-capitalisme-plutot-les-deux.html</id><summary type="html">&lt;div class="section" id="le-projet-d-autonomie-pa"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie - mode-de-vie</title><link href="/" rel="alternate"></link><link href="/feeds/mode-de-vie.atom.xml" rel="self"></link><id>/</id><updated>2022-03-03T00:00:00+01:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>Autonomie ou capitalisme ? Plutôt les deux !</title><link href="/articles/mode-de-vie/autonomie-ou-capitalisme-plutot-les-deux.html" rel="alternate"></link><published>2022-03-03T00:00:00+01:00</published><updated>2022-03-03T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-03:/articles/mode-de-vie/autonomie-ou-capitalisme-plutot-les-deux.html</id><summary type="html">&lt;div class="section" id="le-projet-d-autonomie-pa"&gt;
 &lt;h2&gt;Le projet d&amp;#8217;autonomie (&lt;span class="caps"&gt;PA&lt;/span&gt;)&lt;/h2&gt;
 &lt;p&gt;Un &lt;span class="caps"&gt;PA&lt;/span&gt; permet de découpler une partie de son niveau de vie de ses dépenses.
 En étant capable de se loger, se nourrir et se chauffer sans recourir au système économique, on peut atteindre un niveau de vie
@@ -18,7 +18,7 @@ personne ne cherche à investir à perte, que ce soit son temps, son énergie, o
 &lt;li&gt;les erreurs coûtent du temps et/ou de&amp;nbsp;l&amp;#8217;argent&lt;/li&gt;
 &lt;li&gt;le matériel s&amp;#8217;abîme et lâche, on doit le&amp;nbsp;remplacer&lt;/li&gt;
 &lt;li&gt;les maladies déciment des élevages&amp;nbsp;entiers&lt;/li&gt;
-&lt;li&gt;on &lt;a class="reference external" href="le-temps"&gt;vieillit&lt;/a&gt;&amp;nbsp;?&lt;/li&gt;
+&lt;li&gt;on &lt;a class="reference external" href="le-temps.html"&gt;vieillit&lt;/a&gt;&amp;nbsp;?&lt;/li&gt;
 &lt;li&gt;&amp;#8230;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Pour affronter ces aléas de la vie, les hommes s&amp;#8217;organisent en travaillant à plusieurs (mutualisation des risques/économies d&amp;#8217;échelles),
@@ -117,7 +117,7 @@ clémente le fait monter rapidement,&amp;nbsp;etc.).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="le-projet-capitaliste-pc"&gt;
 &lt;h2&gt;Le projet capitaliste (&lt;span class="caps"&gt;PC&lt;/span&gt;)&lt;/h2&gt;
-&lt;p&gt;Un &lt;span class="caps"&gt;PC&lt;/span&gt; permet de découpler une partie de son niveau de vie de son &lt;a class="reference external" href="le-travail"&gt;travail&lt;/a&gt; : les rendements du capital remplacent partiellement ou totalement les revenus du travail.
+&lt;p&gt;Un &lt;span class="caps"&gt;PC&lt;/span&gt; permet de découpler une partie de son niveau de vie de son &lt;a class="reference external" href="le-travail.html"&gt;travail&lt;/a&gt; : les rendements du capital remplacent partiellement ou totalement les revenus du travail.
 Le &lt;span class="caps"&gt;PC&lt;/span&gt; est lui aussi soumis à une volatilité qui prend des formes différentes&amp;nbsp;:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;un crash des marchés&amp;nbsp;financiers&lt;/li&gt;
@@ -397,17 +397,17 @@ de réduire la volatilité (donc le risque d&amp;#8217;échec) d&amp;#8217;où q
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="mode de vie"></category><category term="autonomie"></category><category term="tradonomie"></category><category term="capitalisme"></category></entry><entry><title>Le travail</title><link href="/le-travail.html" rel="alternate"></link><published>2022-02-28T00:00:00+01:00</published><updated>2022-02-28T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-28:/le-travail.html</id><summary type="html">&lt;p&gt;On dispose tous de deux stocks de départ&amp;nbsp;:&lt;/p&gt;
+&lt;/script&gt;</content><category term="mode-de-vie"></category><category term="autonomie"></category><category term="tradonomie"></category><category term="capitalisme"></category></entry><entry><title>Le travail</title><link href="/articles/mode-de-vie/le-travail.html" rel="alternate"></link><published>2022-02-28T00:00:00+01:00</published><updated>2022-02-28T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-28:/articles/mode-de-vie/le-travail.html</id><summary type="html">&lt;p&gt;On dispose tous de deux stocks de départ&amp;nbsp;:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="/le-temps.html"&gt;&lt;strong&gt;Le temps&lt;/strong&gt;&lt;/a&gt; : de capacité limitée et inconnue (estimée par l&amp;#8217;espérance de vie), ce stock diminue&amp;nbsp;continuellement&lt;/li&gt;
+&lt;li&gt;&lt;a href="/articles/mode-de-vie/le-temps.html"&gt;&lt;strong&gt;Le temps&lt;/strong&gt;&lt;/a&gt; : de capacité limitée et inconnue (estimée par l&amp;#8217;espérance de vie), ce stock diminue&amp;nbsp;continuellement&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;L&amp;#8217;énergie&lt;/strong&gt; : de capacité variable selon les individus, ce stock fonctionne comme une batterie ; on le recharge pendant &lt;span class="math"&gt;\(\frac{1}{3}\)&lt;/span&gt; de sa vie en …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;On dispose tous de deux stocks de départ&amp;nbsp;:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="/le-temps.html"&gt;&lt;strong&gt;Le temps&lt;/strong&gt;&lt;/a&gt; : de capacité limitée et inconnue (estimée par l&amp;#8217;espérance de vie), ce stock diminue&amp;nbsp;continuellement&lt;/li&gt;
+&lt;li&gt;&lt;a href="/articles/mode-de-vie/le-temps.html"&gt;&lt;strong&gt;Le temps&lt;/strong&gt;&lt;/a&gt; : de capacité limitée et inconnue (estimée par l&amp;#8217;espérance de vie), ce stock diminue&amp;nbsp;continuellement&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;L&amp;#8217;énergie&lt;/strong&gt; : de capacité variable selon les individus, ce stock fonctionne comme une batterie ; on le recharge pendant &lt;span class="math"&gt;\(\frac{1}{3}\)&lt;/span&gt; de sa vie en dormant, mais son niveau de charge maximale décroît avec l&amp;#8217;âge (on a plus d&amp;#8217;énergie à 25 ans qu&amp;#8217;à&amp;nbsp;50)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Celui qui travaille pour de l&amp;#8217;argent, qu&amp;#8217;il soit salarié, indépendant ou patron, entre dans le système suivant&amp;nbsp;: &lt;/p&gt;
-&lt;p&gt;&lt;img alt="système" src="/images/individu-systemique2.png"&gt;&lt;/p&gt;
-&lt;p&gt;Le travail consiste à échanger une partie de ses stocks de &lt;a href="/le-temps.html"&gt;temps&lt;/a&gt; et énergie contre un revenu. Comme on est rarement payé à dormir, le travail occupe 31.25% du temps éveillé en France&amp;nbsp;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="système" src="/articles/mode-de-vie/individu-systemique2.png"&gt;&lt;/p&gt;
+&lt;p&gt;Le travail consiste à échanger une partie de ses stocks de &lt;a href="/articles/mode-de-vie/le-temps.html"&gt;temps&lt;/a&gt; et énergie contre un revenu. Comme on est rarement payé à dormir, le travail occupe 31.25% du temps éveillé en France&amp;nbsp;:&lt;/p&gt;
 &lt;div class="math"&gt;$$ \frac{\text{35 heures}}{\text{16 heures} \times \text{7 jours}} = 31.25\%$$&lt;/div&gt;
 &lt;p&gt;Le revenu alimente un &lt;strong&gt;stock d&amp;#8217;argent : le patrimoine&lt;/strong&gt;, qui peut être&amp;nbsp;:&lt;/p&gt;
 &lt;ul&gt;
@@ -477,7 +477,7 @@ de réduire la volatilité (donc le risque d&amp;#8217;échec) d&amp;#8217;où q
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="mode de vie"></category><category term="mode de vie"></category><category term="travail"></category></entry><entry><title>Le temps</title><link href="/le-temps.html" rel="alternate"></link><published>2022-02-21T00:00:00+01:00</published><updated>2022-02-21T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-21:/le-temps.html</id><summary type="html">&lt;p&gt;Le stock de temps dont on dispose est fini et inconnu. On l&amp;#8217;estime en France aujourd&amp;#8217;hui à 80 ans pour les hommes et 85 ans pour les&amp;nbsp;femmes.&lt;/p&gt;
+&lt;/script&gt;</content><category term="mode-de-vie"></category><category term="mode de vie"></category><category term="travail"></category></entry><entry><title>Le temps</title><link href="/articles/mode-de-vie/le-temps.html" rel="alternate"></link><published>2022-02-21T00:00:00+01:00</published><updated>2022-02-21T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-21:/articles/mode-de-vie/le-temps.html</id><summary type="html">&lt;p&gt;Le stock de temps dont on dispose est fini et inconnu. On l&amp;#8217;estime en France aujourd&amp;#8217;hui à 80 ans pour les hommes et 85 ans pour les&amp;nbsp;femmes.&lt;/p&gt;
 &lt;p&gt;La valeur absolue du temps est constante : une année représente &lt;span class="math"&gt;\(\frac{1}{80} = 1.25\%\)&lt;/span&gt; du stock de temps d …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Le stock de temps dont on dispose est fini et inconnu. On l&amp;#8217;estime en France aujourd&amp;#8217;hui à 80 ans pour les hommes et 85 ans pour les&amp;nbsp;femmes.&lt;/p&gt;
 &lt;p&gt;La valeur absolue du temps est constante : une année représente &lt;span class="math"&gt;\(\frac{1}{80} = 1.25\%\)&lt;/span&gt; du stock de temps d&amp;#8217;un&amp;nbsp;homme.&lt;/p&gt;
 &lt;p&gt;La &lt;strong&gt;valeur relative du temps (&lt;span class="caps"&gt;VRT&lt;/span&gt;)&lt;/strong&gt; en revanche n&amp;#8217;est pas constante, elle se décline en deux mesures&amp;nbsp;:&lt;/p&gt;
@@ -655,4 +655,4 @@ qu&amp;#8217;à&amp;nbsp;45/50.&lt;/p&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="mode de vie"></category><category term="mode de vie"></category><category term="temps"></category></entry></feed>
+&lt;/script&gt;</content><category term="mode-de-vie"></category><category term="mode de vie"></category><category term="temps"></category></entry></feed>

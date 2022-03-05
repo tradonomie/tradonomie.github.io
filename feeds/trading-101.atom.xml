@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie - trading 101</title><link href="/" rel="alternate"></link><link href="/feeds/trading-101.atom.xml" rel="self"></link><id>/</id><updated>2022-03-02T00:00:00+01:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>La transaction</title><link href="/la-transaction.html" rel="alternate"></link><published>2022-03-02T00:00:00+01:00</published><updated>2022-03-02T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-02:/la-transaction.html</id><summary type="html">&lt;p&gt;Une transaction boursière est le résultat de la correspondance de deux ordres&amp;nbsp;: &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie - trading-101</title><link href="/" rel="alternate"></link><link href="/feeds/trading-101.atom.xml" rel="self"></link><id>/</id><updated>2022-03-02T00:00:00+01:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>La transaction</title><link href="/articles/trading-101/la-transaction.html" rel="alternate"></link><published>2022-03-02T00:00:00+01:00</published><updated>2022-03-02T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-02:/articles/trading-101/la-transaction.html</id><summary type="html">&lt;p&gt;Une transaction boursière est le résultat de la correspondance de deux ordres&amp;nbsp;: &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;un ordre d&amp;#8217;achat émis par un acheteur&amp;nbsp;potentiel&lt;/li&gt;
 &lt;li&gt;un ordre de vente émis par un vendeur&amp;nbsp;potentiel&lt;/li&gt;
@@ -98,7 +98,7 @@ et le vendeur son&amp;nbsp;argent.&lt;/p&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="trading 101"></category><category term="trading"></category></entry><entry><title>Le trader</title><link href="/le-trader.html" rel="alternate"></link><published>2022-02-27T00:00:00+01:00</published><updated>2022-02-27T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-27:/le-trader.html</id><summary type="html">&lt;p&gt;Un trader produit une séquence de &lt;a class="ampl" href="/la-transaction.html"&gt;transactions&lt;/a&gt;&amp;nbsp;:&lt;/p&gt;
+&lt;/script&gt;</content><category term="trading-101"></category><category term="trading"></category></entry><entry><title>Le trader</title><link href="/articles/trading-101/le-trader.html" rel="alternate"></link><published>2022-02-27T00:00:00+01:00</published><updated>2022-02-27T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-27:/articles/trading-101/le-trader.html</id><summary type="html">&lt;p&gt;Un trader produit une séquence de &lt;a class="ampl" href="/articles/trading-101/la-transaction.html"&gt;transactions&lt;/a&gt;&amp;nbsp;:&lt;/p&gt;
 &lt;div class="math"&gt;$$
 \text{Trader} \implies
 \begin{bmatrix}
@@ -110,7 +110,7 @@ $$&lt;/div&gt;
 \text{trade} =
 \begin{cases}
 \text{transaction d'entrée (achat ou vente)} \\
-\text{transaction de …&lt;/div&gt;</summary><content type="html">&lt;p&gt;Un trader produit une séquence de &lt;a class="ampl" href="/la-transaction.html"&gt;transactions&lt;/a&gt;&amp;nbsp;:&lt;/p&gt;
+\text{transaction de …&lt;/div&gt;</summary><content type="html">&lt;p&gt;Un trader produit une séquence de &lt;a class="ampl" href="/articles/trading-101/la-transaction.html"&gt;transactions&lt;/a&gt;&amp;nbsp;:&lt;/p&gt;
 &lt;div class="math"&gt;$$
 \text{Trader} \implies
 \begin{bmatrix}
@@ -188,8 +188,8 @@ $$&lt;/div&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="trading 101"></category><category term="trading"></category></entry><entry><title>Trading 101</title><link href="/trading-101.html" rel="alternate"></link><published>2022-02-25T00:00:00+01:00</published><updated>2022-02-25T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-25:/trading-101.html</id><content type="html">&lt;p&gt;Cette série d&amp;#8217;articles présente des concepts de base du trading&amp;nbsp;:&lt;/p&gt;
+&lt;/script&gt;</content><category term="trading-101"></category><category term="trading"></category></entry><entry><title>Trading 101</title><link href="/articles/trading-101/trading-101.html" rel="alternate"></link><published>2022-02-25T00:00:00+01:00</published><updated>2022-02-25T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-02-25:/articles/trading-101/trading-101.html</id><content type="html">&lt;p&gt;Cette série d&amp;#8217;articles présente des concepts de base du trading&amp;nbsp;:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class="ampl" href="/le-trader.html"&gt;le&amp;nbsp;trader&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="ampl" href="/la-transaction.html"&gt;la&amp;nbsp;transaction&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="trading 101"></category><category term="trading"></category></entry></feed>
+&lt;li&gt;&lt;a class="ampl" href="/articles/trading-101/le-trader.html"&gt;le&amp;nbsp;trader&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="ampl" href="/articles/trading-101/la-transaction.html"&gt;la&amp;nbsp;transaction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="trading-101"></category><category term="trading"></category></entry></feed>
