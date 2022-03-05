@@ -9,7 +9,7 @@ c&amp;#8217;est-à-dire qu&amp;#8217;il n&amp;#8217;est pas nécessaire de &lt;a
 &lt;p&gt;Avec&amp;nbsp;: &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;R = rendement du patrimoine en&amp;nbsp;%&lt;/li&gt;
-&lt;li&gt;C = montant du capital en &lt;span class="caps"&gt;EUR&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;C = montant du patrimoine en &lt;span class="caps"&gt;EUR&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;D = dépenses annuelles en &lt;span class="caps"&gt;EUR&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Par exemple, en supposant que le rendement annuel espéré de mon patrimoine soit de 4%, le montant de patrimoine pour être &lt;span class="caps"&gt;IF&lt;/span&gt; est de &lt;span class="math"&gt;\(\frac{1}{4\%} = 25 \times (\text{dépenses annuelles})\)&lt;/span&gt;.&lt;/p&gt;
