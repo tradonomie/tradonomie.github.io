@@ -1,40 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie - independance-financiere</title><link href="/" rel="alternate"></link><link href="/feeds/independance-financiere.atom.xml" rel="self"></link><id>/</id><updated>2022-03-05T00:00:00+01:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>L’indépendance financière</title><link href="/articles/independance-financiere/lindependance-financiere.html" rel="alternate"></link><published>2022-03-05T00:00:00+01:00</published><updated>2022-03-05T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-05:/articles/independance-financiere/lindependance-financiere.html</id><summary type="html">&lt;p&gt;L&amp;#8217;indépendance financière (&lt;span class="caps"&gt;IF&lt;/span&gt;) est la situation dans laquelle les revenus de son patrimoine couvrent la totalité de ses dépenses,
-c&amp;#8217;est-à-dire qu&amp;#8217;il n&amp;#8217;est pas nécessaire de &lt;a class="ampl" href="../mode-de-vie/le-travail.html"&gt;travailler&lt;/a&gt; pour financer son mode de&amp;nbsp;vie.&lt;/p&gt;
-&lt;p&gt;Elle se résume à une équation simple&amp;nbsp;: &lt;/p&gt;
-&lt;div class="math"&gt;$$\text{si } \text{R} \times \text{C …&lt;/div&gt;</summary><content type="html">&lt;p&gt;L&amp;#8217;indépendance financière (&lt;span class="caps"&gt;IF&lt;/span&gt;) est la situation dans laquelle les revenus de son patrimoine couvrent la totalité de ses dépenses,
-c&amp;#8217;est-à-dire qu&amp;#8217;il n&amp;#8217;est pas nécessaire de &lt;a class="ampl" href="../mode-de-vie/le-travail.html"&gt;travailler&lt;/a&gt; pour financer son mode de&amp;nbsp;vie.&lt;/p&gt;
-&lt;p&gt;Elle se résume à une équation simple&amp;nbsp;: &lt;/p&gt;
-&lt;div class="math"&gt;$$\text{si } \text{R} \times \text{C} \geq \text{D} \longrightarrow \text{indépendance financière}$$&lt;/div&gt;
-&lt;p&gt;Avec&amp;nbsp;: &lt;/p&gt;
-&lt;ul&gt;
+c&amp;#8217;est-à-dire qu&amp;#8217;il n&amp;#8217;est pas nécessaire de &lt;a class="reference external" href="../mode-de-vie/le-travail.html"&gt;travailler&lt;/a&gt; pour financer son mode de&amp;nbsp;vie.&lt;/p&gt;
+&lt;p&gt;Elle se résume à une équation simple&amp;nbsp;:&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\text{si } \text{R} \times …&lt;/div&gt;</summary><content type="html">&lt;p&gt;L&amp;#8217;indépendance financière (&lt;span class="caps"&gt;IF&lt;/span&gt;) est la situation dans laquelle les revenus de son patrimoine couvrent la totalité de ses dépenses,
+c&amp;#8217;est-à-dire qu&amp;#8217;il n&amp;#8217;est pas nécessaire de &lt;a class="reference external" href="../mode-de-vie/le-travail.html"&gt;travailler&lt;/a&gt; pour financer son mode de&amp;nbsp;vie.&lt;/p&gt;
+&lt;p&gt;Elle se résume à une équation simple&amp;nbsp;:&lt;/p&gt;
+&lt;div class="math"&gt;
+\begin{equation*}
+\text{si } \text{R} \times \text{C} \geq \text{D} \longrightarrow \text{indépendance financière}
+\end{equation*}
+&lt;/div&gt;
+&lt;p&gt;Avec&amp;nbsp;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
 &lt;li&gt;R = rendement du patrimoine en&amp;nbsp;%&lt;/li&gt;
 &lt;li&gt;C = montant du patrimoine en &lt;span class="caps"&gt;EUR&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;D = dépenses annuelles en &lt;span class="caps"&gt;EUR&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Par exemple, en supposant que le rendement annuel espéré de mon patrimoine soit de 4%, le montant de patrimoine pour être &lt;span class="caps"&gt;IF&lt;/span&gt; est de &lt;span class="math"&gt;\(\frac{1}{4\%} = 25 \times (\text{dépenses annuelles})\)&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;Si je dépense 24 000 &lt;span class="caps"&gt;EUR&lt;/span&gt;/an, un patrimoine de 600 000 &lt;span class="caps"&gt;EUR&lt;/span&gt; rapportant 4% couvre 100% de mes&amp;nbsp;dépenses. &lt;/p&gt;
-&lt;p&gt;Comme cette équation a 3 variables, on peut atteindre l&amp;#8217;&lt;span class="caps"&gt;IF&lt;/span&gt; de 3 manières différentes&amp;nbsp;: &lt;/p&gt;
-&lt;ul&gt;
+&lt;p&gt;Visuellement, la frontière de l&amp;#8217;&lt;span class="caps"&gt;IF&lt;/span&gt; est représentée comme ça&amp;nbsp;:&lt;/p&gt;
+
+
+
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  
+  &lt;head&gt;
+    
+      &lt;meta charset="utf-8"&gt;
+      &lt;title&gt;Bokeh Application&lt;/title&gt;
+      
+      
+        
+          
+        
+        
+          
+        &lt;script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"&gt;&lt;/script&gt;
+        &lt;script type="text/javascript"&gt;
+            Bokeh.set_log_level("info");
+        &lt;/script&gt;
+        
+      
+      
+    
+  &lt;/head&gt;
+  
+  
+  &lt;body&gt;
+    
+      
+        
+          
+          
+            
+              &lt;div class="bk-root" id="579505df-5ba4-41a9-b24e-aca64b701563" data-root-id="1364"&gt;&lt;/div&gt;
+            
+          
+        
+      
+      
+        &lt;script type="application/json" id="1543"&gt;
+          {"676ec2da-06a9-461e-9d91-a729d200a3f6":{"defs":[],"roots":{"references":[{"attributes":{"source":{"id":"1384"}},"id":"1389","type":"CDSView"},{"attributes":{"source":{"id":"1390"}},"id":"1395","type":"CDSView"},{"attributes":{"data":{"x":{"__ndarray__":"exSuR+F6dD+4HoXrUbh+P3oUrkfheoQ/mZmZmZmZiT+4HoXrUbiOP+tRuB6F65E/ehSuR+F6lD8K16NwPQqXP5mZmZmZmZk/KFyPwvUonD+3HoXrUbieP6NwPQrXo6A/61G4HoXroT8yMzMzMzOjP3oUrkfheqQ/wfUoXI/CpT8J16NwPQqnP1G4HoXrUag/mJmZmZmZqT/gehSuR+GqPydcj8L1KKw/bz0K16NwrT+3HoXrUbiuP/7//////68/o3A9CtejsD9H4XoUrkexP+tRuB6F67E/j8L1KFyPsj8zMzMzMzOzP9ejcD0K17M/ehSuR+F6tD8ehetRuB61P8L1KFyPwrU/ZmZmZmZmtj8K16NwPQq3P61H4XoUrrc/UbgehetRuD/1KFyPwvW4P5mZmZmZmbk/PQrXo3A9uj/gehSuR+G6P4TrUbgehbs/KFyPwvUovD/MzMzMzMy8P3A9CtejcL0/FK5H4XoUvj+3HoXrUbi+P1uPwvUoXL8/////////vz9RuB6F61HAP6NwPQrXo8A/9Shcj8L1wD9H4XoUrkfBP5mZmZmZmcE/61G4HoXrwT89CtejcD3CP4/C9Shcj8I/4XoUrkfhwj8zMzMzMzPDP4TrUbgehcM/1qNwPQrXwz8oXI/C9SjEP3oUrkfhesQ/zMzMzMzMxD8ehetRuB7FP3A9CtejcMU/wvUoXI/CxT8UrkfhehTGP2ZmZmZmZsY/uB6F61G4xj8J16NwPQrHP1uPwvUoXMc/rUfhehSuxz/////////HP1G4HoXrUcg/o3A9CtejyD/1KFyPwvXIP0fhehSuR8k/mZmZmZmZyT/rUbgehevJPw==","dtype":"float64","order":"little","shape":[80]},"y2":{"__ndarray__":"AAAAAAAAaUCrqqqqqqpgQAEAAAAAAFlAAAAAAAAAVECrqqqqqqpQQCVJkiRJkkxAAQAAAAAASUCO4ziO4zhGQAAAAAAAAERAL7rooosuQkCrqqqqqqpAQFDsxE7sxD5AJUmSJEmSPECsqqqqqqo6QAEAAAAAADlAiYeHh4eHN0CP4ziO4zg2QNhQXkN5DTVAAQAAAAAANEDEMAzDMAwzQDC66KKLLjJAF7KQhSxkMUCrqqqqqqowQAEAAAAAADBAUOzETuzELkAU2ktoL6EtQCVJkiRJkixAG2G5pxGWK0CrqqqqqqoqQM8555xzzilAAQAAAAAAKUA/+OCDDz4oQIiHh4eHhydAt23btm3bJkCO4ziO4zgmQPNZN5ginyVA2FBeQ3kNJUA1SIM0SIMkQAAAAAAAACRAg/MxOB+DI0DEMAzDMAwjQKesKWvKmiJAL7rooosuIkByHMdxHMchQBeykIUsZCFAxOQKYnIFIUCrqqqqqqogQBa8nIKXUyBAAQAAAAAAIEBhX19fX18fQFDsxE7sxB5Ar+xzSE0wHkAU2ktoL6EdQBhddNFFFx1AJUmSJEmSHEAgwX0E9xEcQBthuacRlhtABQ0ndV8eG0CrqqqqqqoaQP0UlwzBOhpA0DnnnHPOGUBblmVZlmUZQAEAAAAAABlA2omd2ImdGEA/+OCDDz4YQEkPVM5u4RdAiIeHh4eHF0B07cBcOzAXQLdt27Zt2xZAIdEKmwOJFkCP4ziO4zgWQLBevXr16hVA81k3mCKfFUBWVVVVVVUVQNhQXkN5DRVA7R1TA3vHFEA1SIM0SIMUQIKodGTPQBRAAAAAAAAAFEC45odFysATQA==","dtype":"float64","order":"little","shape":[80]}},"selected":{"id":"1420"},"selection_policy":{"id":"1419"}},"id":"1390","type":"ColumnDataSource"},{"attributes":{},"id":"1419","type":"UnionRenderers"},{"attributes":{"data":{"x":{"__ndarray__":"exSuR+F6dD+4HoXrUbh+P3oUrkfheoQ/mZmZmZmZiT+4HoXrUbiOP+tRuB6F65E/ehSuR+F6lD8K16NwPQqXP5mZmZmZmZk/KFyPwvUonD+3HoXrUbieP6NwPQrXo6A/61G4HoXroT8yMzMzMzOjP3oUrkfheqQ/wfUoXI/CpT8J16NwPQqnP1G4HoXrUag/mJmZmZmZqT/gehSuR+GqPydcj8L1KKw/bz0K16NwrT+3HoXrUbiuP/7//////68/o3A9CtejsD9H4XoUrkexP+tRuB6F67E/j8L1KFyPsj8zMzMzMzOzP9ejcD0K17M/ehSuR+F6tD8ehetRuB61P8L1KFyPwrU/ZmZmZmZmtj8K16NwPQq3P61H4XoUrrc/UbgehetRuD/1KFyPwvW4P5mZmZmZmbk/PQrXo3A9uj/gehSuR+G6P4TrUbgehbs/KFyPwvUovD/MzMzMzMy8P3A9CtejcL0/FK5H4XoUvj+3HoXrUbi+P1uPwvUoXL8/////////vz9RuB6F61HAP6NwPQrXo8A/9Shcj8L1wD9H4XoUrkfBP5mZmZmZmcE/61G4HoXrwT89CtejcD3CP4/C9Shcj8I/4XoUrkfhwj8zMzMzMzPDP4TrUbgehcM/1qNwPQrXwz8oXI/C9SjEP3oUrkfhesQ/zMzMzMzMxD8ehetRuB7FP3A9CtejcMU/wvUoXI/CxT8UrkfhehTGP2ZmZmZmZsY/uB6F61G4xj8J16NwPQrHP1uPwvUoXMc/rUfhehSuxz/////////HP1G4HoXrUcg/o3A9CtejyD/1KFyPwvXIP0fhehSuR8k/mZmZmZmZyT/rUbgehevJPw==","dtype":"float64","order":"little","shape":[80]},"y1":{"__ndarray__":"AAAAAAAAaUCrqqqqqqpgQAEAAAAAAFlAAAAAAAAAVECrqqqqqqpQQCVJkiRJkkxAAQAAAAAASUCO4ziO4zhGQAAAAAAAAERAL7rooosuQkCrqqqqqqpAQFDsxE7sxD5AJUmSJEmSPECsqqqqqqo6QAEAAAAAADlAiYeHh4eHN0CP4ziO4zg2QNhQXkN5DTVAAQAAAAAANEDEMAzDMAwzQDC66KKLLjJAF7KQhSxkMUCrqqqqqqowQAEAAAAAADBAUOzETuzELkAU2ktoL6EtQCVJkiRJkixAG2G5pxGWK0CrqqqqqqoqQM8555xzzilAAQAAAAAAKUA/+OCDDz4oQIiHh4eHhydAt23btm3bJkCO4ziO4zgmQPNZN5ginyVA2FBeQ3kNJUA1SIM0SIMkQAAAAAAAACRAg/MxOB+DI0DEMAzDMAwjQKesKWvKmiJAL7rooosuIkByHMdxHMchQBeykIUsZCFAxOQKYnIFIUCrqqqqqqogQBa8nIKXUyBAAQAAAAAAIEBhX19fX18fQFDsxE7sxB5Ar+xzSE0wHkAU2ktoL6EdQBhddNFFFx1AJUmSJEmSHEAgwX0E9xEcQBthuacRlhtABQ0ndV8eG0CrqqqqqqoaQP0UlwzBOhpA0DnnnHPOGUBblmVZlmUZQAEAAAAAABlA2omd2ImdGEA/+OCDDz4YQEkPVM5u4RdAiIeHh4eHF0B07cBcOzAXQLdt27Zt2xZAIdEKmwOJFkCP4ziO4zgWQLBevXr16hVA81k3mCKfFUBWVVVVVVUVQNhQXkN5DRVA7R1TA3vHFEA1SIM0SIMUQIKodGTPQBRAAAAAAAAAFEC45odFysATQA==","dtype":"float64","order":"little","shape":[80]}},"selected":{"id":"1422"},"selection_policy":{"id":"1421"}},"id":"1396","type":"ColumnDataSource"},{"attributes":{"fill_alpha":0.2,"fill_color":"green","hatch_alpha":{"value":0.2},"x":{"field":"x"},"y1":{"value":200},"y2":{"field":"y2"}},"id":"1393","type":"VArea"},{"attributes":{"fill_alpha":0.1,"fill_color":"green","hatch_alpha":{"value":0.1},"x":{"field":"x"},"y1":{"value":200},"y2":{"field":"y2"}},"id":"1392","type":"VArea"},{"attributes":{},"id":"1420","type":"Selection"},{"attributes":{"fill_alpha":0.1,"fill_color":"red","hatch_alpha":{"value":0.1},"x":{"field":"x"},"y1":{"field":"y1"},"y2":{"value":4}},"id":"1398","type":"VArea"},{"attributes":{"fill_alpha":0.2,"fill_color":"red","x":{"field":"x"},"y1":{"field":"y1"},"y2":{"value":4}},"id":"1397","type":"VArea"},{"attributes":{"coordinates":null,"data_source":{"id":"1396"},"glyph":{"id":"1397"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1399"},"nonselection_glyph":{"id":"1398"},"view":{"id":"1401"}},"id":"1400","type":"GlyphRenderer"},{"attributes":{"ticker":null},"id":"1414","type":"LogTickFormatter"},{"attributes":{"coordinates":null,"group":null,"text":"Fronti\u00e8re de l'IF","text_alpha":0.75,"text_color":"#343A40","text_font":"monospace","text_font_size":"16px"},"id":"1402","type":"Title"},{"attributes":{"coordinates":null,"data_source":{"id":"1390"},"glyph":{"id":"1391"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1393"},"nonselection_glyph":{"id":"1392"},"view":{"id":"1395"}},"id":"1394","type":"GlyphRenderer"},{"attributes":{"ticks":[0,5,7,10,15,20,25,35,50,75,100,150,200]},"id":"1405","type":"FixedTicker"},{"attributes":{},"id":"1415","type":"AllLabels"},{"attributes":{},"id":"1381","type":"CrosshairTool"},{"attributes":{"source":{"id":"1396"}},"id":"1401","type":"CDSView"},{"attributes":{"fill_alpha":0.2,"fill_color":"red","hatch_alpha":{"value":0.2},"x":{"field":"x"},"y1":{"field":"y1"},"y2":{"value":4}},"id":"1399","type":"VArea"},{"attributes":{},"id":"1416","type":"AllLabels"},{"attributes":{"axis":{"id":"1377"},"coordinates":null,"dimension":1,"grid_line_alpha":0.5,"grid_line_dash":[6,4],"group":null,"ticker":null},"id":"1380","type":"Grid"},{"attributes":{"logo":null,"tools":[{"id":"1381"}]},"id":"1382","type":"Toolbar"},{"attributes":{"coordinates":null,"group":null,"text":"pas IF","text_font":"monospace","text_font_size":"14px","text_font_style":"bold","x":0.035,"y":10},"id":"1412","type":"Label"},{"attributes":{},"id":"1417","type":"UnionRenderers"},{"attributes":{"axis_label":"Patrimoine / (d\u00e9penses annuelles)","axis_label_text_alpha":0.75,"axis_label_text_color":"#343A40","axis_label_text_font":"monospace","axis_line_alpha":0.75,"axis_line_cap":"round","axis_line_color":"#343A40","axis_line_width":3,"coordinates":null,"formatter":{"id":"1414"},"group":null,"major_label_policy":{"id":"1415"},"major_label_text_font_size":"12px","major_tick_in":0,"major_tick_out":0,"minor_tick_out":0,"ticker":{"id":"1405"}},"id":"1377","type":"LogAxis"},{"attributes":{"format":"0%"},"id":"1407","type":"NumeralTickFormatter"},{"attributes":{"ticks":[0.01,0.02,0.03,0.04,0.05,0.060000000000000005,0.06999999999999999,0.08,0.09,0.09999999999999999,0.11,0.12,0.13,0.14,0.15000000000000002,0.16,0.17,0.18000000000000002,0.19,0.2]},"id":"1409","type":"FixedTicker"},{"attributes":{"fill_alpha":0.2,"fill_color":"green","x":{"field":"x"},"y1":{"value":200},"y2":{"field":"y2"}},"id":"1391","type":"VArea"},{"attributes":{},"id":"1371","type":"LogScale"},{"attributes":{},"id":"1421","type":"UnionRenderers"},{"attributes":{},"id":"1418","type":"Selection"},{"attributes":{},"id":"1422","type":"Selection"},{"attributes":{"data":{"x":{"__ndarray__":"exSuR+F6dD+4HoXrUbh+P3oUrkfheoQ/mZmZmZmZiT+4HoXrUbiOP+tRuB6F65E/ehSuR+F6lD8K16NwPQqXP5mZmZmZmZk/KFyPwvUonD+3HoXrUbieP6NwPQrXo6A/61G4HoXroT8yMzMzMzOjP3oUrkfheqQ/wfUoXI/CpT8J16NwPQqnP1G4HoXrUag/mJmZmZmZqT/gehSuR+GqPydcj8L1KKw/bz0K16NwrT+3HoXrUbiuP/7//////68/o3A9CtejsD9H4XoUrkexP+tRuB6F67E/j8L1KFyPsj8zMzMzMzOzP9ejcD0K17M/ehSuR+F6tD8ehetRuB61P8L1KFyPwrU/ZmZmZmZmtj8K16NwPQq3P61H4XoUrrc/UbgehetRuD/1KFyPwvW4P5mZmZmZmbk/PQrXo3A9uj/gehSuR+G6P4TrUbgehbs/KFyPwvUovD/MzMzMzMy8P3A9CtejcL0/FK5H4XoUvj+3HoXrUbi+P1uPwvUoXL8/////////vz9RuB6F61HAP6NwPQrXo8A/9Shcj8L1wD9H4XoUrkfBP5mZmZmZmcE/61G4HoXrwT89CtejcD3CP4/C9Shcj8I/4XoUrkfhwj8zMzMzMzPDP4TrUbgehcM/1qNwPQrXwz8oXI/C9SjEP3oUrkfhesQ/zMzMzMzMxD8ehetRuB7FP3A9CtejcMU/wvUoXI/CxT8UrkfhehTGP2ZmZmZmZsY/uB6F61G4xj8J16NwPQrHP1uPwvUoXMc/rUfhehSuxz/////////HP1G4HoXrUcg/o3A9CtejyD/1KFyPwvXIP0fhehSuR8k/mZmZmZmZyT/rUbgehevJPw==","dtype":"float64","order":"little","shape":[80]},"y":{"__ndarray__":"AAAAAAAAaUCrqqqqqqpgQAEAAAAAAFlAAAAAAAAAVECrqqqqqqpQQCVJkiRJkkxAAQAAAAAASUCO4ziO4zhGQAAAAAAAAERAL7rooosuQkCrqqqqqqpAQFDsxE7sxD5AJUmSJEmSPECsqqqqqqo6QAEAAAAAADlAiYeHh4eHN0CP4ziO4zg2QNhQXkN5DTVAAQAAAAAANEDEMAzDMAwzQDC66KKLLjJAF7KQhSxkMUCrqqqqqqowQAEAAAAAADBAUOzETuzELkAU2ktoL6EtQCVJkiRJkixAG2G5pxGWK0CrqqqqqqoqQM8555xzzilAAQAAAAAAKUA/+OCDDz4oQIiHh4eHhydAt23btm3bJkCO4ziO4zgmQPNZN5ginyVA2FBeQ3kNJUA1SIM0SIMkQAAAAAAAACRAg/MxOB+DI0DEMAzDMAwjQKesKWvKmiJAL7rooosuIkByHMdxHMchQBeykIUsZCFAxOQKYnIFIUCrqqqqqqogQBa8nIKXUyBAAQAAAAAAIEBhX19fX18fQFDsxE7sxB5Ar+xzSE0wHkAU2ktoL6EdQBhddNFFFx1AJUmSJEmSHEAgwX0E9xEcQBthuacRlhtABQ0ndV8eG0CrqqqqqqoaQP0UlwzBOhpA0DnnnHPOGUBblmVZlmUZQAEAAAAAABlA2omd2ImdGEA/+OCDDz4YQEkPVM5u4RdAiIeHh4eHF0B07cBcOzAXQLdt27Zt2xZAIdEKmwOJFkCP4ziO4zgWQLBevXr16hVA81k3mCKfFUBWVVVVVVUVQNhQXkN5DRVA7R1TA3vHFEA1SIM0SIMUQIKodGTPQBRAAAAAAAAAFEC45odFysATQA==","dtype":"float64","order":"little","shape":[80]}},"selected":{"id":"1418"},"selection_policy":{"id":"1417"}},"id":"1384","type":"ColumnDataSource"},{"attributes":{"below":[{"id":"1373"}],"border_fill_color":"white","center":[{"id":"1376"},{"id":"1380"},{"id":"1411"},{"id":"1412"}],"height":500,"left":[{"id":"1377"}],"outline_line_color":"white","renderers":[{"id":"1388"},{"id":"1394"},{"id":"1400"}],"sizing_mode":"scale_both","title":{"id":"1402"},"toolbar":{"id":"1382"},"toolbar_location":null,"width":800,"x_range":{"id":"1365"},"x_scale":{"id":"1369"},"y_range":{"id":"1367"},"y_scale":{"id":"1371"}},"id":"1364","subtype":"Figure","type":"Plot"},{"attributes":{"coordinates":null,"data_source":{"id":"1384"},"glyph":{"id":"1385"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1387"},"nonselection_glyph":{"id":"1386"},"view":{"id":"1389"}},"id":"1388","type":"GlyphRenderer"},{"attributes":{},"id":"1367","type":"DataRange1d"},{"attributes":{"line_color":"#17A2B8","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"1385","type":"Line"},{"attributes":{"axis":{"id":"1373"},"coordinates":null,"grid_line_alpha":0.5,"grid_line_dash":[6,4],"group":null,"ticker":null},"id":"1376","type":"Grid"},{"attributes":{},"id":"1365","type":"DataRange1d"},{"attributes":{"line_alpha":0.2,"line_color":"#17A2B8","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"1387","type":"Line"},{"attributes":{"coordinates":null,"group":null,"text":"ind\u00e9pendance\nfinanci\u00e8re (IF)","text_font":"monospace","text_font_size":"14px","text_font_style":"bold","x":0.09,"y":50},"id":"1411","type":"Label"},{"attributes":{"axis_label":"Rendement annuel du patrimoine","axis_label_text_alpha":0.75,"axis_label_text_color":"#343A40","axis_label_text_font":"monospace","axis_label_text_font_size":"14px","axis_label_text_font_style":"normal","axis_line_alpha":0.75,"axis_line_cap":"round","axis_line_color":"#343A40","axis_line_width":3,"coordinates":null,"formatter":{"id":"1407"},"group":null,"major_label_policy":{"id":"1416"},"major_label_text_font_size":"12px","major_tick_in":0,"major_tick_out":0,"minor_tick_out":0,"ticker":{"id":"1409"}},"id":"1373","type":"LinearAxis"},{"attributes":{"line_alpha":0.1,"line_color":"#17A2B8","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"1386","type":"Line"},{"attributes":{},"id":"1369","type":"LinearScale"}],"root_ids":["1364"]},"title":"Bokeh Application","version":"2.4.2"}}
+        &lt;/script&gt;
+        &lt;script type="text/javascript"&gt;
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('1543').textContent;
+                  const render_items = [{"docid":"676ec2da-06a9-461e-9d91-a729d200a3f6","root_ids":["1364"],"roots":{"1364":"579505df-5ba4-41a9-b24e-aca64b701563"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts &gt; 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        &lt;/script&gt;
+    
+  &lt;/body&gt;
+  
+&lt;/html&gt;&lt;hr class="docutils" /&gt;
+&lt;p&gt;La courbe représente la valeur minimale du ratio patrimoine / dépenses annuelles correspondant à chaque rendement du patrimoine pour être &lt;span class="caps"&gt;IF&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Pour pouvoir se situer sur ce graphique, il faut d&amp;#8217;abord estimer la valeur de son patrimoine et le montant de ses dépenses annuelles (&lt;span class="caps"&gt;DA&lt;/span&gt;). En
+divisant son patrimoine par ses &lt;span class="caps"&gt;DA&lt;/span&gt; on obtient son ratio qu&amp;#8217;on cherche sur l&amp;#8217;axe vertical. Par exemple si mon patrimoine est de 100k &lt;span class="caps"&gt;EUR&lt;/span&gt; et mes
+dépenses annuelles de 10k &lt;span class="caps"&gt;EUR&lt;/span&gt;, mon ratio est de 10. La courbe de l&amp;#8217;&lt;span class="caps"&gt;IF&lt;/span&gt; montre que pour une valeur de 10 sur l&amp;#8217;axe vertical, il faut un rendement
+du patrimoine de 10%/an (axe horizontal) au minimum. Si mon patrimoine gagne moins que 10%/an, je ne suis pas &lt;span class="caps"&gt;IF&lt;/span&gt;.
+Si mon patrimoine est de 600k &lt;span class="caps"&gt;EUR&lt;/span&gt; et que je dépense 24k &lt;span class="caps"&gt;EUR&lt;/span&gt;/an, mon ratio est de 25. Un rendement de 4% suffit à être &lt;span class="caps"&gt;IF&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Comme cette équation a 3 variables, on peut atteindre l&amp;#8217;&lt;span class="caps"&gt;IF&lt;/span&gt; de 3 manières différentes&amp;nbsp;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
 &lt;li&gt;en augmentant le rendement de son patrimoine (en évitant les erreurs, en cherchant des opportunités, en prenant plus de&amp;nbsp;risques&amp;#8230;)&lt;/li&gt;
 &lt;li&gt;en augmentant la valeur de son patrimoine (avec un meilleur salaire ou des revenus&amp;nbsp;supplémentaires&amp;#8230;)&lt;/li&gt;
 &lt;li&gt;en baissant ses dépenses (projet autonomiste, &lt;span class="caps"&gt;DIY&lt;/span&gt;, sobriété/frugalité,&amp;nbsp;mutualisation&amp;#8230;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;L&amp;#8217;approche la plus efficace est souvent de combiner ces facteurs en appliquant la méthode du 20/80 à chaque variable&amp;nbsp;:&lt;/p&gt;
-&lt;ul&gt;
+&lt;ul class="simple"&gt;
 &lt;li&gt;apprendre comment fonctionne le monde des investissements (actions, obligations, immobilier, dette, gestion de portefeuille globale&amp;#8230;) en lisant quelques livres vous propulse loin devant 90% des&amp;nbsp;gens&lt;/li&gt;
 &lt;li&gt;chercher un meilleur job, acquérir des compétences mieux valorisées (savoir programmer est très utile dans la plupart des métiers hors &lt;span class="caps"&gt;IT&lt;/span&gt; et a à mon avis l&amp;#8217;un des meilleurs retour sur investissement avec les compétences de vente), développer une activité en&amp;nbsp;ligne&lt;/li&gt;
 &lt;li&gt;habiter un plus petit logement plus proche de son job -&amp;gt; moins de temps perdu dans les transports, élimine la voiture, potentiellement moins cher, privilégier les loisirs gratuits, manger moins de&amp;nbsp;viande&amp;#8230;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Viser l&amp;#8217;&lt;span class="caps"&gt;IF&lt;/span&gt; est une &lt;strong&gt;stratégie&lt;/strong&gt; qui permet d&amp;#8217;atteindre un mode de vie sain et équilibré, un mode de vie que l&amp;#8217;hyperconsommation et l&amp;#8217;hyperautonomie ne permettent généralement pas&amp;nbsp;: &lt;/p&gt;
-&lt;ul&gt;
+&lt;p&gt;Viser l&amp;#8217;&lt;span class="caps"&gt;IF&lt;/span&gt; est une &lt;strong&gt;stratégie&lt;/strong&gt; qui permet d&amp;#8217;atteindre un mode de vie sain et équilibré, un mode de vie que l&amp;#8217;hyperconsommation et l&amp;#8217;hyperautonomie ne permettent généralement pas&amp;nbsp;:&lt;/p&gt;
+&lt;ul class="simple"&gt;
 &lt;li&gt;&lt;strong&gt;l&amp;#8217;hyperconsommation&lt;/strong&gt; nous enferme dans la roue d&amp;#8217;un hamster à courir toujours plus vite pour faire du&amp;nbsp;surplace&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;l&amp;#8217;hyperautonomie&lt;/strong&gt; nous enferme dans une vision dogmatique et incohérente du monde qui conduit à des projets ni viables ni enviables (je préciserai dans d&amp;#8217;autres&amp;nbsp;articles)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Pour réussir un tel projet, on met en place les &lt;strong&gt;tactiques&lt;/strong&gt; comme le 20/80 appliqué aux 3 variables que j&amp;#8217;ai évoquées. C&amp;#8217;est le point central du projet tradonomiste, celui qui lie entre eux tous les&amp;nbsp;autres.&lt;/p&gt;
 &lt;p&gt;Cet article a défini l&amp;#8217;&lt;span class="caps"&gt;IF&lt;/span&gt; d&amp;#8217;un point de vue conceptuel et statique en présentant l&amp;#8217;équation fondamentale de l&amp;#8217;&lt;span class="caps"&gt;IF&lt;/span&gt;, mais le monde réel est plus compliqué qu&amp;#8217;une simple équation.
 L&amp;#8217;incertitude est partout et il convient d&amp;#8217;appliquer une perspective probabiliste à l&amp;#8217;&lt;span class="caps"&gt;IF&lt;/span&gt;. Ce sera le sujet d&amp;#8217;un futur&amp;nbsp;article.&lt;/p&gt;
-&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+&lt;script type='text/javascript'&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
         linebreak = "false";
