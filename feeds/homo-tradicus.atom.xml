@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie - Homo Tradicus</title><link href="/" rel="alternate"></link><link href="/feeds/homo-tradicus.atom.xml" rel="self"></link><id>/</id><updated>2022-03-05T00:00:00+01:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>L’indépendance financière</title><link href="/articles/independance-financiere/lindependance-financiere.html" rel="alternate"></link><published>2022-03-05T00:00:00+01:00</published><updated>2022-03-05T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-05:/articles/independance-financiere/lindependance-financiere.html</id><summary type="html">&lt;p&gt;L&amp;#8217;indépendance financière (&lt;span class="caps"&gt;IF&lt;/span&gt;) est la situation dans laquelle les revenus de son patrimoine couvrent la totalité de ses dépenses,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie - Homo Tradicus</title><link href="/" rel="alternate"></link><link href="/feeds/homo-tradicus.atom.xml" rel="self"></link><id>/</id><updated>2022-03-06T00:00:00+01:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>Suivre l’évolution de son patrimoine</title><link href="/articles/independance-financiere/suivre-levolution-de-son-patrimoine.html" rel="alternate"></link><published>2022-03-06T00:00:00+01:00</published><updated>2022-03-06T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-06:/articles/independance-financiere/suivre-levolution-de-son-patrimoine.html</id><summary type="html">&lt;p&gt;L&amp;#8217;outil qui m&amp;#8217;a servi le plus servi dans mon parcours vers  &lt;a href="/articles/independance-financiere/lindependance-financiere.html"&gt;&lt;strong&gt;l&amp;#8217;indépendance financière&lt;/strong&gt;&lt;/a&gt; est un simple fichier Excel 
+(ou plutôt LibreOffice) que je mets à jour une fois par mois depuis janvier 2016&amp;nbsp;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="système" src="/articles/independance-financiere/tracker-patrimoine.png"&gt;&lt;/p&gt;
+&lt;p&gt;(Les chiffres sont faux, c&amp;#8217;est un exemple.)
+Chaque compte occupe une colonne. À …&lt;/p&gt;</summary><content type="html">&lt;p&gt;L&amp;#8217;outil qui m&amp;#8217;a servi le plus servi dans mon parcours vers  &lt;a href="/articles/independance-financiere/lindependance-financiere.html"&gt;&lt;strong&gt;l&amp;#8217;indépendance financière&lt;/strong&gt;&lt;/a&gt; est un simple fichier Excel 
+(ou plutôt LibreOffice) que je mets à jour une fois par mois depuis janvier 2016&amp;nbsp;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="système" src="/articles/independance-financiere/tracker-patrimoine.png"&gt;&lt;/p&gt;
+&lt;p&gt;(Les chiffres sont faux, c&amp;#8217;est un exemple.)
+Chaque compte occupe une colonne. À la fin de chaque mois, je prends 15 minutes pour me connecter à tous mes comptes
+et je reporte la valeur totale de chaque compte dans ce fichier. Comme j&amp;#8217;ai des comptes en différentes devises je dois
+les convertir en &lt;span class="caps"&gt;EUR&lt;/span&gt;, mais si vous n&amp;#8217;en avez pas c&amp;#8217;est encore plus simple&amp;nbsp;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;colonne L : la somme de tous les comptes en &lt;span class="caps"&gt;USD&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;colonne M : la somme de tous les comptes en &lt;span class="caps"&gt;EUR&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;colonne N : égale à M + L * K, donc la valeur du patrimoine exprimée en &lt;span class="caps"&gt;EUR&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Personnellement je ne compte pas dans mon patrimoine tous les biens et équipements que je possède. Comme je suis
+propriétaire de ma maison, je considère seulement le prix d&amp;#8217;achat et j&amp;#8217;exclus tous les frais de transaction 
+(agence + notaire = 11 à 13% en Allemagne !) et les frais des travaux que j&amp;#8217;ai effectués. C&amp;#8217;est un peu extrême car
+je sous-estime la valeur de mon patrimoine, mais comme une maison est un actif illiquide et que je ne 
+pense pas la vendre je préfère sous-estimer que sur-estimer sa valeur. Si j&amp;#8217;avais un emprunt, je calculerais la
+valeur de ma maison comme le prix d&amp;#8217;achat moins le montant du prêt à rembourser. Une autre approche serait d&amp;#8217;estimer
+la valeur de revente de la maison, mais je ne recommande pas cette approche très&amp;nbsp;agressive.&lt;/p&gt;
+&lt;p&gt;Le fait de mettre à jour ce fichier tous les mois donne un aperçu global de sa situation patrimoniale. C&amp;#8217;est rapide
+et c&amp;#8217;est la première étape vers la maîtrise de sa vie financière. Le fait de savoir où on en est &lt;span class="caps"&gt;ET&lt;/span&gt; de
+savoir à quel rythme on avance tend à modifier notre comportement sans effort apparent, de la même manière
+que lorsque quelqu&amp;#8217;un décide de perdre du poids ou de se mettre à&amp;nbsp;courir.&lt;/p&gt;
+&lt;p&gt;À partir de là tout est permis en termes d&amp;#8217;analyses ou de détails. J&amp;#8217;ai essayé de suivre toutes nos dépenses poste
+par poste à différents degrés de détails, mais c&amp;#8217;est chronophage et j&amp;#8217;ai fini par laisser tomber. Je me contente
+de mettre à jour ce fichier qui avec le temps permet de produire le graphique suivant (en rouge c&amp;#8217;est le patrimoine
+cible, en bleu le patrimoine réel)&amp;nbsp;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="système" src="/articles/independance-financiere/patrimoine.png"&gt;&lt;/p&gt;</content><category term="independance-financiere"></category><category term="indépendance financière"></category><category term="mode de vie"></category><category term="patrimoine"></category></entry><entry><title>L’indépendance financière</title><link href="/articles/independance-financiere/lindependance-financiere.html" rel="alternate"></link><published>2022-03-05T00:00:00+01:00</published><updated>2022-03-05T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-05:/articles/independance-financiere/lindependance-financiere.html</id><summary type="html">&lt;p&gt;L&amp;#8217;indépendance financière (&lt;span class="caps"&gt;IF&lt;/span&gt;) est la situation dans laquelle les revenus de son patrimoine couvrent la totalité de ses dépenses,
 c&amp;#8217;est-à-dire qu&amp;#8217;il n&amp;#8217;est pas nécessaire de &lt;a class="reference external" href="../mode-de-vie/le-travail.html"&gt;travailler&lt;/a&gt; pour financer son mode de&amp;nbsp;vie.&lt;/p&gt;
 &lt;p&gt;Elle se résume à une équation simple&amp;nbsp;:&lt;/p&gt;
 &lt;div class="math"&gt;
