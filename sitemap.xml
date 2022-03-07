@@ -4,112 +4,119 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://www.tradonomie.fr/</loc>
-<lastmod>2022-03-07T09:44:41-00:00</lastmod>
+<loc>/</loc>
+<lastmod>2022-03-07T13:57:40-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.tradonomie.fr/pages/faq.html</loc>
+<loc>/pages/faq.html</loc>
 <lastmod>2022-02-16T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.tradonomie.fr/articles/independance-financiere/outil-pour-suivre-levolution-de-son-patrimoine.html</loc>
+<loc>/articles/independance-financiere/independance-financiere-probabiliste.html</loc>
+<lastmod>2022-03-07T00:00:00+01:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/articles/independance-financiere/outil-pour-suivre-levolution-de-son-patrimoine.html</loc>
 <lastmod>2022-03-06T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.tradonomie.fr/articles/independance-financiere/lindependance-financiere.html</loc>
+<loc>/articles/independance-financiere/lindependance-financiere.html</loc>
 <lastmod>2022-03-05T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.tradonomie.fr/articles/fiscalite-101/inflation-le-pouvoir-dachat-et-limpot.html</loc>
+<loc>/articles/fiscalite-101/inflation-le-pouvoir-dachat-et-limpot.html</loc>
 <lastmod>2022-03-04T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.tradonomie.fr/articles/fiscalite-101/inflation-une-taxe-qui-ne-dit-pas-son-nom.html</loc>
+<loc>/articles/fiscalite-101/inflation-une-taxe-qui-ne-dit-pas-son-nom.html</loc>
 <lastmod>2022-03-04T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.tradonomie.fr/articles/mode-de-vie/autonomie-ou-capitalisme-plutot-les-deux.html</loc>
+<loc>/articles/mode-de-vie/autonomie-ou-capitalisme-plutot-les-deux.html</loc>
 <lastmod>2022-03-03T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.tradonomie.fr/articles/trading-101/la-transaction.html</loc>
+<loc>/articles/trading-101/la-transaction.html</loc>
 <lastmod>2022-03-02T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.tradonomie.fr/articles/independance-financiere/independance-financiere-101.html</loc>
+<loc>/articles/independance-financiere/independance-financiere-101.html</loc>
 <lastmod>2022-03-01T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.tradonomie.fr/articles/actifs-digitaux/la-guerre-russo-ukrainienne-un-catalyste-pro-cryptos.html</loc>
+<loc>/articles/actifs-digitaux/la-guerre-russo-ukrainienne-un-catalyste-pro-cryptos.html</loc>
 <lastmod>2022-03-01T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.tradonomie.fr/articles/mode-de-vie/le-travail.html</loc>
+<loc>/articles/mode-de-vie/le-travail.html</loc>
 <lastmod>2022-02-28T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.tradonomie.fr/articles/trading-101/le-trader.html</loc>
+<loc>/articles/trading-101/le-trader.html</loc>
 <lastmod>2022-02-27T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.tradonomie.fr/articles/fiscalite-101/fiscalite-101.html</loc>
+<loc>/articles/fiscalite-101/fiscalite-101.html</loc>
 <lastmod>2022-02-25T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.tradonomie.fr/articles/trading-101/trading-101.html</loc>
+<loc>/articles/trading-101/trading-101.html</loc>
 <lastmod>2022-02-25T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.tradonomie.fr/articles/mode-de-vie/le-temps.html</loc>
+<loc>/articles/mode-de-vie/le-temps.html</loc>
 <lastmod>2022-02-21T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://www.tradonomie.fr/articles/fiscalite-101/lisser-ses-revenus.html</loc>
+<loc>/articles/fiscalite-101/lisser-ses-revenus.html</loc>
 <lastmod>2022-02-15T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
