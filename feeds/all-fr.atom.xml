@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie</title><link href="/" rel="alternate"></link><link href="/feeds/all-fr.atom.xml" rel="self"></link><id>/</id><updated>2022-03-07T00:00:00+01:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>L’indépendance financière probabiliste</title><link href="/articles/independance-financiere/independance-financiere-probabiliste.html" rel="alternate"></link><published>2022-03-07T00:00:00+01:00</published><updated>2022-03-07T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-07:/articles/independance-financiere/independance-financiere-probabiliste.html</id><summary type="html">&lt;p&gt;L&amp;#8217;équation de l&amp;#8217;indépendance financière (&lt;span class="caps"&gt;IF&lt;/span&gt;) décrit la relation entre le ratio &lt;strong&gt;patrimoine / (dépenses annuelles)&lt;/strong&gt; et
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie</title><link href="/" rel="alternate"></link><link href="/feeds/all-fr.atom.xml" rel="self"></link><id>/</id><updated>2022-03-07T00:00:00+01:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>L’indépendance financière probabiliste</title><link href="/articles/independance-financiere/independance-financiere-probabiliste.html" rel="alternate"></link><published>2022-03-07T00:00:00+01:00</published><updated>2022-03-07T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-07:/articles/independance-financiere/independance-financiere-probabiliste.html</id><summary type="html">&lt;p&gt;L&amp;#8217;équation de &lt;a class="reference external" href="../independance-financiere/lindependance-financiere.html"&gt;l&amp;#8217;indépendance financière&lt;/a&gt; (&lt;span class="caps"&gt;IF&lt;/span&gt;) décrit la relation entre le ratio &lt;strong&gt;patrimoine / (dépenses annuelles)&lt;/strong&gt; et
 le rendement du patrimoine qui permet d&amp;#8217;atteindre l&amp;#8217;&lt;span class="caps"&gt;IF&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;Cette équation omet une propriété importante du monde réel : la volatilité des variables. Dans cet article on examine
-l&amp;#8217;impact qu&amp;#8217;a cette …&lt;/p&gt;</summary><content type="html">&lt;p&gt;L&amp;#8217;équation de l&amp;#8217;indépendance financière (&lt;span class="caps"&gt;IF&lt;/span&gt;) décrit la relation entre le ratio &lt;strong&gt;patrimoine / (dépenses annuelles)&lt;/strong&gt; et
+l&amp;#8217;impact qu&amp;#8217;a cette …&lt;/p&gt;</summary><content type="html">&lt;p&gt;L&amp;#8217;équation de &lt;a class="reference external" href="../independance-financiere/lindependance-financiere.html"&gt;l&amp;#8217;indépendance financière&lt;/a&gt; (&lt;span class="caps"&gt;IF&lt;/span&gt;) décrit la relation entre le ratio &lt;strong&gt;patrimoine / (dépenses annuelles)&lt;/strong&gt; et
 le rendement du patrimoine qui permet d&amp;#8217;atteindre l&amp;#8217;&lt;span class="caps"&gt;IF&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;Cette équation omet une propriété importante du monde réel : la volatilité des variables. Dans cet article on examine
 l&amp;#8217;impact qu&amp;#8217;a cette volatilité sur la probabilité d&amp;#8217;échec d&amp;#8217;un projet d&amp;#8217;&lt;span class="caps"&gt;IF&lt;/span&gt; à partir d&amp;#8217;une&amp;nbsp;simulation.&lt;/p&gt;
 &lt;div class="section" id="simulation"&gt;
 &lt;h2&gt;Simulation&lt;/h2&gt;
-&lt;p&gt;Chaque simulation commence en janvier 2022 avec un patrimoine de valeur 1 et s&amp;#8217;étale sur 40 ans. À la fin de chaque mois, le patrimoine du mois précédent
+&lt;p&gt;Chaque simulation commence avec un patrimoine de valeur 1 et s&amp;#8217;étale sur 40 ans. À la fin de chaque mois, le patrimoine du mois précédent
 est augmenté ou réduit d&amp;#8217;un rendement en % tiré d&amp;#8217;une distribution normale de moyenne et écart-type annualisés de 4 et 10% et on en soustrait le montant
 des dépenses mensuelles (4% / 12)&amp;nbsp;:&lt;/p&gt;
 &lt;div class="math"&gt;
@@ -109,8 +109,8 @@ Donc si la simulation 257 vaut zéro après 18 mois (disons qu&amp;#8217;elle n&
   &lt;/body&gt;
   
 &lt;/html&gt;&lt;hr class="docutils" /&gt;
-&lt;p&gt;Si les rendements du patrimoine étaient constants à 4%/an, la trajectoire du patrimoine serait une ligne horizontale sur ce&amp;nbsp;graphique.&lt;/p&gt;
-&lt;p&gt;Les 20 premières années, le taux d&amp;#8217;échec est très faible comme le montre le pourcentage cumulatif&amp;nbsp;d&amp;#8217;échecs.&lt;/p&gt;
+&lt;p&gt;Si les rendements du patrimoine étaient constants à 4%/an, la trajectoire du patrimoine serait une ligne horizontale sur ce graphique.
+Les 20 premières années, le taux d&amp;#8217;échec est très faible comme le montre le pourcentage cumulatif&amp;nbsp;d&amp;#8217;échecs.&lt;/p&gt;
 
 
 
