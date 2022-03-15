@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/theme/css/elegant.prod.9e9d5ce754.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="/theme/css/custom.css" media="screen">
+
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+
+        <meta name="author" content="Homo Tradicus" />
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="trading, trading-201, " />
+
+<meta property="og:title" content="Le programme de trading automatisé "/>
+<meta property="og:url" content="/articles/trading-201/le-programme-de-trading-automatise.html" />
+<meta property="og:description" content="En théorie¶ Un programme de trading automatisé (PTA) est un programme qui réplique le fonctionnement d’un trader et génère des trades de manière autonome. Un PTA présente plusieurs intérêts, entre autres : libère du temps (pas besoin d’être devant l’écran) trade sans émotions performance simulable sur des données …" />
+<meta property="og:site_name" content="Tradonomie" />
+<meta property="og:article:author" content="Homo Tradicus" />
+<meta property="og:article:published_time" content="2022-03-15T00:00:00+01:00" />
+<meta name="twitter:title" content="Le programme de trading automatisé ">
+<meta name="twitter:description" content="En théorie¶ Un programme de trading automatisé (PTA) est un programme qui réplique le fonctionnement d’un trader et génère des trades de manière autonome. Un PTA présente plusieurs intérêts, entre autres : libère du temps (pas besoin d’être devant l’écran) trade sans émotions performance simulable sur des données …">
+
+        <title>Le programme de trading automatisé  · Tradonomie
+</title>
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Tradonomie - Full Atom Feed" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J6G31BV7X6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J6G31BV7X6');
+</script>
+
+
+
+    </head>
+    <body>
+        <div id="content">
+            <div class="navbar navbar-static-top">
+                <div class="navbar-inner">
+                    <div class="container-fluid">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <a class="brand" href="/"><span class=site-name>Tradonomie</span></a>
+                        <div class="nav-collapse collapse">
+                            <ul class="nav pull-right top-menu">
+                                <li ><a href="/pages/faq.html"><span class="caps">FAQ</span></a></li>
+                                <li ><a href="/categories.html">Catégories</a></li>
+                                <li ><a href="/tags.html">Tags</a></li>
+                                <li ><a href="/archives.html">Articles</a></li>
+                                <li><form class="navbar-search" action="/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span1"></div>
+                    <div class="span10">
+<article itemscope>
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+        <h1>
+            <a href="/articles/trading-201/le-programme-de-trading-automatise.html">
+                Le programme de trading&nbsp;automatisé
+            </a>
+        </h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+            
+            <h2 id="en-theorie">En théorie<a class="headerlink" href="#en-theorie" title="Permanent link">&para;</a></h2>
+<p>Un programme de trading automatisé (<span class="caps">PTA</span>) est un programme qui réplique le fonctionnement d&#8217;un <a class="ampl" href="/articles/trading-101/le-trader.html">trader</a> et génère des trades de manière&nbsp;autonome. </p>
+<p>Un <span class="caps">PTA</span> présente plusieurs intérêts, entre autres&nbsp;:</p>
+<ul>
+<li>libère du temps (pas besoin d&#8217;être devant&nbsp;l&#8217;écran)</li>
+<li>trade sans&nbsp;émotions</li>
+<li>performance simulable sur des données&nbsp;historiques</li>
+</ul>
+<p>Mais également des risques&nbsp;: </p>
+<ul>
+<li>si quelque chose déconne (mauvaises données, coupure de courant), le programme n&#8217;a pas conscience du contexte dans lequel il évolue donc est susceptible de faire n&#8217;importe&nbsp;quoi</li>
+<li>bug en production (Knight Capital a perdu 440 millions <span class="caps">USD</span> en 45 minutes, c&#8217;est&nbsp;embêtant)</li>
+</ul>
+<p>Pour un trader indépendant (<span class="caps">TI</span>), l&#8217;attractivité d&#8217;un <span class="caps">PTA</span> est définie par le ratio suivant&nbsp;:</p>
+<div class="math">$$ \frac{(\frac{\text{rendement}}{\text{risque}})}{\text{temps}} $$</div>
+<p>Le temps comprend le temps investi en R&amp;D pour développer le <span class="caps">PTA</span> ainsi que le temps investi à maintenir et surveiller son exécution. Le temps investi est un coût d&#8217;opportunité : il est souvent plus intéressant d&#8217;investir son temps dans l&#8217;automatisation d&#8217;une stratégie de trading plutôt que de chercher à l&#8217;améliorer marginalement (à condition qu&#8217;elle soit de qualité acceptable évidemment). Le temps gagné par la suite peut être consacré à d&#8217;autres projets, comme d&#8217;autres <span class="caps">PTA</span>&#8230;</p>
+<h2 id="en-pratique">En pratique<a class="headerlink" href="#en-pratique" title="Permanent link">&para;</a></h2>
+<p>Voilà le fonctionnement général d&#8217;un <span class="caps">PTA</span> que j&#8217;ai co-développé et qui tourne 24h/24 en production depuis deux ans. Destiné au trading d&#8217;actifs digitaux, il est composé de quatre sous-programmes&nbsp;:</p>
+<ul>
+<li>le stratège : met à jour une base de données et exécute plusieurs stratégies de trading pour calculer les positions cibles à détenir dans chaque actif (par exemple 25% dans <span class="caps">BTC</span>, 5% dans <span class="caps">ETH</span>&#8230;)</li>
+<li>le trader : reçoit les positions cibles et exécute les ordres appropriés selon les positions du compte et la tactique d&#8217;exécution&nbsp;choisie</li>
+<li>le dashboard : affiche la performance du compte de trading en temps&nbsp;réel</li>
+<li>le bot Discord : envoie des informations sur le fonctionnement des programmes en temps&nbsp;réel</li>
+</ul>
+<p>Mon associé dans ce projet a de l&#8217;expérience en arbitrage d&#8217;actifs digitaux, donc il s&#8217;est chargé de développer et maintenir le programme d&#8217;exécution ainsi que le dashboard. De mon côté, j&#8217;ai développé l&#8217;infrastructure de R&amp;D (base de données, simulateur et modules de trading) ainsi que les stratégies en&nbsp;Python.</p>
+<p>Le stratège et le trader tournent en permanence, chacun sur un serveur différent, et communiquent entre eux via une <span class="caps">API</span>.
+Lorsqu&#8217;un problème survient, le bot nous en alerte sur un serveur Discord privé. En deux ans on a rencontré peu de problèmes, généralement&nbsp;:</p>
+<ul>
+<li>des données de marché non reçues (souvent le cas lors d&#8217;une maintenance sur&nbsp;Binance)</li>
+<li>de grosses variations de prix sur certains actifs (on vérifie manuellement que ce n&#8217;est pas une erreur dans ce&nbsp;cas)</li>
+<li>un problème de communication entre les deux&nbsp;serveurs</li>
+</ul>
+<p>Comme le bot Discord envoie régulièrement des messages, l&#8217;absence de message est aussi une indication que quelque chose ne va pas. C&#8217;est arrivé que le serveur du stratège manque d&#8217;espace de stockage (le genre de truc très con et évitable mais qui arrive en production) et par conséquent les programmes ne pouvaient plus être exécutés correctement. Dans ce cas il a fallu accéder au serveur, fixer le problème et relancer les programmes qui se resynchronisent&nbsp;automatiquement.</p>
+<p>Après deux ans de fonctionnement, je suis très satisfait de ce <span class="caps">PTA</span>. Sa performance réelle correspond aux attentes que j&#8217;en avais (bon ratio rendement annualisé / volatilité) et son fonctionnement est simple et peu coûteux en temps et en argent (moins de 10 <span class="caps">EUR</span>/mois pour les serveurs). Le dashboard est moche mais présente les informations nécessaires. Passer par Discord pour communiquer avec nos serveurs s&#8217;est avéré être un moyen simple, efficace et fiable depuis un ordi ou un téléphone sans avoir à développer une application. Voilà le code qui permet de créer un bot&nbsp;: </p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">discord</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+
+<span class="n">TOKEN</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&quot;PROD_DISCORD_BOT_TOKEN&quot;</span><span class="p">)</span>
+<span class="n">GUILD</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&quot;PROD_DISCORD_BOT_GUILD&quot;</span><span class="p">)</span>
+
+
+<span class="k">class</span> <span class="nc">Bot</span><span class="p">:</span>
+    <span class="nd">@classmethod</span>
+    <span class="k">def</span> <span class="nf">on_message</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">msg</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="n">msg</span><span class="o">.</span><span class="n">content</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">if</span> <span class="n">msg</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;.hello-bot&quot;</span><span class="p">):</span>
+            <span class="c1"># Toy example: type .hello-bot in Discord app and the bot will reply with:</span>
+            <span class="n">response</span> <span class="o">=</span> <span class="s2">&quot;bot says hello too&quot;</span>
+        <span class="k">if</span> <span class="n">msg</span> <span class="o">==</span> <span class="s1">&#39;raise-exception&#39;</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">discord</span><span class="o">.</span><span class="n">DiscordException</span>
+        <span class="k">return</span> <span class="n">response</span>
+
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">client</span> <span class="o">=</span> <span class="n">discord</span><span class="o">.</span><span class="n">Client</span><span class="p">()</span>
+
+    <span class="nd">@client</span><span class="o">.</span><span class="n">event</span>
+    <span class="k">async</span> <span class="k">def</span> <span class="nf">on_ready</span><span class="p">():</span>
+        <span class="k">for</span> <span class="n">guild</span> <span class="ow">in</span> <span class="n">client</span><span class="o">.</span><span class="n">guilds</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">guild</span><span class="o">.</span><span class="n">name</span> <span class="o">==</span> <span class="n">GUILD</span><span class="p">:</span>
+                <span class="k">break</span>
+
+    <span class="nd">@client</span><span class="o">.</span><span class="n">event</span>
+    <span class="k">async</span> <span class="k">def</span> <span class="nf">on_message</span><span class="p">(</span><span class="n">message</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">message</span><span class="o">.</span><span class="n">author</span> <span class="o">==</span> <span class="n">client</span><span class="o">.</span><span class="n">user</span><span class="p">:</span>
+            <span class="k">return</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="n">Bot</span><span class="o">.</span><span class="n">on_message</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
+        <span class="k">await</span> <span class="n">message</span><span class="o">.</span><span class="n">channel</span><span class="o">.</span><span class="n">send</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+
+    <span class="n">client</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">TOKEN</span><span class="p">)</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</code></pre></div>
+</td></tr></table>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+
+
+             
+ 
+            
+            
+            
+
+
+
+
+
+
+
+            <hr/>
+<section>
+    <h2>Articles similaires</h2>
+<ul class="related-posts-list">
+<li><a href="/articles/trading-101/trading-101.html" title="Trading 101">Trading 101</a></li>
+<li><a href="/articles/trading-101/le-trader.html" title="Le trader">Le trader</a></li>
+<li><a href="/articles/trading-101/la-transaction.html" title="La transaction">La transaction</a></li>
+</ul>
+<hr />
+</section>
+            <aside>
+            <nav>
+            <ul class="articles-timeline">
+                <li class="previous-article">« <a href="/articles/independance-financiere/independance-financiere-probabiliste.html" title="Previous: L’indépendance financière probabiliste">L’indépendance financière probabiliste</a></li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section id="article-sidebar" class="span2">
+            <h4>Publié le</h4>
+            <time itemprop="dateCreated" datetime="2022-03-15T00:00:00+01:00">15/03/2022</time>
+        <h4>Trading 201</h4>
+    <ul class="multi-parts-list">
+            <li  class="active-part">
+            Partie 1: Le programme de trading&nbsp;automatisé
+            </li>
+    </ul>
+            <h4>Catégories</h4>
+            <a class="category-link" href="/categories.html#trading-201-ref">trading-201</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="/tags.html#trading-ref">trading
+                    <span class="superscript">4</span>
+</a></li>
+            </ul>
+            
+
+
+
+
+
+            
+
+
+
+
+
+        </section>
+</div>
+</article>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>                    </div>
+                    <div class="span1"></div>
+                </div>
+            </div>
+        </div>
+<footer>
+
+    <div>
+        <span class="site-name">Tradonomie</span> - Chroniques d'un trader autonomiste
+    </div>
+
+
+
+    <div id="fpowered">
+        Produit avec : <a href="http://getpelican.com/" title="Pelican Home Page" target="_blank" rel="nofollow noopener noreferrer">Pelican</a>
+        Thème : <a href="https://elegant.oncrashreboot.com/" title="Theme Elegant Home Page" target="_blank" rel="nofollow noopener noreferrer">Elegant</a>
+    </div>
+</footer>            <script src="//code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script src="/theme/js/elegant.prod.9e9d5ce754.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    <script>
+    (function () {
+        if (window.location.hash.match(/^#comment-\d+$/)) {
+            $('#comment_thread').collapse('show');
+        }
+    })();
+    window.onhashchange=function(){
+        if (window.location.hash.match(/^#comment-\d+$/))
+            window.location.reload(true);
+    }
+    $('#comment_thread').on('shown', function () {
+        var link = document.getElementById('comment-accordion-toggle');
+        var old_innerHTML = link.innerHTML;
+        $(link).fadeOut(200, function() {
+            $(this).text('Click here to hide comments').fadeIn(200);
+        });
+        $('#comment_thread').on('hidden', function () {
+            $(link).fadeOut(200, function() {
+                $(this).text(old_innerHTML).fadeIn(200);
+            });
+        })
+    })
+</script>
+
+    </body>
+    <!-- Theme: Elegant built for Pelican
+        License : MIT -->
+</html>

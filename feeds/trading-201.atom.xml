@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie - trading-201</title><link href="/" rel="alternate"></link><link href="/feeds/trading-201.atom.xml" rel="self"></link><id>/</id><updated>2022-03-15T00:00:00+01:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>Le programme de trading automatisé</title><link href="/articles/trading-201/le-programme-de-trading-automatise.html" rel="alternate"></link><published>2022-03-15T00:00:00+01:00</published><updated>2022-03-15T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-15:/articles/trading-201/le-programme-de-trading-automatise.html</id><summary type="html">&lt;h2 id="en-theorie"&gt;En théorie&lt;a class="headerlink" href="#en-theorie" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Un programme de trading automatisé (&lt;span class="caps"&gt;PTA&lt;/span&gt;) est un programme qui réplique le fonctionnement d&amp;#8217;un &lt;a class="ampl" href="/articles/trading-101/le-trader.html"&gt;trader&lt;/a&gt; et génère des trades de manière&amp;nbsp;autonome. &lt;/p&gt;
+&lt;p&gt;Un &lt;span class="caps"&gt;PTA&lt;/span&gt; présente plusieurs intérêts, entre autres&amp;nbsp;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;libère du temps (pas besoin d&amp;#8217;être devant&amp;nbsp;l&amp;#8217;écran)&lt;/li&gt;
+&lt;li&gt;trade sans&amp;nbsp;émotions&lt;/li&gt;
+&lt;li&gt;performance simulable sur des données …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="en-theorie"&gt;En théorie&lt;a class="headerlink" href="#en-theorie" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Un programme de trading automatisé (&lt;span class="caps"&gt;PTA&lt;/span&gt;) est un programme qui réplique le fonctionnement d&amp;#8217;un &lt;a class="ampl" href="/articles/trading-101/le-trader.html"&gt;trader&lt;/a&gt; et génère des trades de manière&amp;nbsp;autonome. &lt;/p&gt;
+&lt;p&gt;Un &lt;span class="caps"&gt;PTA&lt;/span&gt; présente plusieurs intérêts, entre autres&amp;nbsp;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;libère du temps (pas besoin d&amp;#8217;être devant&amp;nbsp;l&amp;#8217;écran)&lt;/li&gt;
+&lt;li&gt;trade sans&amp;nbsp;émotions&lt;/li&gt;
+&lt;li&gt;performance simulable sur des données&amp;nbsp;historiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mais également des risques&amp;nbsp;: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;si quelque chose déconne (mauvaises données, coupure de courant), le programme n&amp;#8217;a pas conscience du contexte dans lequel il évolue donc est susceptible de faire n&amp;#8217;importe&amp;nbsp;quoi&lt;/li&gt;
+&lt;li&gt;bug en production (Knight Capital a perdu 440 millions &lt;span class="caps"&gt;USD&lt;/span&gt; en 45 minutes, c&amp;#8217;est&amp;nbsp;embêtant)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour un trader indépendant (&lt;span class="caps"&gt;TI&lt;/span&gt;), l&amp;#8217;attractivité d&amp;#8217;un &lt;span class="caps"&gt;PTA&lt;/span&gt; est définie par le ratio suivant&amp;nbsp;:&lt;/p&gt;
+&lt;div class="math"&gt;$$ \frac{(\frac{\text{rendement}}{\text{risque}})}{\text{temps}} $$&lt;/div&gt;
+&lt;p&gt;Le temps comprend le temps investi en R&amp;amp;D pour développer le &lt;span class="caps"&gt;PTA&lt;/span&gt; ainsi que le temps investi à maintenir et surveiller son exécution. Le temps investi est un coût d&amp;#8217;opportunité : il est souvent plus intéressant d&amp;#8217;investir son temps dans l&amp;#8217;automatisation d&amp;#8217;une stratégie de trading plutôt que de chercher à l&amp;#8217;améliorer marginalement (à condition qu&amp;#8217;elle soit de qualité acceptable évidemment). Le temps gagné par la suite peut être consacré à d&amp;#8217;autres projets, comme d&amp;#8217;autres &lt;span class="caps"&gt;PTA&lt;/span&gt;&amp;#8230;&lt;/p&gt;
+&lt;h2 id="en-pratique"&gt;En pratique&lt;a class="headerlink" href="#en-pratique" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Voilà le fonctionnement général d&amp;#8217;un &lt;span class="caps"&gt;PTA&lt;/span&gt; que j&amp;#8217;ai co-développé et qui tourne 24h/24 en production depuis deux ans. Destiné au trading d&amp;#8217;actifs digitaux, il est composé de quatre sous-programmes&amp;nbsp;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;le stratège : met à jour une base de données et exécute plusieurs stratégies de trading pour calculer les positions cibles à détenir dans chaque actif (par exemple 25% dans &lt;span class="caps"&gt;BTC&lt;/span&gt;, 5% dans &lt;span class="caps"&gt;ETH&lt;/span&gt;&amp;#8230;)&lt;/li&gt;
+&lt;li&gt;le trader : reçoit les positions cibles et exécute les ordres appropriés selon les positions du compte et la tactique d&amp;#8217;exécution&amp;nbsp;choisie&lt;/li&gt;
+&lt;li&gt;le dashboard : affiche la performance du compte de trading en temps&amp;nbsp;réel&lt;/li&gt;
+&lt;li&gt;le bot Discord : envoie des informations sur le fonctionnement des programmes en temps&amp;nbsp;réel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mon associé dans ce projet a de l&amp;#8217;expérience en arbitrage d&amp;#8217;actifs digitaux, donc il s&amp;#8217;est chargé de développer et maintenir le programme d&amp;#8217;exécution ainsi que le dashboard. De mon côté, j&amp;#8217;ai développé l&amp;#8217;infrastructure de R&amp;amp;D (base de données, simulateur et modules de trading) ainsi que les stratégies en&amp;nbsp;Python.&lt;/p&gt;
+&lt;p&gt;Le stratège et le trader tournent en permanence, chacun sur un serveur différent, et communiquent entre eux via une &lt;span class="caps"&gt;API&lt;/span&gt;.
+Lorsqu&amp;#8217;un problème survient, le bot nous en alerte sur un serveur Discord privé. En deux ans on a rencontré peu de problèmes, généralement&amp;nbsp;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;des données de marché non reçues (souvent le cas lors d&amp;#8217;une maintenance sur&amp;nbsp;Binance)&lt;/li&gt;
+&lt;li&gt;de grosses variations de prix sur certains actifs (on vérifie manuellement que ce n&amp;#8217;est pas une erreur dans ce&amp;nbsp;cas)&lt;/li&gt;
+&lt;li&gt;un problème de communication entre les deux&amp;nbsp;serveurs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Comme le bot Discord envoie régulièrement des messages, l&amp;#8217;absence de message est aussi une indication que quelque chose ne va pas. C&amp;#8217;est arrivé que le serveur du stratège manque d&amp;#8217;espace de stockage (le genre de truc très con et évitable mais qui arrive en production) et par conséquent les programmes ne pouvaient plus être exécutés correctement. Dans ce cas il a fallu accéder au serveur, fixer le problème et relancer les programmes qui se resynchronisent&amp;nbsp;automatiquement.&lt;/p&gt;
+&lt;p&gt;Après deux ans de fonctionnement, je suis très satisfait de ce &lt;span class="caps"&gt;PTA&lt;/span&gt;. Sa performance réelle correspond aux attentes que j&amp;#8217;en avais (bon ratio rendement annualisé / volatilité) et son fonctionnement est simple et peu coûteux en temps et en argent (moins de 10 &lt;span class="caps"&gt;EUR&lt;/span&gt;/mois pour les serveurs). Le dashboard est moche mais présente les informations nécessaires. Passer par Discord pour communiquer avec nos serveurs s&amp;#8217;est avéré être un moyen simple, efficace et fiable depuis un ordi ou un téléphone sans avoir à développer une application. Voilà le code qui permet de créer un bot&amp;nbsp;: &lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;&lt;span class="normal"&gt; 1&lt;/span&gt;
+&lt;span class="normal"&gt; 2&lt;/span&gt;
+&lt;span class="normal"&gt; 3&lt;/span&gt;
+&lt;span class="normal"&gt; 4&lt;/span&gt;
+&lt;span class="normal"&gt; 5&lt;/span&gt;
+&lt;span class="normal"&gt; 6&lt;/span&gt;
+&lt;span class="normal"&gt; 7&lt;/span&gt;
+&lt;span class="normal"&gt; 8&lt;/span&gt;
+&lt;span class="normal"&gt; 9&lt;/span&gt;
+&lt;span class="normal"&gt;10&lt;/span&gt;
+&lt;span class="normal"&gt;11&lt;/span&gt;
+&lt;span class="normal"&gt;12&lt;/span&gt;
+&lt;span class="normal"&gt;13&lt;/span&gt;
+&lt;span class="normal"&gt;14&lt;/span&gt;
+&lt;span class="normal"&gt;15&lt;/span&gt;
+&lt;span class="normal"&gt;16&lt;/span&gt;
+&lt;span class="normal"&gt;17&lt;/span&gt;
+&lt;span class="normal"&gt;18&lt;/span&gt;
+&lt;span class="normal"&gt;19&lt;/span&gt;
+&lt;span class="normal"&gt;20&lt;/span&gt;
+&lt;span class="normal"&gt;21&lt;/span&gt;
+&lt;span class="normal"&gt;22&lt;/span&gt;
+&lt;span class="normal"&gt;23&lt;/span&gt;
+&lt;span class="normal"&gt;24&lt;/span&gt;
+&lt;span class="normal"&gt;25&lt;/span&gt;
+&lt;span class="normal"&gt;26&lt;/span&gt;
+&lt;span class="normal"&gt;27&lt;/span&gt;
+&lt;span class="normal"&gt;28&lt;/span&gt;
+&lt;span class="normal"&gt;29&lt;/span&gt;
+&lt;span class="normal"&gt;30&lt;/span&gt;
+&lt;span class="normal"&gt;31&lt;/span&gt;
+&lt;span class="normal"&gt;32&lt;/span&gt;
+&lt;span class="normal"&gt;33&lt;/span&gt;
+&lt;span class="normal"&gt;34&lt;/span&gt;
+&lt;span class="normal"&gt;35&lt;/span&gt;
+&lt;span class="normal"&gt;36&lt;/span&gt;
+&lt;span class="normal"&gt;37&lt;/span&gt;
+&lt;span class="normal"&gt;38&lt;/span&gt;
+&lt;span class="normal"&gt;39&lt;/span&gt;
+&lt;span class="normal"&gt;40&lt;/span&gt;
+&lt;span class="normal"&gt;41&lt;/span&gt;
+&lt;span class="normal"&gt;42&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;discord&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;os&lt;/span&gt;
+
+
+&lt;span class="n"&gt;TOKEN&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;getenv&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;PROD_DISCORD_BOT_TOKEN&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;GUILD&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;getenv&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;PROD_DISCORD_BOT_GUILD&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Bot&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="nd"&gt;@classmethod&lt;/span&gt;
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;on_message&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;cls&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;msg&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;str&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;str&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;msg&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;msg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;lower&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+        &lt;span class="n"&gt;response&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;None&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;msg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;startswith&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;.hello-bot&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+            &lt;span class="c1"&gt;# Toy example: type .hello-bot in Discord app and the bot will reply with:&lt;/span&gt;
+            &lt;span class="n"&gt;response&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;bot says hello too&amp;quot;&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;msg&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;raise-exception&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;raise&lt;/span&gt; &lt;span class="n"&gt;discord&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;DiscordException&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;response&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="n"&gt;client&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;discord&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Client&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+
+    &lt;span class="nd"&gt;@client&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;event&lt;/span&gt;
+    &lt;span class="k"&gt;async&lt;/span&gt; &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;on_ready&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;guild&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;client&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;guilds&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;guild&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;GUILD&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+                &lt;span class="k"&gt;break&lt;/span&gt;
+
+    &lt;span class="nd"&gt;@client&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;event&lt;/span&gt;
+    &lt;span class="k"&gt;async&lt;/span&gt; &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;on_message&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;author&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;client&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="k"&gt;return&lt;/span&gt;
+        &lt;span class="n"&gt;response&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Bot&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;on_message&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="k"&gt;await&lt;/span&gt; &lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;channel&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;send&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;response&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+    &lt;span class="n"&gt;client&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;run&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;TOKEN&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="vm"&gt;__name__&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;__main__&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content><category term="trading-201"></category><category term="trading"></category></entry></feed>
