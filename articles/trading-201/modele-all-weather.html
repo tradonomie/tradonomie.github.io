@@ -19,12 +19,12 @@
 
 <meta property="og:title" content="Le modèle All Weather "/>
 <meta property="og:url" content="/articles/trading-201/modele-all-weather.html" />
-<meta property="og:description" content="All Weather est un modèle d’allocation tactique dont l’objectif est de produire un portefeuille passif et équilibré, capable de traverser différents régimes économiques (choc inflationniste, croissance économique, crise financière…) sans se faire surprendre et avec une relative stabilité. Il a été créé par Ray Dalio, le fondateur de …" />
+<meta property="og:description" content="All Weather est un modèle d’allocation tactique dont l’objectif est de produire un portefeuille passif et équilibré, capable de traverser différents régimes économiques (choc inflationniste, croissance économique, crise financière…) sans se faire surprendre et avec une relative stabilité. Créé par Ray Dalio de Bridgewater Associates, une implémentation est …" />
 <meta property="og:site_name" content="Tradonomie" />
 <meta property="og:article:author" content="Homo Tradicus" />
 <meta property="og:article:published_time" content="2022-03-18T00:00:00+01:00" />
 <meta name="twitter:title" content="Le modèle All Weather ">
-<meta name="twitter:description" content="All Weather est un modèle d’allocation tactique dont l’objectif est de produire un portefeuille passif et équilibré, capable de traverser différents régimes économiques (choc inflationniste, croissance économique, crise financière…) sans se faire surprendre et avec une relative stabilité. Il a été créé par Ray Dalio, le fondateur de …">
+<meta name="twitter:description" content="All Weather est un modèle d’allocation tactique dont l’objectif est de produire un portefeuille passif et équilibré, capable de traverser différents régimes économiques (choc inflationniste, croissance économique, crise financière…) sans se faire surprendre et avec une relative stabilité. Créé par Ray Dalio de Bridgewater Associates, une implémentation est …">
 
         <title>Le modèle All Weather  · Tradonomie
 </title>
@@ -83,8 +83,8 @@
         <div class="span8 offset2 article-content">
             
             <p><strong>All Weather</strong> est un modèle d&#8217;allocation tactique dont l&#8217;objectif est de produire un portefeuille passif et équilibré, capable de traverser différents régimes économiques (choc inflationniste, croissance économique, crise financière&#8230;) sans se faire surprendre et avec une relative&nbsp;stabilité.</p>
-<p>Il a été créé par Ray Dalio, le fondateur de Bridgewater Associates, et une implémentation est décrite dans le livre <em>Money: Master the Game</em> de Tony&nbsp;Robbins.</p>
-<p>Il consiste à répartir son capital de manière statique dans 5 types de produits&nbsp;:</p>
+<p>Créé par Ray Dalio de Bridgewater Associates, une implémentation est présentée dans le livre <em>Money: Master the Game</em> de Tony Robbins publié en 2014.
+Elle consiste en une répartition statique du capital entre 5 produits&nbsp;:</p>
 <ul>
 <li>30% dans des actions (<span class="caps">SPY</span>)</li>
 <li>40% dans des obligations de long terme (<span class="caps">TLT</span>)</li>
@@ -92,7 +92,7 @@
 <li>7.5% dans de l&#8217;or (<span class="caps">GLD</span>)</li>
 <li>7.5% dans des matières premières (<span class="caps">DBC</span>)</li>
 </ul>
-<p>Sans trop rentrer dans les détails techniques, il faut savoir que l&#8217;allocation plus grande aux obligations qu&#8217;aux actions et matières premières/or s&#8217;explique par une volatilité naturellement plus faible des obligations. De 2007 à 2022 on observe les données suivantes&nbsp;:</p>
+<p>Sans trop rentrer dans des détails techniques, il faut savoir que la surpondération des obligations s&#8217;explique par leur volatilité naturelle beaucoup plus basse que celle des autres produits. À partir de données de 2007 à 2022 on observe obtient&nbsp;:</p>
 <table>
 <thead>
 <tr>
@@ -143,12 +143,13 @@
 </table>
 <p>La volatilité pondérée est la volatilité naturelle fois l&#8217;allocation. La volatilité relative est la volatilité pondérée divisée par la somme des volatilités pondérées. Cette somme est d&#8217;environ 12% donc 4.8% de volatilité pondérée pour les actions représente environ 40% de volatilité relative. 
 En termes de volatilités relatives, les actions font donc jeu égal avec les obligations autour de 40%, les 20% restants sont pour l&#8217;or et les matières premières (pour les puristes : je sais que je ne tiens pas compte des corrélations, pas taper pas taper&nbsp;!).</p>
-<p>Le prix à payer pour cette relative stabilité ? Renoncer d&#8217;avance à occuper la première place quelque soit l&#8217;environnement économique : des portefeuilles plus adaptés à chaque environnement seront plus performants. Si ce portefeuille était un joueur de tennis, son objectif serait de se maintenir dans le top 20 mondial et d&#8217;atteindre les 1/4 de finale de tous les tournois du grand chelem plutôt qu&#8217;en gagner un des&nbsp;quatre.</p>
+<p>Le prix à payer pour cette relative stabilité ? Renoncer d&#8217;avance à occuper la première place quelque soit l&#8217;environnement économique : les portefeuilles plus adaptés à chaque environnement seront plus performants, alors que ce modèle se protège contre le risque de se tromper d&#8217;environnement. Si ce portefeuille était un joueur de tennis, son objectif serait de se maintenir dans le top 20 mondial et d&#8217;atteindre les 1/4 de finale de tous les tournois du grand chelem plutôt que chercher à en gagner un des&nbsp;quatre.</p>
 <p>C&#8217;est un modèle très intéressant pour un tradonomiste pour plusieurs raisons&nbsp;:</p>
 <ul>
 <li>il est simple à&nbsp;comprendre</li>
 <li>il est facile à exécuter (ne demande pas de temps, rebalancer le portefeuille une à deux fois par an&nbsp;suffit)</li>
-<li>sa performance est relativement stable (7%/an avec un maximum drawdown de 15% sur les dernières 15 années pour lesquelles j&#8217;ai des&nbsp;données)</li>
+<li>sa performance est relativement stable et acceptable (7%/an avec un maximum drawdown de 15% sur les dernières 15&nbsp;années)</li>
+<li>le livre est sorti en 2014, la performance annuelle moyenne est la même avant 2014&nbsp;qu&#8217;après</li>
 <li>peu de coûts et d&#8217;opportunités de faire de la&nbsp;merde</li>
 </ul>
 <p>L&#8217;implémentation exacte dépend de son contexte. Les investisseurs européens comme moi n&#8217;ont plus accès aux fonds américains comme <span class="caps">SPY</span> <span class="amp">&amp;</span> co pourtant moins chers et donc plus performants que les fonds européens (merci l&#8217;<span class="caps">UE</span> de nous obliger par la loi à enrichir des monopoles qui ne survivraient pas dans un marché&nbsp;libre).</p>

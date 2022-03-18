@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie - Homo Tradicus</title><link href="/" rel="alternate"></link><link href="/feeds/homo-tradicus.atom.xml" rel="self"></link><id>/</id><updated>2022-03-18T00:00:00+01:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>Le modèle All Weather</title><link href="/articles/trading-201/modele-all-weather.html" rel="alternate"></link><published>2022-03-18T00:00:00+01:00</published><updated>2022-03-18T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-18:/articles/trading-201/modele-all-weather.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;All Weather&lt;/strong&gt; est un modèle d&amp;#8217;allocation tactique dont l&amp;#8217;objectif est de produire un portefeuille passif et équilibré, capable de traverser différents régimes économiques (choc inflationniste, croissance économique, crise financière&amp;#8230;) sans se faire surprendre et avec une relative&amp;nbsp;stabilité.&lt;/p&gt;
-&lt;p&gt;Il a été créé par Ray Dalio, le fondateur de …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;All Weather&lt;/strong&gt; est un modèle d&amp;#8217;allocation tactique dont l&amp;#8217;objectif est de produire un portefeuille passif et équilibré, capable de traverser différents régimes économiques (choc inflationniste, croissance économique, crise financière&amp;#8230;) sans se faire surprendre et avec une relative&amp;nbsp;stabilité.&lt;/p&gt;
-&lt;p&gt;Il a été créé par Ray Dalio, le fondateur de Bridgewater Associates, et une implémentation est décrite dans le livre &lt;em&gt;Money: Master the Game&lt;/em&gt; de Tony&amp;nbsp;Robbins.&lt;/p&gt;
-&lt;p&gt;Il consiste à répartir son capital de manière statique dans 5 types de produits&amp;nbsp;:&lt;/p&gt;
+&lt;p&gt;Créé par Ray Dalio de Bridgewater Associates, une implémentation est …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;All Weather&lt;/strong&gt; est un modèle d&amp;#8217;allocation tactique dont l&amp;#8217;objectif est de produire un portefeuille passif et équilibré, capable de traverser différents régimes économiques (choc inflationniste, croissance économique, crise financière&amp;#8230;) sans se faire surprendre et avec une relative&amp;nbsp;stabilité.&lt;/p&gt;
+&lt;p&gt;Créé par Ray Dalio de Bridgewater Associates, une implémentation est présentée dans le livre &lt;em&gt;Money: Master the Game&lt;/em&gt; de Tony Robbins publié en 2014.
+Elle consiste en une répartition statique du capital entre 5 produits&amp;nbsp;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;30% dans des actions (&lt;span class="caps"&gt;SPY&lt;/span&gt;)&lt;/li&gt;
 &lt;li&gt;40% dans des obligations de long terme (&lt;span class="caps"&gt;TLT&lt;/span&gt;)&lt;/li&gt;
@@ -10,7 +10,7 @@
 &lt;li&gt;7.5% dans de l&amp;#8217;or (&lt;span class="caps"&gt;GLD&lt;/span&gt;)&lt;/li&gt;
 &lt;li&gt;7.5% dans des matières premières (&lt;span class="caps"&gt;DBC&lt;/span&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Sans trop rentrer dans les détails techniques, il faut savoir que l&amp;#8217;allocation plus grande aux obligations qu&amp;#8217;aux actions et matières premières/or s&amp;#8217;explique par une volatilité naturellement plus faible des obligations. De 2007 à 2022 on observe les données suivantes&amp;nbsp;:&lt;/p&gt;
+&lt;p&gt;Sans trop rentrer dans des détails techniques, il faut savoir que la surpondération des obligations s&amp;#8217;explique par leur volatilité naturelle beaucoup plus basse que celle des autres produits. À partir de données de 2007 à 2022 on observe obtient&amp;nbsp;:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -61,12 +61,13 @@
 &lt;/table&gt;
 &lt;p&gt;La volatilité pondérée est la volatilité naturelle fois l&amp;#8217;allocation. La volatilité relative est la volatilité pondérée divisée par la somme des volatilités pondérées. Cette somme est d&amp;#8217;environ 12% donc 4.8% de volatilité pondérée pour les actions représente environ 40% de volatilité relative. 
 En termes de volatilités relatives, les actions font donc jeu égal avec les obligations autour de 40%, les 20% restants sont pour l&amp;#8217;or et les matières premières (pour les puristes : je sais que je ne tiens pas compte des corrélations, pas taper pas taper&amp;nbsp;!).&lt;/p&gt;
-&lt;p&gt;Le prix à payer pour cette relative stabilité ? Renoncer d&amp;#8217;avance à occuper la première place quelque soit l&amp;#8217;environnement économique : des portefeuilles plus adaptés à chaque environnement seront plus performants. Si ce portefeuille était un joueur de tennis, son objectif serait de se maintenir dans le top 20 mondial et d&amp;#8217;atteindre les 1/4 de finale de tous les tournois du grand chelem plutôt qu&amp;#8217;en gagner un des&amp;nbsp;quatre.&lt;/p&gt;
+&lt;p&gt;Le prix à payer pour cette relative stabilité ? Renoncer d&amp;#8217;avance à occuper la première place quelque soit l&amp;#8217;environnement économique : les portefeuilles plus adaptés à chaque environnement seront plus performants, alors que ce modèle se protège contre le risque de se tromper d&amp;#8217;environnement. Si ce portefeuille était un joueur de tennis, son objectif serait de se maintenir dans le top 20 mondial et d&amp;#8217;atteindre les 1/4 de finale de tous les tournois du grand chelem plutôt que chercher à en gagner un des&amp;nbsp;quatre.&lt;/p&gt;
 &lt;p&gt;C&amp;#8217;est un modèle très intéressant pour un tradonomiste pour plusieurs raisons&amp;nbsp;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;il est simple à&amp;nbsp;comprendre&lt;/li&gt;
 &lt;li&gt;il est facile à exécuter (ne demande pas de temps, rebalancer le portefeuille une à deux fois par an&amp;nbsp;suffit)&lt;/li&gt;
-&lt;li&gt;sa performance est relativement stable (7%/an avec un maximum drawdown de 15% sur les dernières 15 années pour lesquelles j&amp;#8217;ai des&amp;nbsp;données)&lt;/li&gt;
+&lt;li&gt;sa performance est relativement stable et acceptable (7%/an avec un maximum drawdown de 15% sur les dernières 15&amp;nbsp;années)&lt;/li&gt;
+&lt;li&gt;le livre est sorti en 2014, la performance annuelle moyenne est la même avant 2014&amp;nbsp;qu&amp;#8217;après&lt;/li&gt;
 &lt;li&gt;peu de coûts et d&amp;#8217;opportunités de faire de la&amp;nbsp;merde&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;L&amp;#8217;implémentation exacte dépend de son contexte. Les investisseurs européens comme moi n&amp;#8217;ont plus accès aux fonds américains comme &lt;span class="caps"&gt;SPY&lt;/span&gt; &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; co pourtant moins chers et donc plus performants que les fonds européens (merci l&amp;#8217;&lt;span class="caps"&gt;UE&lt;/span&gt; de nous obliger par la loi à enrichir des monopoles qui ne survivraient pas dans un marché&amp;nbsp;libre).&lt;/p&gt;
