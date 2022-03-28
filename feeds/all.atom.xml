@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2022-03-20T00:00:00+01:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>Simulation brute du modèle All Weather</title><link href="/articles/trading-201/simulation-brute-du-modele-all-weather.html" rel="alternate"></link><published>2022-03-20T00:00:00+01:00</published><updated>2022-03-20T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-20:/articles/trading-201/simulation-brute-du-modele-all-weather.html</id><summary type="html">&lt;p&gt;On simule le &lt;a class="reference external" href="../trading-201/modele-all-weather.html"&gt;modèle All Weather&lt;/a&gt; dans le contexte suivant&amp;nbsp;:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tradonomie</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2022-03-28T00:00:00+02:00</updated><subtitle>Chroniques d'un trader autonomiste</subtitle><entry><title>Tactique fiscale pour les actifs digitaux en France</title><link href="/articles/fiscalite-101/tactique-fiscale-pour-les-actifs-digitaux-en-france.html" rel="alternate"></link><published>2022-03-28T00:00:00+02:00</published><updated>2022-03-28T00:00:00+02:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-28:/articles/fiscalite-101/tactique-fiscale-pour-les-actifs-digitaux-en-france.html</id><summary type="html">&lt;p&gt;En France les plus-values réalisées (aussi appelées gains en capital réalisés) sont imposées à hauteur de&amp;nbsp;30%. &lt;/p&gt;
+&lt;h1 id="1-le-cadre-fiscal"&gt;1. Le cadre fiscal&lt;a class="headerlink" href="#1-le-cadre-fiscal" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;D&amp;#8217;après la loi &lt;span class="caps"&gt;PACTE&lt;/span&gt;&amp;nbsp;: &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Toute forme d&amp;#8217;échange d&amp;#8217;actifs numériques contre une devise monétaire d&amp;#8217;État ou l&amp;#8217;utilisation d&amp;#8217;un actif numérique pour payer un bien …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;En France les plus-values réalisées (aussi appelées gains en capital réalisés) sont imposées à hauteur de&amp;nbsp;30%. &lt;/p&gt;
+&lt;h1 id="1-le-cadre-fiscal"&gt;1. Le cadre fiscal&lt;a class="headerlink" href="#1-le-cadre-fiscal" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;D&amp;#8217;après la loi &lt;span class="caps"&gt;PACTE&lt;/span&gt;&amp;nbsp;: &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Toute forme d&amp;#8217;échange d&amp;#8217;actifs numériques contre une devise monétaire d&amp;#8217;État ou l&amp;#8217;utilisation d&amp;#8217;un actif numérique pour payer un bien ou un service réel est considérée comme une transaction&amp;nbsp;imposable.&amp;#8221;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Ce qu&amp;#8217;il faut comprendre de ce passage, c&amp;#8217;est qu&amp;#8217;une fois qu&amp;#8217;on détient des actifs digitaux comme Bitcoin (&lt;span class="caps"&gt;BTC&lt;/span&gt;) par exemple, si on l&amp;#8217;échange
+contre un autre actif digital tel que &lt;span class="caps"&gt;ETH&lt;/span&gt;, &lt;span class="caps"&gt;ADA&lt;/span&gt; ou encore &lt;span class="caps"&gt;USDT&lt;/span&gt; (le dollar digital), alors cette transaction n&amp;#8217;est pas&amp;nbsp;imposable.&lt;/p&gt;
+&lt;p&gt;Échanger des &lt;span class="caps"&gt;BTC&lt;/span&gt; contre des &lt;span class="caps"&gt;EUR&lt;/span&gt; ou des &lt;span class="caps"&gt;USD&lt;/span&gt;, càd des devises officielles, est&amp;nbsp;imposable.&lt;/p&gt;
+&lt;p&gt;Acheter un bouquin avec des &lt;span class="caps"&gt;BTC&lt;/span&gt; revient pour le fisc à effectuer une double transaction&amp;nbsp;: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;on échange les &lt;span class="caps"&gt;BTC&lt;/span&gt; contre des &lt;span class="caps"&gt;EUR&lt;/span&gt; au moment de la transaction (c&amp;#8217;est la partie&amp;nbsp;imposable)&lt;/li&gt;
+&lt;li&gt;on achète le bouquin en &lt;span class="caps"&gt;EUR&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="2-tactique-fiscale"&gt;2. Tactique fiscale&lt;a class="headerlink" href="#2-tactique-fiscale" title="Permanent link"&gt;&amp;para;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Compte tenu de ce que dit la loi &lt;span class="caps"&gt;PACTE&lt;/span&gt;, on a intérêt à maximiser les pertes imposables et minimiser les gains&amp;nbsp;imposables.&lt;/p&gt;
+&lt;p&gt;Par exemple, si j&amp;#8217;achète pour 10k &lt;span class="caps"&gt;EUR&lt;/span&gt; de &lt;span class="caps"&gt;BTC&lt;/span&gt; et que ma position baisse à 7k &lt;span class="caps"&gt;EUR&lt;/span&gt;, il est intéressant de vendre mes &lt;span class="caps"&gt;BTC&lt;/span&gt; contre des &lt;span class="caps"&gt;EUR&lt;/span&gt; pour ensuite en racheter car&amp;nbsp;: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;je réalise une perte taxable de -3k &lt;span class="caps"&gt;EUR&lt;/span&gt; que je peux utiliser pour compenser des gains taxables&amp;nbsp;futurs&lt;/li&gt;
+&lt;li&gt;je baisse le prix d&amp;#8217;achat de ma position de 10k à&amp;nbsp;7k&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Si deux mois plus tard ma position achetée 7k vaut 15k, la plus-value latente est de 8k &lt;span class="caps"&gt;EUR&lt;/span&gt;. Si je vendais ma position contre des &lt;span class="caps"&gt;EUR&lt;/span&gt;, je devrais payer 30% d&amp;#8217;impôt sur 5k (8k de gain imposable - 3k de perte imposable).
+Ce que je peux faire c&amp;#8217;est vendre 3k de manière à compenser la perte taxable et me retrouver avec&amp;nbsp;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3k &lt;span class="caps"&gt;EUR&lt;/span&gt; en&amp;nbsp;cash&lt;/li&gt;
+&lt;li&gt;12k &lt;span class="caps"&gt;EUR&lt;/span&gt; en &lt;span class="caps"&gt;BTC&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ainsi j&amp;#8217;ai investi 10k, gagné 5k et sorti 3k sans payer d&amp;#8217;impôt. Ces 3k je pourrais les réinvestir dans une autre position (&lt;span class="caps"&gt;BTC&lt;/span&gt;, &lt;span class="caps"&gt;ETH&lt;/span&gt; ou peu importe) et répéter&amp;nbsp;l&amp;#8217;opération.&lt;/p&gt;
+&lt;p&gt;L&amp;#8217;idée est donc de vendre les actifs digitaux contre des monnaies d&amp;#8217;état (&lt;span class="caps"&gt;EUR&lt;/span&gt;, &lt;span class="caps"&gt;USD&lt;/span&gt;&amp;#8230;) lorsque la plus-value d&amp;#8217;une position est négative quitte à la racheter juste après. Ça permet de capturer des pertes taxables
+qui sont ensuite utilisées pour sortir des gains taxables sans payer d&amp;#8217;impôt. Quand les plus-values sont positives, il faut passer par des monnaies digitales comme &lt;span class="caps"&gt;USDT&lt;/span&gt; ou &lt;span class="caps"&gt;EURT&lt;/span&gt; (Euro Tether) pour éviter la&amp;nbsp;taxation.&lt;/p&gt;
+&lt;p&gt;Cette tactique permet de différer indéfiniment la taxation de sorte à générer des rendements sur ce capital. Ça revient à emprunter à l&amp;#8217;état l&amp;#8217;équivalent de l&amp;#8217;impôt qu&amp;#8217;on lui doit à
+taux 0 pour l&amp;#8217;investir avec la garantie que si on perd ce capital, notre dette s&amp;#8217;efface. Pourquoi s&amp;#8217;en priver&amp;nbsp;?&lt;/p&gt;
+&lt;p&gt;À noter que ceci ne constitue pas un conseil fiscal ni un conseil financier : vous et vous seuls êtes responsables de vos actes.&amp;nbsp;;-)&lt;/p&gt;</content><category term="fiscalite-101"></category><category term="fiscalité"></category><category term="actifs digitaux"></category></entry><entry><title>Simulation brute du modèle All Weather</title><link href="/articles/trading-201/simulation-brute-du-modele-all-weather.html" rel="alternate"></link><published>2022-03-20T00:00:00+01:00</published><updated>2022-03-20T00:00:00+01:00</updated><author><name>Homo Tradicus</name></author><id>tag:None,2022-03-20:/articles/trading-201/simulation-brute-du-modele-all-weather.html</id><summary type="html">&lt;p&gt;On simule le &lt;a class="reference external" href="../trading-201/modele-all-weather.html"&gt;modèle All Weather&lt;/a&gt; dans le contexte suivant&amp;nbsp;:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;pas de coûts de trading (frais de commissions, bid/ask spread,&amp;nbsp;slippage)&lt;/li&gt;
 &lt;li&gt;pas de délais de trading (exécution au prix de fermeture&amp;nbsp;journalier)&lt;/li&gt;
